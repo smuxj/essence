@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prix carburant — Fontainebleau &amp; alentours</title>
+<title>Prix carburant &#8212; Fontainebleau &amp; alentours</title>
 <style>
   :root {
     --bg: #f7f6f2;
@@ -15,8 +15,6 @@
     --green-bg: #eaf3de;
     --amber: #854f0b;
     --amber-bg: #faeeda;
-    --red: #a32d2d;
-    --red-bg: #fcebeb;
     --accent: #185fa5;
   }
   @media (prefers-color-scheme: dark) {
@@ -30,314 +28,148 @@
       --green-bg: #173404;
       --amber: #ef9f27;
       --amber-bg: #412402;
-      --red: #f09595;
-      --red-bg: #501313;
       --accent: #85b7eb;
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'DM Sans', system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    padding: 0 0 4rem;
-  }
-  header {
-    padding: 2rem 1.5rem 1.5rem;
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  h1 {
-    font-size: clamp(1.4rem, 4vw, 2rem);
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.15;
-  }
+  body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 0 0 4rem; }
+  header { padding: 2rem 1.5rem 1.5rem; max-width: 960px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  h1 { font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 600; letter-spacing: -0.02em; line-height: 1.15; }
   h1 span { color: var(--muted); font-weight: 400; font-size: 0.85em; }
-  #updated {
-    font-size: 0.78rem;
-    color: var(--muted);
-    text-align: right;
-    line-height: 1.5;
-  }
-
-  /* Controls */
-  .controls {
-    max-width: 960px;
-    margin: 0 auto 1.25rem;
-    padding: 0 1.5rem;
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .controls label {
-    font-size: 0.82rem;
-    color: var(--muted);
-    margin-right: -0.25rem;
-  }
-  select, input[type=range] {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--text);
-    border-radius: 8px;
-    padding: 0.45rem 0.75rem;
-    font-size: 0.85rem;
-    cursor: pointer;
-    outline: none;
-    transition: border-color .15s;
-  }
-  select:focus, select:hover { border-color: var(--accent); }
-  .pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 0.3rem 0.7rem;
-    border-radius: 99px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    cursor: pointer;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--muted);
-    transition: all .15s;
-    user-select: none;
-  }
-  .pill.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
-  }
+  #updated { font-size: 0.78rem; color: var(--muted); text-align: right; line-height: 1.5; }
+  .controls { max-width: 960px; margin: 0 auto 1.25rem; padding: 0 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
+  .controls label { font-size: 0.82rem; color: var(--muted); margin-right: -0.25rem; }
+  select { background: var(--surface); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 0.45rem 0.75rem; font-size: 0.85rem; cursor: pointer; outline: none; }
+  select:hover { border-color: var(--accent); }
+  .pill { display: inline-flex; align-items: center; padding: 0.3rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 500; cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--muted); user-select: none; }
+  .pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .pill-group { display: flex; gap: 0.4rem; flex-wrap: wrap; }
-
-  /* Stats bar */
-  .stats {
-    max-width: 960px;
-    margin: 0 auto 1.25rem;
-    padding: 0 1.5rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .stat-card {
-    flex: 1;
-    min-width: 140px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 0.9rem 1.1rem;
-  }
-  .stat-card .label { font-size: 0.73rem; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .stat-card .value { font-size: 1.35rem; font-weight: 600; letter-spacing: -0.02em; }
-  .stat-card.best .value { color: var(--green); }
+  .stats { max-width: 960px; margin: 0 auto 1.25rem; padding: 0 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+  .stat-card { flex: 1; min-width: 140px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 0.9rem 1.1rem; }
+  .stat-card .lbl { font-size: 0.73rem; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-card .val { font-size: 1.35rem; font-weight: 600; letter-spacing: -0.02em; }
+  .stat-card.best .val { color: var(--green); }
   .stat-card .sub { font-size: 0.73rem; color: var(--muted); margin-top: 3px; }
-
-  /* Table */
-  .table-wrap {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    overflow-x: auto;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: var(--surface);
-    border-radius: 14px;
-    overflow: hidden;
-    border: 1px solid var(--border);
-    font-size: 0.875rem;
-  }
-  thead tr {
-    background: var(--bg);
-    border-bottom: 1px solid var(--border);
-  }
-  th {
-    padding: 0.75rem 1rem;
-    text-align: left;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--muted);
-    cursor: pointer;
-    white-space: nowrap;
-    user-select: none;
-  }
-  th:hover { color: var(--text); }
-  th .sort-icon { opacity: 0.35; margin-left: 3px; }
-  th.sorted .sort-icon { opacity: 1; }
-  td {
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid var(--border);
-    vertical-align: middle;
-  }
+  .table-wrap { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 14px; overflow: hidden; border: 1px solid var(--border); font-size: 0.875rem; }
+  thead tr { background: var(--bg); border-bottom: 1px solid var(--border); }
+  th { padding: 0.75rem 1rem; text-align: left; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); white-space: nowrap; }
+  td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: var(--bg); }
   tr.best-deal td { background: var(--green-bg); }
-  tr.best-deal:hover td { filter: brightness(0.97); }
-
-  .prix-val {
-    font-weight: 600;
-    font-variant-numeric: tabular-nums;
-    font-size: 0.95rem;
-  }
+  .prix-val { font-weight: 600; font-variant-numeric: tabular-nums; font-size: 0.95rem; }
   .prix-val.lowest { color: var(--green); }
-  .badge {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 99px;
-    font-size: 0.7rem;
-    font-weight: 600;
-  }
-  .badge-deal { background: var(--green-bg); color: var(--green); }
-  .badge-cheap { background: var(--amber-bg); color: var(--amber); }
-
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 0.7rem; font-weight: 600; background: var(--green-bg); color: var(--green); }
   .age { font-size: 0.75rem; color: var(--muted); }
   .ville-cell { line-height: 1.3; }
-  .ville-cell .adresse { font-size: 0.75rem; color: var(--muted); }
-
-  .maps-link {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 0.78rem;
-    white-space: nowrap;
-  }
+  .ville-cell .adr { font-size: 0.75rem; color: var(--muted); }
+  .maps-link { color: var(--accent); text-decoration: none; font-size: 0.78rem; white-space: nowrap; }
   .maps-link:hover { text-decoration: underline; }
-
-  /* Empty / loading states */
-  .state-msg {
-    text-align: center;
-    padding: 3rem 1rem;
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
+  .state-msg { text-align: center; padding: 3rem 1rem; color: var(--muted); font-size: 0.9rem; }
   #loading { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 3rem; }
-  .spinner {
-    width: 20px; height: 20px;
-    border: 2px solid var(--border);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin .7s linear infinite;
-  }
+  .spinner { width: 20px; height: 20px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
-
-  @media (max-width: 600px) {
-    td:nth-child(4), th:nth-child(4) { display: none; }
-    .stat-card { min-width: 120px; }
-  }
+  @media (max-width: 600px) { td:nth-child(4), th:nth-child(4) { display: none; } }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
 <header>
   <div>
-    <h1>⛽ Prix carburant <span>— Fontainebleau &amp; alentours</span></h1>
+    <h1>&#9981; Prix carburant <span>&#8212; Fontainebleau &amp; alentours</span></h1>
   </div>
-  <div id="updated">Chargement…</div>
+  <div id="updated">Chargement...</div>
 </header>
-
 <div class="controls">
   <label>Carburant</label>
   <div class="pill-group" id="fuel-pills"></div>
   <label style="margin-left:0.5rem">Tri par</label>
   <select id="sort-select">
     <option value="prix">Prix/L</option>
-    <option value="ville">Ville (A→Z)</option>
+    <option value="ville">Ville (A-Z)</option>
   </select>
 </div>
-
 <div class="stats" id="stats-bar"></div>
-
 <div class="table-wrap">
-  <div id="loading"><div class="spinner"></div> Chargement des données…</div>
+  <div id="loading"><div class="spinner"></div>&nbsp;Chargement des donnees...</div>
   <table id="main-table" style="display:none">
     <thead>
       <tr>
-        <th data-col="ville">Ville / Adresse</th>
-        <th data-col="prix" class="sorted">Prix/L <span class="sort-icon">↑</span></th>
-        <th data-col="age_h">Mise à jour <span class="sort-icon"></span></th>
-        <th>Itinéraire</th>
+        <th>Ville / Adresse</th>
+        <th>Prix/L</th>
+        <th>Mise a jour</th>
+        <th>Itineraire</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
   </table>
-  <div id="empty-msg" class="state-msg" style="display:none">Aucune station trouvée pour ce carburant.</div>
+  <div id="empty-msg" class="state-msg" style="display:none">Aucune station trouvee.</div>
 </div>
-
 <script>
-const FUELS = ["Gazole","SP95","SP98","E10","E85","GPLc"];
-const FUEL_LABELS = {Gazole:"Gazole",SP95:"SP95",SP98:"SP98",E10:"E10",E85:"E85",GPLc:"GPL"};
-let allData = null;
-let activeFuel = "Gazole";
-let sortBy = "prix";
+var FUELS = ["Gazole","SP95","SP98","E10","E85","GPLc"];
+var LABELS = {Gazole:"Gazole",SP95:"SP95",SP98:"SP98",E10:"E10",E85:"E85",GPLc:"GPL"};
+var allData = null;
+var activeFuel = "Gazole";
+var sortBy = "prix";
 
-function fmt(v) { return v.toFixed(3) + " €"; }
+function fmt(v) { return v.toFixed(3) + " EUR"; }
+
 function fmtAge(h) {
+  if (h < 0) return "?";
   if (h < 1) return "< 1h";
   if (h < 48) return Math.round(h) + "h";
   return (h/24).toFixed(1) + "j";
 }
 
 function buildPills() {
-  const wrap = document.getElementById("fuel-pills");
-  FUELS.forEach(f => {
-    const p = document.createElement("button");
+  var wrap = document.getElementById("fuel-pills");
+  wrap.innerHTML = "";
+  FUELS.forEach(function(f) {
+    var p = document.createElement("button");
     p.className = "pill" + (f === activeFuel ? " active" : "");
-    p.textContent = FUEL_LABELS[f];
-    p.onclick = () => { activeFuel = f; renderAll(); };
+    p.textContent = LABELS[f];
+    p.onclick = function() { activeFuel = f; renderAll(); };
     wrap.appendChild(p);
-  });
-}
-
-function updatePills() {
-  document.querySelectorAll("#fuel-pills .pill").forEach((p, i) => {
-    p.classList.toggle("active", FUELS[i] === activeFuel);
   });
 }
 
 function getRows() {
   if (!allData) return [];
   return allData.stations
-    .filter(s => s.prix[activeFuel])
-    .map(s => ({ ...s, _p: s.prix[activeFuel].prix, _age: s.prix[activeFuel].age_h }));
+    .filter(function(s) { return s.prix[activeFuel]; })
+    .map(function(s) {
+      var o = Object.assign({}, s);
+      o._p = s.prix[activeFuel].prix;
+      o._age = s.prix[activeFuel].age_h;
+      return o;
+    });
 }
 
 function renderStats(rows) {
-  const bar = document.getElementById("stats-bar");
+  var bar = document.getElementById("stats-bar");
   bar.innerHTML = "";
   if (!rows.length) return;
-
-  const cheapest = rows.reduce((a, b) => a._p < b._p ? a : b);
-  const nStations = rows.length;
-  const avg = rows.reduce((s, r) => s + r._p, 0) / rows.length;
-
-  const cards = [
-    { label: "Prix le plus bas", value: fmt(cheapest._p), sub: cheapest.ville || cheapest.cp, cls: "best" },
-    { label: "Prix moyen", value: fmt(avg), sub: nStations + " stations", cls: "" },
-    { label: "Zone", value: allData.centre.label, sub: "rayon " + allData.rayon_km + " km", cls: "" },
+  var cheapest = rows.reduce(function(a, b) { return a._p < b._p ? a : b; });
+  var avg = rows.reduce(function(s, r) { return s + r._p; }, 0) / rows.length;
+  var cards = [
+    { lbl: "Prix le plus bas", val: cheapest._p.toFixed(3) + " EUR", sub: cheapest.ville || cheapest.cp, cls: "best" },
+    { lbl: "Prix moyen", val: avg.toFixed(3) + " EUR", sub: rows.length + " stations", cls: "" },
+    { lbl: "Zone", val: allData.centre.label, sub: "rayon " + allData.rayon_km + " km", cls: "" }
   ];
-  cards.forEach(c => {
-    const d = document.createElement("div");
+  cards.forEach(function(c) {
+    var d = document.createElement("div");
     d.className = "stat-card " + c.cls;
-    d.innerHTML = `<div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div>`;
+    d.innerHTML = "<div class=\"lbl\">" + c.lbl + "</div><div class=\"val\">" + c.val + "</div><div class=\"sub\">" + c.sub + "</div>";
     bar.appendChild(d);
   });
 }
 
 function renderTable(rows) {
-  const tbody = document.getElementById("tbody");
-  const table = document.getElementById("main-table");
-  const empty = document.getElementById("empty-msg");
-
+  var tbody = document.getElementById("tbody");
+  var table = document.getElementById("main-table");
+  var empty = document.getElementById("empty-msg");
   tbody.innerHTML = "";
   if (!rows.length) {
     table.style.display = "none";
@@ -346,76 +178,56 @@ function renderTable(rows) {
   }
   table.style.display = "";
   empty.style.display = "none";
-
-  const sorted = [...rows].sort((a, b) => {
+  var sorted = rows.slice().sort(function(a, b) {
     if (sortBy === "prix") return a._p - b._p;
-    if (sortBy === "ville") return (a.ville||a.cp).localeCompare(b.ville||b.cp, "fr");
-    return 0;
+    return (a.ville || a.cp).localeCompare(b.ville || b.cp);
   });
-
-  const minPrix = Math.min(...sorted.map(r => r._p));
-  const bestIdx = sorted.findIndex(r => r._p === minPrix);
-
-  sorted.forEach((s, i) => {
-    const isBest = i === bestIdx;
-    const tr = document.createElement("tr");
+  var minP = Math.min.apply(null, sorted.map(function(r) { return r._p; }));
+  sorted.forEach(function(s) {
+    var isBest = s._p === minP;
+    var tr = document.createElement("tr");
     if (isBest) tr.className = "best-deal";
-
-    const mapsUrl = `https://www.google.com/maps/dir/Fontainebleau+77300/${s.lat},${s.lon}`;
-
-    const adresseHtml = s.adresse
-      ? `<div class="adresse">${s.adresse}</div>`
-      : "";
-    const badgeHtml = isBest
-      ? `<span class="badge badge-deal">Meilleur prix</span> `
-      : "";
-
-    tr.innerHTML = `
-      <td class="ville-cell">
-        ${badgeHtml}<strong>${s.ville || s.cp}</strong> <span style="color:var(--muted);font-size:.8rem">${s.cp}</span>
-        ${adresseHtml}
-      </td>
-      <td>
-        <span class="prix-val${isBest ? " lowest" : ""}">${s._p.toFixed(3)} €</span>
-      </td>
-      <td class="age">${fmtAge(s._age)}</td>
-      <td><a class="maps-link" href="${mapsUrl}" target="_blank" rel="noopener">📍 Y aller</a></td>
-    `;
+    var mapsUrl = "https://www.google.com/maps/dir/Fontainebleau+77300/" + s.lat + "," + s.lon;
+    var badge = isBest ? "<span class=\"badge\">Meilleur prix</span> " : "";
+    var adr = s.adresse ? "<div class=\"adr\">" + s.adresse + "</div>" : "";
+    var pClass = "prix-val" + (isBest ? " lowest" : "");
+    tr.innerHTML =
+      "<td class=\"ville-cell\">" + badge + "<strong>" + (s.ville || s.cp) + "</strong> <span style=\"color:var(--muted);font-size:.8rem\">" + s.cp + "</span>" + adr + "</td>" +
+      "<td><span class=\"" + pClass + "\">" + s._p.toFixed(3) + " &#8364;</span></td>" +
+      "<td class=\"age\">" + fmtAge(s._age) + "</td>" +
+      "<td><a class=\"maps-link\" href=\"" + mapsUrl + "\" target=\"_blank\" rel=\"noopener\">&#128205; Y aller</a></td>";
     tbody.appendChild(tr);
   });
 }
 
 function renderAll() {
-  updatePills();
-  const rows = getRows();
+  buildPills();
+  var rows = getRows();
   renderStats(rows);
   renderTable(rows);
 }
 
-document.getElementById("sort-select").addEventListener("change", e => {
+document.getElementById("sort-select").addEventListener("change", function(e) {
   sortBy = e.target.value;
   renderAll();
 });
 
-fetch("data.json?_=" + Date.now())
-  .then(r => r.json())
-  .then(data => {
+fetch("data.json?" + Date.now())
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
     allData = data;
     document.getElementById("loading").style.display = "none";
-
-    const d = new Date(data.updated);
-    const updEl = document.getElementById("updated");
+    var updEl = document.getElementById("updated");
     if (data.updated) {
-      updEl.innerHTML = "Mis \u00e0 jour le " + d.toLocaleDateString("fr-FR") + " \u00e0 " + d.toLocaleTimeString("fr-FR", {hour:"2-digit",minute:"2-digit"}) + "<br><span style='font-size:.7rem'>Source : donn\u00e9es.roulez-eco.fr</span>";
+      var d = new Date(data.updated);
+      updEl.textContent = "Mis a jour : " + d.toLocaleDateString("fr-FR") + " " + d.toLocaleTimeString("fr-FR", {hour:"2-digit", minute:"2-digit"});
     } else {
-      updEl.textContent = "Données non encore générées";
+      updEl.textContent = "Donnees non encore generees";
     }
-
-    buildPills();
     renderAll();
   })
-  .catch(() => {
-    document.getElementById("loading").innerHTML = '<div class="state-msg">Impossible de charger les données. La GitHub Action n\'a peut-\u00eatre pas encore tourn\u00e9.</div>';
+  .catch(function() {
+    document.getElementById("loading").innerHTML = "<div class=\"state-msg\">Erreur de chargement des donnees.</div>";
   });
 </script>
 </body>
