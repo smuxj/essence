@@ -148,6 +148,7 @@ var sortBy = "prix";
 var rayonKm = 25;
 var map = null;
 var markers = [];
+var markerIndex = {};
 
 var HOME_LAT = 48.4047;
 var HOME_LON = 2.7014;
@@ -183,6 +184,7 @@ function colorForRank(i, total) {
 function updateMarkers(sorted) {
   markers.forEach(function(m) { map.removeLayer(m); });
   markers = [];
+  markerIndex = {};
   var total = sorted.length;
   sorted.forEach(function(s, i) {
     var color = colorForRank(i, total);
@@ -199,6 +201,7 @@ function updateMarkers(sorted) {
     );
     m.addTo(map);
     markers.push(m);
+    markerIndex[s.lat + "," + s.lon] = m;
   });
 }
 
@@ -287,6 +290,18 @@ function renderTable(rows) {
       "<td><span class=\"" + pClass + "\">" + s._p.toFixed(3) + " &#8364;</span></td>" +
       "<td class=\"age\">" + fmtAge(s._age) + "</td>" +
       "<td><a class=\"maps-link\" href=\"" + mapsUrl + "\" target=\"_blank\" rel=\"noopener\">&#128205; Y aller</a></td>";
+    (function(lat, lon) {
+      tr.style.cursor = "pointer";
+      tr.addEventListener("click", function(e) {
+        if (e.target.tagName === "A") return;
+        var key = lat + "," + lon;
+        var m = markerIndex[key];
+        if (m) {
+          map.setView([lat, lon], 14, {animate: true});
+          m.openPopup();
+        }
+      });
+    })(s.lat, s.lon);
     tbody.appendChild(tr);
   });
 }
