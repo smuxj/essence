@@ -406,7 +406,7 @@ fetch("data.json?_=" + Date.now())
     const d = new Date(data.updated);
     const updEl = document.getElementById("updated");
     if (data.updated) {
-      updEl.innerHTML = `Mis à jour le ${d.toLocaleDateString("fr-FR")} à ${d.toLocaleTimeString("fr-FR", {hour:"2-digit",minute:"2-digit"})}<br><span style="font-size:.7rem">Source : données.roulez-eco.fr</span>`;
+      updEl.innerHTML = "Mis \u00e0 jour le " + d.toLocaleDateString("fr-FR") + " \u00e0 " + d.toLocaleTimeString("fr-FR", {hour:"2-digit",minute:"2-digit"}) + "<br><span style='font-size:.7rem'>Source : donn\u00e9es.roulez-eco.fr</span>";
     } else {
       updEl.textContent = "Données non encore générées";
     }
