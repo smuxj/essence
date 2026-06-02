@@ -415,7 +415,7 @@ fetch("data.json?_=" + Date.now())
     renderAll();
   })
   .catch(() => {
-    document.getElementById("loading").innerHTML = '<div class="state-msg">Impossible de charger les données. La GitHub Action n'a peut-être pas encore tourné.</div>';
+    document.getElementById("loading").innerHTML = '<div class="state-msg">Impossible de charger les données. La GitHub Action n\'a peut-\u00eatre pas encore tourn\u00e9.</div>';
   });
 </script>
 </body>
