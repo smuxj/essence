@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-03T09:37:13Z",
+  "updated": "2026-06-03T09:51:51Z",
   "centre": {
     "lat": 48.4047,
     "lon": 2.7014,
     "label": "Fontainebleau 77300"
   },
-  "rayon_km": 25,
+  "rayon_km": 50,
   "stations": [
     {
       "adresse": "CARREFOUR DE LA LIBERATION",
@@ -17,23 +17,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.089,
-          "age_h": -1.2
+          "age_h": -1.0
         },
         "E85": {
           "prix": 0.959,
-          "age_h": -1.2
+          "age_h": -1.0
         },
         "GPLc": {
           "prix": 1.289,
-          "age_h": -1.2
+          "age_h": -1.0
         },
         "E10": {
           "prix": 1.999,
-          "age_h": -1.2
+          "age_h": -1.0
         },
         "SP98": {
           "prix": 2.149,
-          "age_h": -1.2
+          "age_h": -1.0
         }
       }
     },
@@ -47,15 +47,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.097,
-          "age_h": 14.6
+          "age_h": 14.8
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 14.6
+          "age_h": 14.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 14.6
+          "age_h": 14.8
         }
       }
     },
@@ -69,15 +69,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.993,
-          "age_h": 44.0
+          "age_h": 44.2
         },
         "SP95": {
           "prix": 1.949,
-          "age_h": 44.0
+          "age_h": 44.2
         },
         "SP98": {
           "prix": 2.074,
-          "age_h": 44.0
+          "age_h": 44.2
         }
       }
     },
@@ -91,19 +91,19 @@
       "prix": {
         "Gazole": {
           "prix": 1.99,
-          "age_h": -1.6
+          "age_h": -1.3
         },
         "E85": {
           "prix": 0.938,
-          "age_h": -1.6
+          "age_h": -1.3
         },
         "E10": {
           "prix": 1.972,
-          "age_h": -1.6
+          "age_h": -1.3
         },
         "SP98": {
           "prix": 2.052,
-          "age_h": -1.6
+          "age_h": -1.3
         }
       }
     },
@@ -117,19 +117,19 @@
       "prix": {
         "Gazole": {
           "prix": 1.994,
-          "age_h": 48.0
+          "age_h": 48.2
         },
         "E85": {
           "prix": 0.798,
-          "age_h": 48.0
+          "age_h": 48.2
         },
         "E10": {
           "prix": 1.963,
-          "age_h": 48.0
+          "age_h": 48.2
         },
         "SP98": {
           "prix": 2.069,
-          "age_h": 48.0
+          "age_h": 48.2
         }
       }
     },
@@ -143,7 +143,7 @@
       "prix": {
         "Gazole": {
           "prix": 1.981,
-          "age_h": -1.6
+          "age_h": -1.4
         }
       }
     },
@@ -157,23 +157,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.189,
-          "age_h": 43.4
+          "age_h": 43.7
         },
         "SP95": {
           "prix": 2.055,
-          "age_h": 43.4
+          "age_h": 43.7
         },
         "E85": {
           "prix": 0.879,
-          "age_h": 43.4
+          "age_h": 43.7
         },
         "E10": {
           "prix": 2.009,
-          "age_h": 43.4
+          "age_h": 43.7
         },
         "SP98": {
           "prix": 2.065,
-          "age_h": 43.4
+          "age_h": 43.7
         }
       }
     },
@@ -187,15 +187,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.974,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E85": {
           "prix": 0.855,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.918,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -209,7 +209,7 @@
       "prix": {
         "Gazole": {
           "prix": 1.981,
-          "age_h": 1.2
+          "age_h": 1.5
         }
       }
     },
@@ -223,15 +223,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.993,
-          "age_h": 45.2
+          "age_h": 45.4
         },
         "SP95": {
           "prix": 1.993,
-          "age_h": 45.2
+          "age_h": 45.4
         },
         "SP98": {
           "prix": 2.073,
-          "age_h": 45.2
+          "age_h": 45.4
         }
       }
     },
@@ -245,11 +245,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.093,
-          "age_h": 13.3
+          "age_h": 13.5
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 13.3
+          "age_h": 13.5
         }
       }
     },
@@ -263,7 +263,7 @@
       "prix": {
         "Gazole": {
           "prix": 1.981,
-          "age_h": -1.5
+          "age_h": -1.3
         }
       }
     },
@@ -277,23 +277,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.104,
-          "age_h": 23.3
+          "age_h": 23.5
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 23.3
+          "age_h": 23.6
         },
         "GPLc": {
           "prix": 1.113,
-          "age_h": 23.3
+          "age_h": 23.5
         },
         "E10": {
           "prix": 2.078,
-          "age_h": 23.3
+          "age_h": 23.5
         },
         "SP98": {
           "prix": 2.152,
-          "age_h": 23.3
+          "age_h": 23.5
         }
       }
     },
@@ -307,23 +307,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.104,
-          "age_h": 23.5
+          "age_h": 23.7
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 23.5
+          "age_h": 23.7
         },
         "GPLc": {
           "prix": 1.113,
-          "age_h": 23.5
+          "age_h": 23.7
         },
         "E10": {
           "prix": 2.078,
-          "age_h": 23.5
+          "age_h": 23.7
         },
         "SP98": {
           "prix": 2.152,
-          "age_h": 23.5
+          "age_h": 23.7
         }
       }
     },
@@ -337,19 +337,19 @@
       "prix": {
         "Gazole": {
           "prix": 1.969,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "SP95": {
           "prix": 1.989,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "E10": {
           "prix": 1.939,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "SP98": {
           "prix": 2.019,
-          "age_h": -0.1
+          "age_h": 0.2
         }
       }
     },
@@ -363,23 +363,23 @@
       "prix": {
         "Gazole": {
           "prix": 1.98,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E85": {
           "prix": 0.843,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "GPLc": {
           "prix": 1.059,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.925,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -393,15 +393,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.975,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.92,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -415,15 +415,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.999,
-          "age_h": 9.6
+          "age_h": 9.9
         },
         "SP95": {
           "prix": 2.099,
-          "age_h": 9.6
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 2.149,
-          "age_h": 9.6
+          "age_h": 9.9
         }
       }
     },
@@ -437,23 +437,23 @@
       "prix": {
         "Gazole": {
           "prix": 1.98,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E85": {
           "prix": 0.849,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "GPLc": {
           "prix": 1.052,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.921,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -467,11 +467,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.106,
-          "age_h": 2.0
+          "age_h": 2.3
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 49.8
+          "age_h": 50.0
         }
       }
     },
@@ -485,23 +485,23 @@
       "prix": {
         "Gazole": {
           "prix": 1.95,
-          "age_h": 23.0
+          "age_h": 23.2
         },
         "SP95": {
           "prix": 1.969,
-          "age_h": 23.0
+          "age_h": 23.2
         },
         "GPLc": {
           "prix": 1.056,
-          "age_h": 23.0
+          "age_h": 23.2
         },
         "E10": {
           "prix": 1.921,
-          "age_h": 23.0
+          "age_h": 23.2
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 23.0
+          "age_h": 23.2
         }
       }
     },
@@ -515,15 +515,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.98,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.921,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -537,15 +537,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.983,
-          "age_h": 0.6
+          "age_h": 0.9
         },
         "E10": {
           "prix": 1.929,
-          "age_h": 0.6
+          "age_h": 0.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 0.6
+          "age_h": 0.9
         }
       }
     },
@@ -559,23 +559,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.007,
-          "age_h": 1.3
+          "age_h": 1.5
         },
         "SP95": {
           "prix": 1.958,
-          "age_h": 1.3
+          "age_h": 1.5
         },
         "E85": {
           "prix": 0.82,
-          "age_h": 1.3
+          "age_h": 1.5
         },
         "E10": {
           "prix": 1.931,
-          "age_h": 1.3
+          "age_h": 1.5
         },
         "SP98": {
           "prix": 2.035,
-          "age_h": 1.3
+          "age_h": 1.5
         }
       }
     },
@@ -589,15 +589,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.974,
-          "age_h": 0.9
+          "age_h": 1.2
         },
         "E10": {
           "prix": 1.917,
-          "age_h": 0.9
+          "age_h": 1.2
         },
         "SP98": {
           "prix": 2.031,
-          "age_h": 0.9
+          "age_h": 1.2
         }
       }
     },
@@ -611,27 +611,27 @@
       "prix": {
         "Gazole": {
           "prix": 1.965,
-          "age_h": 2.5
+          "age_h": 2.7
         },
         "SP95": {
           "prix": 1.989,
-          "age_h": 2.5
+          "age_h": 2.7
         },
         "E85": {
           "prix": 0.798,
-          "age_h": 50.6
+          "age_h": 50.9
         },
         "GPLc": {
           "prix": 1.069,
-          "age_h": 50.6
+          "age_h": 50.9
         },
         "E10": {
           "prix": 1.929,
-          "age_h": 2.5
+          "age_h": 2.7
         },
         "SP98": {
           "prix": 2.039,
-          "age_h": 2.5
+          "age_h": 2.7
         }
       }
     },
@@ -645,19 +645,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.087,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "GPLc": {
           "prix": 1.039,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -671,19 +671,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.073,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "GPLc": {
           "prix": 1.069,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -697,15 +697,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.309,
-          "age_h": 0.1
+          "age_h": 0.4
         },
         "E10": {
           "prix": 2.223,
-          "age_h": 0.1
+          "age_h": 0.4
         },
         "SP98": {
           "prix": 2.373,
-          "age_h": 0.1
+          "age_h": 0.4
         }
       }
     },
@@ -719,15 +719,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.291,
-          "age_h": 0.1
+          "age_h": 0.4
         },
         "E10": {
           "prix": 2.212,
-          "age_h": 0.1
+          "age_h": 0.4
         },
         "SP98": {
           "prix": 2.362,
-          "age_h": 0.1
+          "age_h": 0.4
         }
       }
     },
@@ -741,7 +741,7 @@
       "prix": {
         "Gazole": {
           "prix": 1.983,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -755,15 +755,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.077,
-          "age_h": 13.4
+          "age_h": 13.7
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 13.4
+          "age_h": 13.7
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 13.4
+          "age_h": 13.7
         }
       }
     },
@@ -777,7 +777,7 @@
       "prix": {
         "Gazole": {
           "prix": 1.906,
-          "age_h": 18.0
+          "age_h": 18.2
         }
       }
     },
@@ -791,15 +791,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.979,
-          "age_h": 48.8
+          "age_h": 49.0
         },
         "SP95": {
           "prix": 1.989,
-          "age_h": 1.7
+          "age_h": 2.0
         },
         "SP98": {
           "prix": 2.039,
-          "age_h": 48.8
+          "age_h": 49.0
         }
       }
     },
@@ -813,11 +813,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.308,
-          "age_h": 22.6
+          "age_h": 22.8
         },
         "SP95": {
           "prix": 2.165,
-          "age_h": 22.6
+          "age_h": 22.8
         }
       }
     },
@@ -831,15 +831,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.072,
-          "age_h": 3.3
+          "age_h": 3.5
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 3.3
+          "age_h": 3.5
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 3.3
+          "age_h": 3.5
         }
       }
     },
@@ -853,15 +853,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.07,
-          "age_h": 24.3
+          "age_h": 24.6
         },
         "E10": {
           "prix": 1.999,
-          "age_h": 47.9
+          "age_h": 48.1
         },
         "SP98": {
           "prix": 2.11,
-          "age_h": 24.3
+          "age_h": 24.6
         }
       }
     },
@@ -875,19 +875,19 @@
       "prix": {
         "Gazole": {
           "prix": 1.929,
-          "age_h": 48.6
+          "age_h": 48.9
         },
         "SP95": {
           "prix": 1.989,
-          "age_h": 48.6
+          "age_h": 48.9
         },
         "E10": {
           "prix": 1.949,
-          "age_h": 48.6
+          "age_h": 48.9
         },
         "SP98": {
           "prix": 2.019,
-          "age_h": 48.6
+          "age_h": 48.9
         }
       }
     },
@@ -901,19 +901,19 @@
       "prix": {
         "Gazole": {
           "prix": 1.959,
-          "age_h": 8.4
+          "age_h": 8.6
         },
         "E85": {
           "prix": 0.788,
-          "age_h": 8.4
+          "age_h": 8.6
         },
         "E10": {
           "prix": 1.919,
-          "age_h": 8.4
+          "age_h": 8.6
         },
         "SP98": {
           "prix": 1.996,
-          "age_h": 8.4
+          "age_h": 8.6
         }
       }
     },
@@ -927,15 +927,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.98,
-          "age_h": -0.8
+          "age_h": -0.5
         },
         "E10": {
           "prix": 1.925,
-          "age_h": -0.8
+          "age_h": -0.5
         },
         "SP98": {
           "prix": 1.999,
-          "age_h": -0.8
+          "age_h": -0.5
         }
       }
     },
@@ -949,15 +949,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.07,
-          "age_h": -0.2
+          "age_h": 0.0
         },
         "E10": {
           "prix": 1.999,
-          "age_h": -0.2
+          "age_h": 0.0
         },
         "SP98": {
           "prix": 2.11,
-          "age_h": -0.2
+          "age_h": 0.0
         }
       }
     },
@@ -971,11 +971,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 40.0
+          "age_h": 40.2
         },
         "SP95": {
           "prix": 1.99,
-          "age_h": 40.0
+          "age_h": 40.2
         }
       }
     },
@@ -989,15 +989,15 @@
       "prix": {
         "Gazole": {
           "prix": 1.983,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "GPLc": {
           "prix": 1.014,
-          "age_h": 9.6
+          "age_h": 9.8
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 9.6
+          "age_h": 9.8
         }
       }
     },
@@ -1011,23 +1011,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.042,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "E85": {
           "prix": 0.795,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "GPLc": {
           "prix": 1.029,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "E10": {
           "prix": 1.948,
-          "age_h": -0.1
+          "age_h": 0.2
         },
         "SP98": {
           "prix": 2.098,
-          "age_h": -0.1
+          "age_h": 0.2
         }
       }
     },
@@ -1041,19 +1041,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.093,
-          "age_h": 1.8
+          "age_h": 2.0
         },
         "E85": {
           "prix": 0.874,
-          "age_h": 1.8
+          "age_h": 2.0
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 1.8
+          "age_h": 2.0
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 1.8
+          "age_h": 2.0
         }
       }
     },
@@ -1067,15 +1067,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.072,
-          "age_h": 2.3
+          "age_h": 2.6
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.3
+          "age_h": 2.6
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.3
+          "age_h": 2.6
         }
       }
     },
@@ -1089,19 +1089,19 @@
       "prix": {
         "Gazole": {
           "prix": 1.999,
-          "age_h": 9.6
+          "age_h": 9.9
         },
         "SP95": {
           "prix": 2.099,
-          "age_h": 9.6
+          "age_h": 9.9
         },
         "E10": {
           "prix": 2.079,
-          "age_h": 9.6
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 2.199,
-          "age_h": 9.6
+          "age_h": 9.9
         }
       }
     },
@@ -1115,11 +1115,5977 @@
       "prix": {
         "Gazole": {
           "prix": 2.092,
+          "age_h": 1.9
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 1.9
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A5B - AIRE DE GALANDE-LA-MARE-LAROCHE",
+      "ville": "REAU",
+      "cp": "77550",
+      "lat": 48.626,
+      "lon": 2.63,
+      "dist_km": 25.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.104,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "183 Route de Melun",
+      "ville": "SAINTRY-SUR-SEINE",
+      "cp": "91250",
+      "lat": 48.594,
+      "lon": 2.503,
+      "dist_km": 25.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.095,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "Rue Jean Cocteau",
+      "ville": "Mennecy",
+      "cp": "91540",
+      "lat": 48.56639,
+      "lon": 2.4507,
+      "dist_km": 25.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.967,
+          "age_h": 0.1
+        },
+        "E10": {
+          "prix": 1.958,
+          "age_h": 0.1
+        },
+        "SP98": {
+          "prix": 1.994,
+          "age_h": 0.1
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A5A - AIRE DU PLESSIS-PICARD",
+      "ville": "REAU",
+      "cp": "77550",
+      "lat": 48.62473,
+      "lon": 2.59212,
+      "dist_km": 25.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.104,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.119,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "C.COMMERCIAL CARRE SENART",
+      "ville": "Lieusaint",
+      "cp": "77127",
+      "lat": 48.617,
+      "lon": 2.548,
+      "dist_km": 26.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.042,
+          "age_h": 0.4
+        },
+        "E85": {
+          "prix": 0.795,
+          "age_h": 0.4
+        },
+        "GPLc": {
+          "prix": 1.029,
+          "age_h": 0.4
+        },
+        "E10": {
+          "prix": 1.948,
+          "age_h": 0.4
+        },
+        "SP98": {
+          "prix": 2.098,
+          "age_h": 0.4
+        }
+      }
+    },
+    {
+      "adresse": "RD 619",
+      "ville": "Yèbles",
+      "cp": "77390",
+      "lat": 48.63596,
+      "lon": 2.78112,
+      "dist_km": 26.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.851,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.944,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "L OREE DE GUIGNES",
+      "ville": "GUIGNES",
+      "cp": "77390",
+      "lat": 48.63502,
+      "lon": 2.799,
+      "dist_km": 26.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.043,
+          "age_h": 1.2
+        },
+        "E10": {
+          "prix": 1.947,
+          "age_h": 1.2
+        },
+        "SP98": {
+          "prix": 2.068,
+          "age_h": 1.2
+        }
+      }
+    },
+    {
+      "adresse": "RN191 - ROUTE DE CORBEIL",
+      "ville": "BAULNE",
+      "cp": "91590",
+      "lat": 48.507,
+      "lon": 2.37442,
+      "dist_km": 26.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.976,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.829,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.919,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "CC E.Leclerc - RN19 « Les Chaumes »",
+      "ville": "Mormant",
+      "cp": "77720",
+      "lat": 48.613,
+      "lon": 2.885,
+      "dist_km": 26.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.975,
+          "age_h": 71.2
+        },
+        "E10": {
+          "prix": 1.985,
+          "age_h": 71.2
+        },
+        "SP98": {
+          "prix": 2.06,
+          "age_h": 71.2
+        }
+      }
+    },
+    {
+      "adresse": "rue Marguerite Yourcenar",
+      "ville": "SAINT-PIERRE-DU-PERRAY",
+      "cp": "91280",
+      "lat": 48.614,
+      "lon": 2.506,
+      "dist_km": 27.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.908,
+          "age_h": 24.8
+        },
+        "SP95": {
+          "prix": 1.975,
+          "age_h": 24.8
+        },
+        "E10": {
+          "prix": 1.925,
+          "age_h": 24.8
+        },
+        "SP98": {
+          "prix": 2.035,
+          "age_h": 24.8
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE VILLOISON",
+      "ville": "VILLABE",
+      "cp": "91100",
+      "lat": 48.584,
+      "lon": 2.444,
+      "dist_km": 27.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.966,
+          "age_h": 33.2
+        },
+        "SP95": {
+          "prix": 1.983,
+          "age_h": 33.2
+        },
+        "E85": {
+          "prix": 0.91,
+          "age_h": 33.2
+        },
+        "E10": {
+          "prix": 1.948,
+          "age_h": 27.7
+        },
+        "SP98": {
+          "prix": 2.064,
+          "age_h": 21.9
+        }
+      }
+    },
+    {
+      "adresse": "26 rue Eugène Millet",
+      "ville": "LA FERTé-ALAIS",
+      "cp": "91590",
+      "lat": 48.485,
+      "lon": 2.345,
+      "dist_km": 27.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.965,
+          "age_h": 1.0
+        },
+        "SP95": {
+          "prix": 2.005,
+          "age_h": 25.6
+        }
+      }
+    },
+    {
+      "adresse": "1 rue Guillaume des Barres",
+      "ville": "VILLENEUVE-LA-GUYARD",
+      "cp": "89340",
+      "lat": 48.335,
+      "lon": 3.065,
+      "dist_km": 28.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.974,
+          "age_h": 1.9
+        },
+        "E10": {
+          "prix": 1.969,
+          "age_h": 21.6
+        },
+        "SP98": {
+          "prix": 2.079,
+          "age_h": 21.7
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A6 - AIRE DE VILLABÉ",
+      "ville": "VILLABE",
+      "cp": "91100",
+      "lat": 48.594,
+      "lon": 2.444,
+      "dist_km": 28.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.169,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.118,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A6 - AIRE DES LISSES",
+      "ville": "CORBEIL ESSONNES",
+      "cp": "91100",
+      "lat": 48.59307,
+      "lon": 2.44276,
+      "dist_km": 28.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.168,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.108,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 12.8
+        }
+      }
+    },
+    {
+      "adresse": "18 Boulevard Jean jaures",
+      "ville": "CORBEIL ESSONNES",
+      "cp": "91100",
+      "lat": 48.606,
+      "lon": 2.466,
+      "dist_km": 28.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.97,
+          "age_h": 33.7
+        },
+        "E85": {
+          "prix": 0.916,
+          "age_h": 33.7
+        },
+        "E10": {
+          "prix": 1.993,
+          "age_h": 33.7
+        },
+        "SP98": {
+          "prix": 2.073,
+          "age_h": 33.7
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE LORREZ",
+      "ville": "ÉGREVILLE",
+      "cp": "77620",
+      "lat": 48.177,
+      "lon": 2.872,
+      "dist_km": 28.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 0.6
+        },
+        "E85": {
+          "prix": 0.749,
+          "age_h": 0.6
+        }
+      }
+    },
+    {
+      "adresse": "Route de la Ferté-Alais",
+      "ville": "ITTEVILLE",
+      "cp": "91760",
+      "lat": 48.50264,
+      "lon": 2.34774,
+      "dist_km": 28.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.967,
+          "age_h": 1.6
+        },
+        "E10": {
+          "prix": 1.905,
+          "age_h": 1.6
+        },
+        "SP98": {
+          "prix": 2.016,
+          "age_h": 1.6
+        }
+      }
+    },
+    {
+      "adresse": "3 Pl. de l'Europe",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "cp": "91250",
+      "lat": 48.61959,
+      "lon": 2.49278,
+      "dist_km": 28.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.951,
+          "age_h": -0.4
+        },
+        "SP95": {
+          "prix": 1.976,
+          "age_h": -0.4
+        },
+        "E10": {
+          "prix": 1.925,
+          "age_h": -0.4
+        },
+        "SP98": {
+          "prix": 2.035,
+          "age_h": 23.4
+        }
+      }
+    },
+    {
+      "adresse": "12 ROUTE DE MONTARGIS",
+      "ville": "PUISEAUX",
+      "cp": "45390",
+      "lat": 48.198,
+      "lon": 2.47,
+      "dist_km": 28.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.989,
+          "age_h": 47.8
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 47.8
+        },
+        "SP98": {
+          "prix": 2.089,
+          "age_h": 47.8
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE PARIS",
+      "ville": "Dordives",
+      "cp": "45680",
+      "lat": 48.14871,
+      "lon": 2.76388,
+      "dist_km": 28.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.059,
+          "age_h": 2.9
+        },
+        "E10": {
+          "prix": 2.019,
+          "age_h": 2.9
+        },
+        "SP98": {
+          "prix": 2.139,
+          "age_h": 2.9
+        }
+      }
+    },
+    {
+      "adresse": "8, rue Berthollet",
+      "ville": "VERT-LE-PETIT",
+      "cp": "91710",
+      "lat": 48.53969,
+      "lon": 2.36564,
+      "dist_km": 28.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.911,
+          "age_h": 26.5
+        },
+        "SP95": {
+          "prix": 2.005,
+          "age_h": 26.5
+        },
+        "E10": {
+          "prix": 1.952,
+          "age_h": 26.5
+        },
+        "SP98": {
+          "prix": 2.064,
+          "age_h": 26.5
+        }
+      }
+    },
+    {
+      "adresse": "Rue Charles FABRY",
+      "ville": "COMBS-LA-VILLE",
+      "cp": "77380",
+      "lat": 48.649,
+      "lon": 2.563,
+      "dist_km": 29.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.967,
+          "age_h": -0.5
+        },
+        "SP95": {
+          "prix": 1.942,
+          "age_h": -0.5
+        },
+        "E10": {
+          "prix": 1.884,
+          "age_h": -0.5
+        },
+        "SP98": {
+          "prix": 1.994,
+          "age_h": -0.5
+        }
+      }
+    },
+    {
+      "adresse": "135 RN 6",
+      "ville": "VILLEBLEVIN",
+      "cp": "89340",
+      "lat": 48.336,
+      "lon": 3.08,
+      "dist_km": 29.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.114,
+          "age_h": 3.8
+        },
+        "SP95": {
+          "prix": 1.99,
+          "age_h": 15.8
+        }
+      }
+    },
+    {
+      "adresse": "7 AVENUE DU GENERAL LECLERC",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "cp": "91250",
+      "lat": 48.62613,
+      "lon": 2.49147,
+      "dist_km": 29.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.993,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.839,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.938,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "RN 19 , AVENUE DU GENERAL DE GAU",
+      "ville": "NANGIS",
+      "cp": "77370",
+      "lat": 48.559,
+      "lon": 3.021,
+      "dist_km": 29.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.993,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Rue de Corbeil",
+      "ville": "LISSES",
+      "cp": "91090",
+      "lat": 48.59986,
+      "lon": 2.4344,
+      "dist_km": 29.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.906,
+          "age_h": 26.9
+        },
+        "SP95": {
+          "prix": 1.982,
+          "age_h": 1.3
+        },
+        "E10": {
+          "prix": 1.948,
+          "age_h": 1.3
+        },
+        "SP98": {
+          "prix": 2.064,
+          "age_h": 1.3
+        }
+      }
+    },
+    {
+      "adresse": "RUE SIGMUND FREUD",
+      "ville": "CORBEIL ESSONNES",
+      "cp": "91100",
+      "lat": 48.608,
+      "lon": 2.449,
+      "dist_km": 29.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.002,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.839,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.961,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "46 avenue du 8 mai 1945",
+      "ville": "CORBEIL ESSONNES",
+      "cp": "91100",
+      "lat": 48.611,
+      "lon": 2.452,
+      "dist_km": 29.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.002,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.961,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.041,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE CHATEAU LANDON",
+      "ville": "Dordives",
+      "cp": "45680",
+      "lat": 48.144,
+      "lon": 2.772,
+      "dist_km": 29.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 2.9
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 2.9
+        },
+        "SP98": {
+          "prix": 2.059,
+          "age_h": 2.9
+        }
+      }
+    },
+    {
+      "adresse": "RN 104 Aire Des Chevreaux",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "cp": "91250",
+      "lat": 48.63,
+      "lon": 2.487,
+      "dist_km": 29.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.059,
+          "age_h": -1.0
+        },
+        "E85": {
+          "prix": 0.959,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.139,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "LIEUDIT BUTTE DE GRAVOIS RN104",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "cp": "91250",
+      "lat": 48.631,
+      "lon": 2.486,
+      "dist_km": 29.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.059,
+          "age_h": -1.0
+        },
+        "GPLc": {
+          "prix": 1.169,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.139,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "BOULEVARD DES COQUIBUS",
+      "ville": "EVRY",
+      "cp": "91000",
+      "lat": 48.624,
+      "lon": 2.441,
+      "dist_km": 31.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.996,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 0.979,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.941,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DES BEDETS",
+      "ville": "CHEROY",
+      "cp": "89690",
+      "lat": 48.2,
+      "lon": 2.992,
+      "dist_km": 31.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.913,
+          "age_h": 27.7
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 27.7
+        },
+        "E10": {
+          "prix": 1.925,
+          "age_h": 27.7
+        },
+        "SP98": {
+          "prix": 2.006,
+          "age_h": 27.7
+        }
+      }
+    },
+    {
+      "adresse": "Rond Point des Coudray",
+      "ville": "ÉTIOLLES",
+      "cp": "91450",
+      "lat": 48.639,
+      "lon": 2.458,
+      "dist_km": 31.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.019,
+          "age_h": 19.5
+        },
+        "SP95": {
+          "prix": 1.999,
+          "age_h": 19.5
+        },
+        "SP98": {
+          "prix": 2.099,
+          "age_h": 19.5
+        }
+      }
+    },
+    {
+      "adresse": "7 Av. de l'Orme À Martin",
+      "ville": "Évry-Courcouronnes",
+      "cp": "91080",
+      "lat": 48.6311,
+      "lon": 2.41729,
+      "dist_km": 32.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.099,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 2.109,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.259,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "25 Rue Pasteur",
+      "ville": "Brie-Comte-Robert",
+      "cp": "77170",
+      "lat": 48.69424,
+      "lon": 2.61673,
+      "dist_km": 32.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.989,
+          "age_h": 48.7
+        },
+        "SP95": {
+          "prix": 1.999,
+          "age_h": 48.7
+        },
+        "E10": {
+          "prix": 1.959,
+          "age_h": 48.7
+        },
+        "SP98": {
+          "prix": 2.049,
+          "age_h": 48.7
+        }
+      }
+    },
+    {
+      "adresse": "61 Rue de Brunoy",
+      "ville": "Quincy-sous-Sénart",
+      "cp": "91480",
+      "lat": 48.677,
+      "lon": 2.527,
+      "dist_km": 32.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.102,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.07,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Centre Commercial Val d'Yerres 2",
+      "ville": "Boussy-Saint-Antoine",
+      "cp": "91800",
+      "lat": 48.68,
+      "lon": 2.537,
+      "dist_km": 32.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.03,
+          "age_h": -0.6
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": -0.6
+        },
+        "GPLc": {
+          "prix": 1.028,
+          "age_h": -0.6
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": -0.6
+        },
+        "SP98": {
+          "prix": 2.061,
+          "age_h": -0.6
+        }
+      }
+    },
+    {
+      "adresse": "BD DES CHAMPS ELYSEES",
+      "ville": "Évry",
+      "cp": "91000",
+      "lat": 48.639,
+      "lon": 2.427,
+      "dist_km": 33.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.968,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.972,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.026,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "10 Rue jacques Cartier",
+      "ville": "Lardy",
+      "cp": "91510",
+      "lat": 48.531,
+      "lon": 2.294,
+      "dist_km": 33.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.968,
+          "age_h": 0.3
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE VILLEROY",
+      "ville": "BONDOUFLE",
+      "cp": "91070",
+      "lat": 48.613,
+      "lon": 2.377,
+      "dist_km": 33.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.099,
+          "age_h": 33.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 43.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 43.8
+        }
+      }
+    },
+    {
+      "adresse": "2 RUE MONTPENSIER",
+      "ville": "DONNEMARIE DONTILLY",
+      "cp": "77520",
+      "lat": 48.47637,
+      "lon": 3.13941,
+      "dist_km": 33.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.917,
+          "age_h": -0.1
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 22.8
+        },
+        "E10": {
+          "prix": 1.909,
+          "age_h": 22.8
+        },
+        "SP98": {
+          "prix": 2.014,
+          "age_h": 22.8
+        }
+      }
+    },
+    {
+      "adresse": "5 RUE DU GÉNÉRAL LECLERC",
+      "ville": "Brie-Comte-Robert",
+      "cp": "77170",
+      "lat": 48.701,
+      "lon": 2.601,
+      "dist_km": 33.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.987,
+          "age_h": -1.6
+        },
+        "E85": {
+          "prix": 0.859,
+          "age_h": -1.6
+        },
+        "E10": {
+          "prix": 1.931,
+          "age_h": -1.6
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": -1.6
+        }
+      }
+    },
+    {
+      "adresse": "17 Rue du Général Leclerc",
+      "ville": "BRIE-COMTE-ROBERT",
+      "cp": "77170",
+      "lat": 48.701,
+      "lon": 2.601,
+      "dist_km": 33.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.092,
+          "age_h": 1.5
+        },
+        "GPLc": {
+          "prix": 1.07,
+          "age_h": 1.5
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 1.5
+        }
+      }
+    },
+    {
+      "adresse": "12 Rue Gustave Eiffel",
+      "ville": "BRIE-COMTE-ROBERT",
+      "cp": "77170",
+      "lat": 48.703,
+      "lon": 2.6,
+      "dist_km": 34.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.979,
+          "age_h": 1.5
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 1.5
+        },
+        "SP98": {
+          "prix": 1.999,
+          "age_h": 1.5
+        }
+      }
+    },
+    {
+      "adresse": "75 RUE DE LA LIBERATION",
+      "ville": "RIS ORANGIS",
+      "cp": "91130",
+      "lat": 48.64729,
+      "lon": 2.41893,
+      "dist_km": 34.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.993,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.937,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "RN7 DOMAINE DE L'AUNETTE",
+      "ville": "Ris-Orangis",
+      "cp": "91130",
+      "lat": 48.648,
+      "lon": 2.417,
+      "dist_km": 34.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.011,
+          "age_h": 48.3
+        },
+        "E10": {
+          "prix": 2.039,
+          "age_h": 48.3
+        },
+        "SP98": {
+          "prix": 2.144,
+          "age_h": 48.3
+        }
+      }
+    },
+    {
+      "adresse": "RN 104 ZI DES CIROLIERS",
+      "ville": "FLEURY MEROGIS",
+      "cp": "91700",
+      "lat": 48.624,
+      "lon": 2.37,
+      "dist_km": 34.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.978,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.928,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "38 RUE PIERRE BROSSOLETTE",
+      "ville": "Ris-Orangis",
+      "cp": "91130",
+      "lat": 48.648,
+      "lon": 2.408,
+      "dist_km": 34.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.001,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.982,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.125,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "Rue de la gare",
+      "ville": "MAROLLES-EN-HUREPOIX",
+      "cp": "91630",
+      "lat": 48.56445,
+      "lon": 2.29216,
+      "dist_km": 35.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.97,
+          "age_h": 20.5
+        },
+        "SP95": {
+          "prix": 1.999,
+          "age_h": 20.5
+        },
+        "E85": {
+          "prix": 0.799,
+          "age_h": 20.5
+        },
+        "E10": {
+          "prix": 1.925,
+          "age_h": 20.5
+        },
+        "SP98": {
+          "prix": 2.049,
+          "age_h": 20.5
+        }
+      }
+    },
+    {
+      "adresse": "7 rue Marguerite Perey",
+      "ville": "Fontenay-Trésigny",
+      "cp": "77610",
+      "lat": 48.698,
+      "lon": 2.889,
+      "dist_km": 35.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.96,
+          "age_h": 45.6
+        },
+        "E85": {
+          "prix": 0.769,
+          "age_h": 45.6
+        },
+        "E10": {
+          "prix": 1.94,
+          "age_h": 45.6
+        },
+        "SP98": {
+          "prix": 1.999,
+          "age_h": 45.6
+        }
+      }
+    },
+    {
+      "adresse": "5 BD CHARLES DE GAULLE",
+      "ville": "BRUNOY",
+      "cp": "91800",
+      "lat": 48.695,
+      "lon": 2.505,
+      "dist_km": 35.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.019,
+          "age_h": -1.1
+        },
+        "E85": {
+          "prix": 0.959,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.129,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "CHEMIN DEPARTEMENTAL 19",
+      "ville": "Le Plessis-Pâté",
+      "cp": "91220",
+      "lat": 48.608,
+      "lon": 2.331,
+      "dist_km": 35.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.089,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "RN7 RUE ALBERT REMY",
+      "ville": "Ris-Orangis",
+      "cp": "91130",
+      "lat": 48.657,
+      "lon": 2.407,
+      "dist_km": 35.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.993,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.863,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.937,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "01 HAMEAU LACHAMBAUDIE",
+      "ville": "Brunoy",
+      "cp": "91800",
+      "lat": 48.69755,
+      "lon": 2.50672,
+      "dist_km": 35.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.05,
+          "age_h": -0.9
+        },
+        "SP95": {
+          "prix": 2.08,
+          "age_h": -0.9
+        },
+        "SP98": {
+          "prix": 2.15,
+          "age_h": -0.9
+        }
+      }
+    },
+    {
+      "adresse": "CCIAL MAISON NEUVE",
+      "ville": "BRéTIGNY-SUR-ORGE",
+      "cp": "91220",
+      "lat": 48.587,
+      "lon": 2.304,
+      "dist_km": 35.6,
+      "prix": {
+        "Gazole": {
+          "prix": 1.973,
+          "age_h": 0.7
+        },
+        "SP95": {
+          "prix": 1.994,
+          "age_h": 0.7
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 49.1
+        },
+        "GPLc": {
+          "prix": 0.997,
+          "age_h": 49.1
+        },
+        "E10": {
+          "prix": 1.914,
+          "age_h": 0.7
+        },
+        "SP98": {
+          "prix": 2.024,
+          "age_h": 0.7
+        }
+      }
+    },
+    {
+      "adresse": "Rue Bertaux",
+      "ville": "FONTENAY-TRéSIGNY",
+      "cp": "77610",
+      "lat": 48.71,
+      "lon": 2.86,
+      "dist_km": 35.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 24.8
+        },
+        "E10": {
+          "prix": 1.959,
+          "age_h": 24.8
+        },
+        "SP98": {
+          "prix": 2.019,
+          "age_h": 24.8
+        }
+      }
+    },
+    {
+      "adresse": "56 rue de vilpré",
+      "ville": "Rozay-en-Brie",
+      "cp": "77540",
+      "lat": 48.677,
+      "lon": 2.969,
+      "dist_km": 36.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.994,
+          "age_h": 49.5
+        },
+        "E10": {
+          "prix": 1.97,
+          "age_h": 49.5
+        },
+        "SP98": {
+          "prix": 2.075,
+          "age_h": 49.5
+        }
+      }
+    },
+    {
+      "adresse": "17 ROUTE DE CORBEIL",
+      "ville": "GRIGNY",
+      "cp": "91350",
+      "lat": 48.657,
+      "lon": 2.384,
+      "dist_km": 36.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.992,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.938,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "6 AVENUE DE L'EUROPE",
+      "ville": "DRAVEIL",
+      "cp": "91210",
+      "lat": 48.6814,
+      "lon": 2.42939,
+      "dist_km": 36.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.965,
+          "age_h": 22.3
+        },
+        "E10": {
+          "prix": 1.935,
+          "age_h": 22.3
+        },
+        "SP98": {
+          "prix": 2.009,
+          "age_h": 22.3
+        }
+      }
+    },
+    {
+      "adresse": "RN 6",
+      "ville": "Montgeron",
+      "cp": "91230",
+      "lat": 48.691,
+      "lon": 2.454,
+      "dist_km": 36.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.069,
+          "age_h": -1.0
+        },
+        "GPLc": {
+          "prix": 1.239,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 2.009,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.179,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "RN 445 / 29 ROUTE DE FLEURY",
+      "ville": "Viry-Châtillon",
+      "cp": "91170",
+      "lat": 48.653,
+      "lon": 2.369,
+      "dist_km": 36.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.092,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.881,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "70 BLD HENRI BARBUSSE",
+      "ville": "DRAVEIL",
+      "cp": "91210",
+      "lat": 48.676,
+      "lon": 2.411,
+      "dist_km": 37.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.09,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.885,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Boulevard Victor Hugo",
+      "ville": "GRETZ-ARMAINVILLIERS",
+      "cp": "77220",
+      "lat": 48.73913,
+      "lon": 2.72084,
+      "dist_km": 37.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.905,
+          "age_h": 19.5
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 24.3
+        },
+        "SP98": {
+          "prix": 2.059,
+          "age_h": 24.3
+        }
+      }
+    },
+    {
+      "adresse": "Route de Fleury",
+      "ville": "Viry-Châtillon",
+      "cp": "91170",
+      "lat": 48.662,
+      "lon": 2.375,
+      "dist_km": 37.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.995,
+          "age_h": 25.0
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 25.0
+        },
+        "SP98": {
+          "prix": 2.009,
+          "age_h": 25.0
+        }
+      }
+    },
+    {
+      "adresse": "105 Avenue de la République",
+      "ville": "Montgeron",
+      "cp": "91230",
+      "lat": 48.703,
+      "lon": 2.463,
+      "dist_km": 37.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.009,
+          "age_h": 2.2
+        },
+        "E85": {
+          "prix": 0.932,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.973,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.053,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "Rue d'Yerres",
+      "ville": "Villecresnes",
+      "cp": "94440",
+      "lat": 48.721,
+      "lon": 2.525,
+      "dist_km": 37.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.109,
+          "age_h": 25.9
+        },
+        "SP95": {
+          "prix": 2.159,
+          "age_h": 25.9
+        },
+        "E10": {
+          "prix": 2.109,
+          "age_h": 25.9
+        },
+        "SP98": {
+          "prix": 2.219,
+          "age_h": 25.9
+        }
+      }
+    },
+    {
+      "adresse": "139 Route de Corbeil",
+      "ville": "SAINTE-GENEVIèVE-DES-BOIS",
+      "cp": "91700",
+      "lat": 48.639,
+      "lon": 2.334,
+      "dist_km": 37.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.05,
+          "age_h": 11.4
+        },
+        "SP95": {
+          "prix": 2.004,
+          "age_h": 11.4
+        },
+        "E85": {
+          "prix": 0.916,
+          "age_h": 11.4
+        },
+        "E10": {
+          "prix": 1.962,
+          "age_h": 11.4
+        },
+        "SP98": {
+          "prix": 2.091,
+          "age_h": 11.4
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE LA LIBERATION",
+      "ville": "Tournan-en-Brie",
+      "cp": "77220",
+      "lat": 48.74,
+      "lon": 2.777,
+      "dist_km": 37.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 2.2
+        },
+        "E85": {
+          "prix": 0.859,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.049,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "AV DES HYVERNAUX - RD 51",
+      "ville": "LESIGNY",
+      "cp": "77150",
+      "lat": 48.739,
+      "lon": 2.607,
+      "dist_km": 37.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.988,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.885,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.93,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "4 Route de Marolles",
+      "ville": "La Norville",
+      "cp": "91290",
+      "lat": 48.578,
+      "lon": 2.258,
+      "dist_km": 37.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.908,
+          "age_h": 24.6
+        },
+        "E10": {
+          "prix": 1.899,
+          "age_h": 24.6
+        },
+        "SP98": {
+          "prix": 1.999,
+          "age_h": 24.6
+        }
+      }
+    },
+    {
+      "adresse": "RN7 LES STATIONS",
+      "ville": "Fontenay-sur-Loing",
+      "cp": "45210",
+      "lat": 48.067,
+      "lon": 2.766,
+      "dist_km": 37.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.035,
+          "age_h": 50.5
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 50.5
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 50.5
+        }
+      }
+    },
+    {
+      "adresse": "70 ROUTE DE CORBEIL",
+      "ville": "Sainte-Geneviève-des-Bois",
+      "cp": "91700",
+      "lat": 48.64218,
+      "lon": 2.3286,
+      "dist_km": 38.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.103,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "INTERMARCHE FLOTIN",
+      "ville": "Morsang-sur-Orge",
+      "cp": "91390",
+      "lat": 48.66238,
+      "lon": 2.35927,
+      "dist_km": 38.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.979,
+          "age_h": 1.1
+        },
+        "E10": {
+          "prix": 1.979,
+          "age_h": 1.1
+        },
+        "SP98": {
+          "prix": 2.099,
+          "age_h": 24.3
+        }
+      }
+    },
+    {
+      "adresse": "LES HAUTES VEUVES",
+      "ville": "Pont-sur-Yonne",
+      "cp": "89140",
+      "lat": 48.29458,
+      "lon": 3.19585,
+      "dist_km": 38.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.9
+        },
+        "SP95": {
+          "prix": 2.149,
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "5 Avenue Henri Barbusse",
+      "ville": "VIGNEUX-SUR-SEINE",
+      "cp": "91270",
+      "lat": 48.697,
+      "lon": 2.415,
+      "dist_km": 38.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.936,
+          "age_h": 25.7
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 25.7
+        },
+        "SP98": {
+          "prix": 2.089,
+          "age_h": 25.7
+        }
+      }
+    },
+    {
+      "adresse": "54 Avenue Henri Barbusse",
+      "ville": "VIGNEUX-SUR-SEINE",
+      "cp": "91270",
+      "lat": 48.7,
+      "lon": 2.42,
+      "dist_km": 38.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.079,
+          "age_h": -1.2
+        },
+        "GPLc": {
+          "prix": 1.233,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 2.079,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.249,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "8 avenue d'Orléans",
+      "ville": "ETRéCHY",
+      "cp": "91580",
+      "lat": 48.486,
+      "lon": 2.19,
+      "dist_km": 38.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.972,
+          "age_h": 1.5
+        },
+        "SP95": {
+          "prix": 1.964,
+          "age_h": 25.1
+        },
+        "E10": {
+          "prix": 1.899,
+          "age_h": 25.1
+        },
+        "SP98": {
+          "prix": 1.999,
+          "age_h": 25.1
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE LA BOELE",
+      "ville": "Saint-Michel-sur-Orge",
+      "cp": "91240",
+      "lat": 48.63,
+      "lon": 2.297,
+      "dist_km": 38.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.109,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.149,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "RN 20 DIRECTION PARIS",
+      "ville": "AVRAINVILLE",
+      "cp": "91630",
+      "lat": 48.562,
+      "lon": 2.227,
+      "dist_km": 39.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.984,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 0.987,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.933,
+          "age_h": 1.9
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 1.9
+        }
+      }
+    },
+    {
+      "adresse": "158 RN 7",
+      "ville": "Viry-Châtillon",
+      "cp": "91170",
+      "lat": 48.684,
+      "lon": 2.376,
+      "dist_km": 39.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.009,
+          "age_h": -1.1
+        },
+        "E85": {
+          "prix": 0.959,
+          "age_h": -1.1
+        },
+        "GPLc": {
+          "prix": 1.349,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.089,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "RN 191 / AV COQUERIVE",
+      "ville": "ETAMPES",
+      "cp": "91150",
+      "lat": 48.434,
+      "lon": 2.172,
+      "dist_km": 39.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.976,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.829,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.919,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Rue de Chanteloup",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "cp": "91180",
+      "lat": 48.596,
+      "lon": 2.254,
+      "dist_km": 39.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.968,
+          "age_h": 1.1
+        },
+        "SP95": {
+          "prix": 1.989,
+          "age_h": 23.8
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 48.9
+        },
+        "E10": {
+          "prix": 1.909,
+          "age_h": 48.9
+        },
+        "SP98": {
+          "prix": 2.019,
+          "age_h": 48.9
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE LA SUCRERIE",
+      "ville": "Mousseaux-lès-Bray",
+      "cp": "77480",
+      "lat": 48.41381,
+      "lon": 3.23266,
+      "dist_km": 39.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.9
+        },
+        "SP95": {
+          "prix": 2.099,
+          "age_h": 9.9
+        },
+        "E10": {
+          "prix": 2.079,
+          "age_h": 9.9
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "84 Rue François de Tessan",
+      "ville": "OZOIR-LA-FERRIèRE",
+      "cp": "77330",
+      "lat": 48.757,
+      "lon": 2.7,
+      "dist_km": 39.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.967,
+          "age_h": 48.9
+        },
+        "E10": {
+          "prix": 1.943,
+          "age_h": 48.9
+        }
+      }
+    },
+    {
+      "adresse": "94 BLD ST MICHEL",
+      "ville": "ETAMPES",
+      "cp": "91150",
+      "lat": 48.452,
+      "lon": 2.173,
+      "dist_km": 39.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.978,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.829,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 0.999,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.926,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "32 Boulevard Saint-Michel",
+      "ville": "ÉTAMPES",
+      "cp": "91150",
+      "lat": 48.44176,
+      "lon": 2.17016,
+      "dist_km": 39.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.99,
+          "age_h": 45.9
+        },
+        "E10": {
+          "prix": 1.977,
+          "age_h": 45.9
+        },
+        "SP98": {
+          "prix": 2.099,
+          "age_h": 45.9
+        }
+      }
+    },
+    {
+      "adresse": "Route de Sens",
+      "ville": "SAINT-VALERIEN",
+      "cp": "89150",
+      "lat": 48.178,
+      "lon": 3.11,
+      "dist_km": 39.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.9
+        },
+        "SP95": {
+          "prix": 2.099,
+          "age_h": 9.9
+        },
+        "SP98": {
+          "prix": 2.149,
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "72 Avenue Jean Jaurès",
+      "ville": "Montgeron",
+      "cp": "91230",
+      "lat": 48.716,
+      "lon": 2.446,
+      "dist_km": 39.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.962,
+          "age_h": 24.9
+        },
+        "SP95": {
+          "prix": 1.972,
+          "age_h": 24.9
+        },
+        "SP98": {
+          "prix": 2.004,
+          "age_h": 24.9
+        }
+      }
+    },
+    {
+      "adresse": "Autoroute A19",
+      "ville": "BEAUNE LA ROLANDE",
+      "cp": "45340",
+      "lat": 48.084,
+      "lon": 2.472,
+      "dist_km": 39.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.189,
+          "age_h": 34.0
+        },
+        "E85": {
+          "prix": 0.999,
+          "age_h": 34.0
+        },
+        "GPLc": {
+          "prix": 1.064,
+          "age_h": 34.0
+        },
+        "E10": {
+          "prix": 2.164,
+          "age_h": 34.0
+        },
+        "SP98": {
+          "prix": 2.239,
+          "age_h": 34.0
+        }
+      }
+    },
+    {
+      "adresse": "LIAISON CD 25 A CD 17",
+      "ville": "Épinay-sur-Orge",
+      "cp": "91360",
+      "lat": 48.6685,
+      "lon": 2.33857,
+      "dist_km": 39.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.006,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.889,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.957,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE de Corbeil",
+      "ville": "ÉPINAY-SUR-ORGE",
+      "cp": "91360",
+      "lat": 48.66764,
+      "lon": 2.33437,
+      "dist_km": 39.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.004,
+          "age_h": 1.5
+        },
+        "SP95": {
+          "prix": 1.97,
+          "age_h": 1.5
+        },
+        "E85": {
+          "prix": 0.889,
+          "age_h": 1.5
+        },
+        "E10": {
+          "prix": 1.955,
+          "age_h": 1.5
+        },
+        "SP98": {
+          "prix": 2.031,
+          "age_h": 1.5
+        }
+      }
+    },
+    {
+      "adresse": "82 AVENUE DE LA LIBERATION",
+      "ville": "BRAY-SUR-SEINE",
+      "cp": "77480",
+      "lat": 48.414,
+      "lon": 3.242,
+      "dist_km": 39.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 49.6
+        },
+        "SP95": {
+          "prix": 2.099,
+          "age_h": 49.6
+        },
+        "SP98": {
+          "prix": 2.109,
+          "age_h": 49.6
+        }
+      }
+    },
+    {
+      "adresse": "8 Rue de la Longueraie",
+      "ville": "VIGNEUX-SUR-SEINE",
+      "cp": "91270",
+      "lat": 48.72,
+      "lon": 2.442,
+      "dist_km": 39.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.99,
+          "age_h": 24.9
+        },
+        "E10": {
+          "prix": 1.932,
+          "age_h": 24.9
+        },
+        "SP98": {
+          "prix": 2.083,
+          "age_h": 24.9
+        }
+      }
+    },
+    {
+      "adresse": "22 Avenue d'Arpajon",
+      "ville": "ÉGLY",
+      "cp": "91520",
+      "lat": 48.582,
+      "lon": 2.231,
+      "dist_km": 39.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.973,
           "age_h": 1.7
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 1.7
+        },
+        "E10": {
+          "prix": 1.909,
+          "age_h": 1.7
+        },
+        "SP98": {
+          "prix": 2.019,
+          "age_h": 1.7
+        }
+      }
+    },
+    {
+      "adresse": "RN 20",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "cp": "91180",
+      "lat": 48.603,
+      "lon": 2.248,
+      "dist_km": 40.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.001,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 2.007,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.081,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "25 ROUTE D'ORLEANS RN 20",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "cp": "91180",
+      "lat": 48.6032,
+      "lon": 2.24782,
+      "dist_km": 40.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.938,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "32 B AVENUE GENERAL LECLERC",
+      "ville": "Pont-sur-Yonne",
+      "cp": "89140",
+      "lat": 48.284,
+      "lon": 3.212,
+      "dist_km": 40.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.123,
+          "age_h": 25.5
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 25.5
+        }
+      }
+    },
+    {
+      "adresse": "Avenue de Bonnevaux",
+      "ville": "ETAMPES",
+      "cp": "91150",
+      "lat": 48.42904,
+      "lon": 2.15973,
+      "dist_km": 40.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.033,
+          "age_h": 1.6
+        },
+        "SP95": {
+          "prix": 1.981,
+          "age_h": 1.6
+        },
+        "E85": {
+          "prix": 0.839,
+          "age_h": 1.6
+        },
+        "E10": {
+          "prix": 1.935,
+          "age_h": 1.6
+        },
+        "SP98": {
+          "prix": 2.064,
+          "age_h": 1.6
+        }
+      }
+    },
+    {
+      "adresse": "RN 20",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "cp": "91180",
+      "lat": 48.60945,
+      "lon": 2.25264,
+      "dist_km": 40.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.995,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "3 rue du 8 mai 1945",
+      "ville": "Leuville-sur-Orge",
+      "cp": "91310",
+      "lat": 48.623,
+      "lon": 2.267,
+      "dist_km": 40.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.971,
+          "age_h": 43.1
+        },
+        "SP95": {
+          "prix": 1.994,
+          "age_h": 43.1
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 43.1
+        },
+        "SP98": {
+          "prix": 2.03,
+          "age_h": 43.1
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE LIMOURS",
+      "ville": "ARPAJON",
+      "cp": "91290",
+      "lat": 48.6,
+      "lon": 2.24,
+      "dist_km": 40.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.078,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "RN4 LIEUDIT L ERABLE",
+      "ville": "Ozoir-la-Ferrière",
+      "cp": "77330",
+      "lat": 48.76694,
+      "lon": 2.65113,
+      "dist_km": 40.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.09,
+          "age_h": 1.7
+        },
+        "E85": {
+          "prix": 0.889,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 0.999,
+          "age_h": 9.8
         },
         "E10": {
           "prix": 1.99,
           "age_h": 1.7
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 1.7
+        }
+      }
+    },
+    {
+      "adresse": "35/37 RUE HENRI DUNANT",
+      "ville": "Savigny-sur-Orge",
+      "cp": "91600",
+      "lat": 48.68,
+      "lon": 2.342,
+      "dist_km": 40.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.097,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "55 Av du général Leclerc",
+      "ville": "Boissy-Saint-Léger",
+      "cp": "94470",
+      "lat": 48.748,
+      "lon": 2.51,
+      "dist_km": 40.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.119,
+          "age_h": 3.5
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": 3.5
+        },
+        "SP98": {
+          "prix": 2.249,
+          "age_h": 3.5
+        }
+      }
+    },
+    {
+      "adresse": "36 Avenue du Général Leclerc",
+      "ville": "Boissy-Saint-Léger",
+      "cp": "94470",
+      "lat": 48.749,
+      "lon": 2.509,
+      "dist_km": 40.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.019,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 1.919,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "route départementale 94",
+      "ville": "Corbeilles",
+      "cp": "45490",
+      "lat": 48.055,
+      "lon": 2.528,
+      "dist_km": 41.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.916,
+          "age_h": 14.7
+        }
+      }
+    },
+    {
+      "adresse": "Avenue Camille Desmoulins",
+      "ville": "JUVISY-SUR-ORGE",
+      "cp": "91260",
+      "lat": 48.695,
+      "lon": 2.356,
+      "dist_km": 41.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.99,
+          "age_h": 25.9
+        },
+        "E10": {
+          "prix": 1.97,
+          "age_h": 25.9
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE LA CROIX BROUILLARD",
+      "ville": "LONGUEVILLE",
+      "cp": "77650",
+      "lat": 48.521,
+      "lon": 3.233,
+      "dist_km": 41.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 19.7
+        },
+        "E85": {
+          "prix": 0.798,
+          "age_h": 19.8
+        },
+        "E10": {
+          "prix": 1.929,
+          "age_h": 19.8
+        },
+        "SP98": {
+          "prix": 2.049,
+          "age_h": 19.8
+        }
+      }
+    },
+    {
+      "adresse": "Avenue du 11 Novembre",
+      "ville": "PITHIVIERS",
+      "cp": "45300",
+      "lat": 48.18391,
+      "lon": 2.25072,
+      "dist_km": 41.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 26.7
+        },
+        "SP95": {
+          "prix": 1.999,
+          "age_h": 26.7
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 26.7
+        },
+        "SP98": {
+          "prix": 2.069,
+          "age_h": 26.7
+        }
+      }
+    },
+    {
+      "adresse": "38 AV DE MORANGIS",
+      "ville": "ATHIS MONS",
+      "cp": "91200",
+      "lat": 48.706,
+      "lon": 2.369,
+      "dist_km": 41.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.069,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.989,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.159,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "Avenue du 11 Novembre 1918",
+      "ville": "PITHIVIERS",
+      "cp": "45300",
+      "lat": 48.179,
+      "lon": 2.251,
+      "dist_km": 41.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.069,
+          "age_h": 1.9
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 1.9
+        }
+      }
+    },
+    {
+      "adresse": "50 Rue des Lys",
+      "ville": "ÉTAMPES",
+      "cp": "91150",
+      "lat": 48.441,
+      "lon": 2.138,
+      "dist_km": 41.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.939,
+          "age_h": 0.4
+        },
+        "E85": {
+          "prix": 0.759,
+          "age_h": 0.4
+        },
+        "GPLc": {
+          "prix": 1.154,
+          "age_h": 0.4
+        },
+        "E10": {
+          "prix": 1.906,
+          "age_h": 0.4
+        },
+        "SP98": {
+          "prix": 1.999,
+          "age_h": 0.4
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE SAVIGNY",
+      "ville": "Morangis",
+      "cp": "91420",
+      "lat": 48.693,
+      "lon": 2.337,
+      "dist_km": 41.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.09,
+          "age_h": 22.2
+        },
+        "SP95": {
+          "prix": 1.99,
+          "age_h": 22.2
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 22.2
+        }
+      }
+    },
+    {
+      "adresse": "180 ROUTE NATIONALE 7",
+      "ville": "ATHIS-MONS",
+      "cp": "91200",
+      "lat": 48.712,
+      "lon": 2.371,
+      "dist_km": 41.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.014,
+          "age_h": 9.2
+        },
+        "SP95": {
+          "prix": 1.994,
+          "age_h": 9.2
+        },
+        "E85": {
+          "prix": 0.803,
+          "age_h": 9.2
+        },
+        "E10": {
+          "prix": 1.932,
+          "age_h": 9.2
+        },
+        "SP98": {
+          "prix": 2.071,
+          "age_h": 9.2
+        }
+      }
+    },
+    {
+      "adresse": "232 RUE DE PARIS",
+      "ville": "Villeneuve-Saint-Georges",
+      "cp": "94190",
+      "lat": 48.74205,
+      "lon": 2.44691,
+      "dist_km": 41.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.121,
+          "age_h": 2.0
+        },
+        "E85": {
+          "prix": 0.919,
+          "age_h": 2.0
+        },
+        "GPLc": {
+          "prix": 1.155,
+          "age_h": 2.0
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 2.0
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 2.0
+        }
+      }
+    },
+    {
+      "adresse": "Chemin des Échassons",
+      "ville": "LONGPONT-SUR-ORGE",
+      "cp": "91310",
+      "lat": 48.653,
+      "lon": 2.274,
+      "dist_km": 41.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.967,
+          "age_h": -0.2
+        },
+        "SP95": {
+          "prix": 1.964,
+          "age_h": -0.2
+        },
+        "E10": {
+          "prix": 1.906,
+          "age_h": -0.2
+        },
+        "SP98": {
+          "prix": 2.016,
+          "age_h": -0.2
+        }
+      }
+    },
+    {
+      "adresse": "RN 4 77346 Pontault-Combault",
+      "ville": "PONTAULT-COMBAULT",
+      "cp": "77340",
+      "lat": 48.776,
+      "lon": 2.605,
+      "dist_km": 41.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.016,
+          "age_h": 11.2
+        },
+        "SP95": {
+          "prix": 1.992,
+          "age_h": 11.2
+        },
+        "E85": {
+          "prix": 0.856,
+          "age_h": 11.2
+        },
+        "E10": {
+          "prix": 1.94,
+          "age_h": 11.2
+        },
+        "SP98": {
+          "prix": 2.061,
+          "age_h": 11.2
+        }
+      }
+    },
+    {
+      "adresse": "RN4 route de Pecy, lieu dit Lugins",
+      "ville": "Vaudoy-en-Brie",
+      "cp": "77141",
+      "lat": 48.68409,
+      "lon": 3.08716,
+      "dist_km": 42.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.199,
+          "age_h": 3.4
+        }
+      }
+    },
+    {
+      "adresse": "1 BIS AV GABRIEL PERI",
+      "ville": "Limeil-Brévannes",
+      "cp": "94450",
+      "lat": 48.755,
+      "lon": 2.484,
+      "dist_km": 42.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.009,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.919,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.958,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE D'OZOIR",
+      "ville": "Roissy-en-Brie",
+      "cp": "77680",
+      "lat": 48.78203,
+      "lon": 2.65712,
+      "dist_km": 42.1,
+      "prix": {
+        "E10": {
+          "prix": 1.995,
+          "age_h": 27.9
+        }
+      }
+    },
+    {
+      "adresse": "Zac Les 4 Chênes, 35 Rte de Paris",
+      "ville": "Pontault Combault",
+      "cp": "77340",
+      "lat": 48.778,
+      "lon": 2.591,
+      "dist_km": 42.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.952,
+          "age_h": -0.6
+        },
+        "E10": {
+          "prix": 1.9,
+          "age_h": -0.6
+        },
+        "SP98": {
+          "prix": 2.02,
+          "age_h": -0.6
+        }
+      }
+    },
+    {
+      "adresse": "avenue blaise pascal",
+      "ville": "MORANGIS",
+      "cp": "91420",
+      "lat": 48.697,
+      "lon": 2.333,
+      "dist_km": 42.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.04,
+          "age_h": 25.9
+        },
+        "E10": {
+          "prix": 2.017,
+          "age_h": 25.9
+        },
+        "SP98": {
+          "prix": 2.119,
+          "age_h": 25.9
+        }
+      }
+    },
+    {
+      "adresse": "ZAC DE LA CROIX DE BELLEJAME",
+      "ville": "Marcoussis",
+      "cp": "91460",
+      "lat": 48.64065,
+      "lon": 2.24877,
+      "dist_km": 42.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.971,
+          "age_h": 25.3
+        },
+        "SP95": {
+          "prix": 1.994,
+          "age_h": 25.3
+        },
+        "E10": {
+          "prix": 1.926,
+          "age_h": 25.3
+        },
+        "SP98": {
+          "prix": 2.03,
+          "age_h": 25.3
+        }
+      }
+    },
+    {
+      "adresse": "44 rue Sablonnière",
+      "ville": "Valenton",
+      "cp": "94460",
+      "lat": 48.74926,
+      "lon": 2.45465,
+      "dist_km": 42.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.124,
+          "age_h": 18.6
+        },
+        "E10": {
+          "prix": 1.937,
+          "age_h": 18.6
+        },
+        "SP98": {
+          "prix": 2.206,
+          "age_h": 18.6
+        }
+      }
+    },
+    {
+      "adresse": "RUE DES PORTES DU GATINAIS",
+      "ville": "Dadonville",
+      "cp": "45300",
+      "lat": 48.16172,
+      "lon": 2.25764,
+      "dist_km": 42.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 23.0
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 23.0
+        },
+        "SP98": {
+          "prix": 2.069,
+          "age_h": 23.0
+        }
+      }
+    },
+    {
+      "adresse": "69 Avenue Charles de Gaulle",
+      "ville": "MORANGIS",
+      "cp": "91420",
+      "lat": 48.706,
+      "lon": 2.343,
+      "dist_km": 42.6,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 25.7
+        }
+      }
+    },
+    {
+      "adresse": "RD 231, STATION TOTAL",
+      "ville": "VAUDOY EN BRIE",
+      "cp": "77141",
+      "lat": 48.693,
+      "lon": 3.082,
+      "dist_km": 42.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.083,
+          "age_h": 3.2
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 3.2
+        }
+      }
+    },
+    {
+      "adresse": "Avenue de la Division Leclerc N20",
+      "ville": "Ballainvilliers",
+      "cp": "91160",
+      "lat": 48.669,
+      "lon": 2.28,
+      "dist_km": 42.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.009,
+          "age_h": -1.0
+        },
+        "GPLc": {
+          "prix": 1.159,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.929,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.099,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "2 avenue du Général Leclerc",
+      "ville": "Châlette-sur-Loing",
+      "cp": "45120",
+      "lat": 48.021,
+      "lon": 2.737,
+      "dist_km": 42.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.169,
+          "age_h": 0.4
+        },
+        "E85": {
+          "prix": 0.935,
+          "age_h": 0.4
+        },
+        "E10": {
+          "prix": 2.099,
+          "age_h": 0.4
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 0.4
+        }
+      }
+    },
+    {
+      "adresse": "1 Rue Sadi Carnot",
+      "ville": "Noiseau",
+      "cp": "94880",
+      "lat": 48.77667,
+      "lon": 2.55134,
+      "dist_km": 42.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.099,
+          "age_h": 48.6
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": 48.6
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 48.6
+        }
+      }
+    },
+    {
+      "adresse": "5 RUE DE LA CROIX SAINT JACQUES",
+      "ville": "LA VILLE-DU-BOIS",
+      "cp": "91620",
+      "lat": 48.67,
+      "lon": 2.277,
+      "dist_km": 43.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.011,
+          "age_h": 11.2
+        },
+        "SP95": {
+          "prix": 1.985,
+          "age_h": 11.2
+        },
+        "E10": {
+          "prix": 1.92,
+          "age_h": 11.2
+        }
+      }
+    },
+    {
+      "adresse": "20 Rue Winston Churchill",
+      "ville": "Villeneuve-Saint-Georges",
+      "cp": "94190",
+      "lat": 48.754,
+      "lon": 2.45,
+      "dist_km": 43.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.968,
+          "age_h": 3.3
+        },
+        "E10": {
+          "prix": 1.921,
+          "age_h": 3.3
+        },
+        "SP98": {
+          "prix": 2.028,
+          "age_h": 3.3
+        }
+      }
+    },
+    {
+      "adresse": "Place Robert Schuman",
+      "ville": "Roissy-en-Brie",
+      "cp": "77680",
+      "lat": 48.79,
+      "lon": 2.642,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.016,
+          "age_h": 0.8
+        },
+        "SP95": {
+          "prix": 1.992,
+          "age_h": 0.8
+        },
+        "E10": {
+          "prix": 1.94,
+          "age_h": 0.8
+        },
+        "SP98": {
+          "prix": 2.061,
+          "age_h": 0.8
+        }
+      }
+    },
+    {
+      "adresse": "Route de Boiscommun",
+      "ville": "BEAUNE-LA-ROLANDE",
+      "cp": "45340",
+      "lat": 48.065,
+      "lon": 2.421,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 26.3
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": 26.3
+        },
+        "SP98": {
+          "prix": 2.079,
+          "age_h": 26.3
+        }
+      }
+    },
+    {
+      "adresse": "118 Rue de la Passerelle",
+      "ville": "CHILLY-MAZARIN",
+      "cp": "91380",
+      "lat": 48.699,
+      "lon": 2.321,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 44.8
+        },
+        "SP95": {
+          "prix": 1.989,
+          "age_h": 44.8
+        },
+        "SP98": {
+          "prix": 2.04,
+          "age_h": 44.8
+        }
+      }
+    },
+    {
+      "adresse": "5 AVENUE DES ROSES",
+      "ville": "BONNEUIL SUR MARNE",
+      "cp": "94380",
+      "lat": 48.76669,
+      "lon": 2.49011,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.944,
+          "age_h": 0.8
+        },
+        "SP95": {
+          "prix": 1.968,
+          "age_h": 0.8
+        },
+        "E10": {
+          "prix": 1.911,
+          "age_h": 0.8
+        },
+        "SP98": {
+          "prix": 1.985,
+          "age_h": 0.8
+        }
+      }
+    },
+    {
+      "adresse": "ZAC DE MORAILLES",
+      "ville": "Pithiviers-le-Vieil",
+      "cp": "45300",
+      "lat": 48.171,
+      "lon": 2.236,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": 42.4
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 42.4
+        },
+        "SP98": {
+          "prix": 2.069,
+          "age_h": 42.4
+        }
+      }
+    },
+    {
+      "adresse": "13 Rue Maurice Berteaux",
+      "ville": "SUCY-EN-BRIE",
+      "cp": "94370",
+      "lat": 48.773,
+      "lon": 2.517,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.098,
+          "age_h": 33.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 33.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 33.8
+        }
+      }
+    },
+    {
+      "adresse": "31 ROUTE D'ORLEANS",
+      "ville": "BALLAINVILLIERS",
+      "cp": "91160",
+      "lat": 48.677,
+      "lon": 2.282,
+      "dist_km": 43.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.008,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.885,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.029,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.953,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "7 Avenue Pierre Brossolette",
+      "ville": "Chilly-Mazarin",
+      "cp": "91380",
+      "lat": 48.701,
+      "lon": 2.319,
+      "dist_km": 43.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.968,
+          "age_h": 3.3
+        },
+        "E85": {
+          "prix": 0.933,
+          "age_h": 3.3
+        },
+        "E10": {
+          "prix": 1.948,
+          "age_h": 3.3
+        },
+        "SP98": {
+          "prix": 2.028,
+          "age_h": 3.3
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE LA POMPADOUR",
+      "ville": "Bonneuil-sur-Marne",
+      "cp": "94380",
+      "lat": 48.765,
+      "lon": 2.478,
+      "dist_km": 43.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.009,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.968,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.048,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "8 Place Gaston Viens",
+      "ville": "Orly",
+      "cp": "94310",
+      "lat": 48.743,
+      "lon": 2.408,
+      "dist_km": 43.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 23.9
+        },
+        "SP95": {
+          "prix": 1.98,
+          "age_h": 23.9
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 23.9
+        },
+        "SP98": {
+          "prix": 1.988,
+          "age_h": 23.9
+        }
+      }
+    },
+    {
+      "adresse": "32 AV. PIERRE BROSSOLETTE",
+      "ville": "Chilly-Mazarin",
+      "cp": "91380",
+      "lat": 48.702,
+      "lon": 2.32,
+      "dist_km": 43.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.092,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.929,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "1 Rue de Paris",
+      "ville": "Sucy-en-Brie",
+      "cp": "94370",
+      "lat": 48.773,
+      "lon": 2.5,
+      "dist_km": 43.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.038,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.977,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.057,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "CHEMIN DÉPARTEMENTAL 51 - RUE DES BERCHÈRES",
+      "ville": "Pontault-Combault",
+      "cp": "77340",
+      "lat": 48.793,
+      "lon": 2.619,
+      "dist_km": 43.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.101,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.879,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 0.999,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "LE BUISSON RONDEAU",
+      "ville": "Breuillet",
+      "cp": "91650",
+      "lat": 48.569,
+      "lon": 2.163,
+      "dist_km": 43.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.041,
+          "age_h": 0.2
+        },
+        "E10": {
+          "prix": 1.948,
+          "age_h": 21.5
+        },
+        "SP98": {
+          "prix": 2.073,
+          "age_h": 21.5
+        }
+      }
+    },
+    {
+      "adresse": "2 Rue du Général de Gaulle",
+      "ville": "LA QUEUE-EN-BRIE",
+      "cp": "94510",
+      "lat": 48.789,
+      "lon": 2.576,
+      "dist_km": 43.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.019,
+          "age_h": 14.8
+        },
+        "E10": {
+          "prix": 1.967,
+          "age_h": 3.2
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 3.2
+        }
+      }
+    },
+    {
+      "adresse": "BLD DE LA MALIBRAN",
+      "ville": "Roissy-en-Brie",
+      "cp": "77680",
+      "lat": 48.796,
+      "lon": 2.643,
+      "dist_km": 43.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.972,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.052,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "63/71 AV DU GENERAL LECLERC",
+      "ville": "Sucy-en-Brie",
+      "cp": "94370",
+      "lat": 48.777,
+      "lon": 2.511,
+      "dist_km": 43.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.029,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.968,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A 19",
+      "ville": "Fouchères",
+      "cp": "89150",
+      "lat": 48.166,
+      "lon": 3.172,
+      "dist_km": 43.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.221,
+          "age_h": 18.2
+        },
+        "GPLc": {
+          "prix": 1.088,
+          "age_h": 18.2
+        },
+        "E10": {
+          "prix": 2.166,
+          "age_h": 18.2
+        },
+        "SP98": {
+          "prix": 2.266,
+          "age_h": 18.2
+        }
+      }
+    },
+    {
+      "adresse": "10 Rue Pierre Brossolette",
+      "ville": "Chilly-Mazarin",
+      "cp": "91380",
+      "lat": 48.699,
+      "lon": 2.303,
+      "dist_km": 43.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.029,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 1.979,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.129,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "SARL Jaby, ORLY Ouest 453",
+      "ville": "ORLY",
+      "cp": "94542",
+      "lat": 48.732,
+      "lon": 2.366,
+      "dist_km": 44.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.149,
+          "age_h": 9.6
+        },
+        "E85": {
+          "prix": 0.899,
+          "age_h": 9.6
+        },
+        "GPLc": {
+          "prix": 1.269,
+          "age_h": 9.6
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": 9.6
+        },
+        "SP98": {
+          "prix": 2.249,
+          "age_h": 9.6
+        }
+      }
+    },
+    {
+      "adresse": "17 Avenue du Général Leclerc",
+      "ville": "Châlette-sur-Loing",
+      "cp": "45120",
+      "lat": 48.008,
+      "lon": 2.74,
+      "dist_km": 44.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.985,
+          "age_h": 50.5
+        },
+        "E85": {
+          "prix": 0.868,
+          "age_h": 50.5
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 50.5
+        },
+        "SP98": {
+          "prix": 2.098,
+          "age_h": 50.5
+        }
+      }
+    },
+    {
+      "adresse": "RUE DU 23 AOUT 1944",
+      "ville": "CHâLETTE-SUR-LOING",
+      "cp": "45120",
+      "lat": 48.007,
+      "lon": 2.723,
+      "dist_km": 44.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.969,
+          "age_h": -0.2
+        },
+        "E10": {
+          "prix": 1.959,
+          "age_h": 24.9
+        },
+        "SP98": {
+          "prix": 2.039,
+          "age_h": 24.9
+        }
+      }
+    },
+    {
+      "adresse": "6 A 10 AV CHARLES ROUXEL",
+      "ville": "Pontault-Combault",
+      "cp": "77340",
+      "lat": 48.79836,
+      "lon": 2.60505,
+      "dist_km": 44.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.943,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "85 Route de Provins Cc Pincevent",
+      "ville": "Ormesson-sur-Marne",
+      "cp": "94490",
+      "lat": 48.793,
+      "lon": 2.554,
+      "dist_km": 44.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.016,
+          "age_h": 11.2
+        },
+        "SP95": {
+          "prix": 1.992,
+          "age_h": 11.2
+        },
+        "E85": {
+          "prix": 0.856,
+          "age_h": 11.2
+        },
+        "E10": {
+          "prix": 1.94,
+          "age_h": 11.2
+        },
+        "SP98": {
+          "prix": 2.061,
+          "age_h": 11.2
+        }
+      }
+    },
+    {
+      "adresse": "106 AVENUE LA VICTOIRE",
+      "ville": "ORLY",
+      "cp": "94310",
+      "lat": 48.74588,
+      "lon": 2.38308,
+      "dist_km": 44.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.007,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.049,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.96,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "1 RUE DES LANCES",
+      "ville": "ORLY",
+      "cp": "94537",
+      "lat": 48.75,
+      "lon": 2.389,
+      "dist_km": 44.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.138,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.929,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "38 ROUTE DE LONGJUMEAU",
+      "ville": "Chilly-Mazarin",
+      "cp": "91380",
+      "lat": 48.70563,
+      "lon": 2.29629,
+      "dist_km": 44.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.908,
+          "age_h": 16.2
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": 16.2
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 16.2
+        }
+      }
+    },
+    {
+      "adresse": "F6 VOIE EXPRESS FONDS PRES",
+      "ville": "Marcoussis",
+      "cp": "91460",
+      "lat": 48.638,
+      "lon": 2.202,
+      "dist_km": 45.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.079,
+          "age_h": -1.0
+        },
+        "GPLc": {
+          "prix": 1.239,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 2.009,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.159,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "RN 60",
+      "ville": "LA SELLE-EN-HERMOY",
+      "cp": "45210",
+      "lat": 48.01821,
+      "lon": 2.88525,
+      "dist_km": 45.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.082,
+          "age_h": 14.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 14.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 14.8
+        }
+      }
+    },
+    {
+      "adresse": "RUE DE LONGJUMEAU RUE AMPERE",
+      "ville": "Chilly-Mazarin",
+      "cp": "91380",
+      "lat": 48.713,
+      "lon": 2.298,
+      "dist_km": 45.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.029,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.979,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.129,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "119 Avenue du Général de Gaulle",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.78187,
+      "lon": 2.45789,
+      "dist_km": 45.6,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 26.6
+        },
+        "SP95": {
+          "prix": 1.98,
+          "age_h": 26.6
+        },
+        "E10": {
+          "prix": 1.912,
+          "age_h": 26.6
+        },
+        "SP98": {
+          "prix": 2.068,
+          "age_h": 26.6
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A86 CARRE.POMPADOUR",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.77737,
+      "lon": 2.44091,
+      "dist_km": 45.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.008,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.008,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.956,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "334 THAIS SUD C.C Belle Epine",
+      "ville": "Thiais",
+      "cp": "94651",
+      "lat": 48.755,
+      "lon": 2.375,
+      "dist_km": 45.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.129,
+          "age_h": -1.2
+        },
+        "E85": {
+          "prix": 0.949,
+          "age_h": -1.2
+        },
+        "GPLc": {
+          "prix": 1.169,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 1.989,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.159,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A86 AIRE DE CARREFOUR POMPADOUR",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.77982,
+      "lon": 2.44087,
+      "dist_km": 45.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.142,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.928,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.128,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "14 Boulevard de Stalingrad",
+      "ville": "Choisy-le-Roi",
+      "cp": "94600",
+      "lat": 48.768,
+      "lon": 2.403,
+      "dist_km": 46.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.017,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 2.03,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.11,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE CHOISY RN 186",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.78292,
+      "lon": 2.4467,
+      "dist_km": 46.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.013,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.919,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.967,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE CHOISY - RN186",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.753,
+      "lon": 2.361,
+      "dist_km": 46.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.029,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 1.979,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.149,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "N104 LA FRANCILIENNE - AIRE PRE DE L'AULNES ET DE LA GDE MAR",
+      "ville": "PONTAULT COMBAULT",
+      "cp": "77340",
+      "lat": 48.816,
+      "lon": 2.623,
+      "dist_km": 46.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.001,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.863,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 0.979,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.942,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "33 AV.DE LUGO",
+      "ville": "Choisy-le-Roi",
+      "cp": "94600",
+      "lat": 48.771,
+      "lon": 2.409,
+      "dist_km": 46.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.097,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE NATIONALE 186",
+      "ville": "RUNGIS",
+      "cp": "94150",
+      "lat": 48.753,
+      "lon": 2.361,
+      "dist_km": 46.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.049,
+          "age_h": -1.0
+        },
+        "GPLc": {
+          "prix": 1.179,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.169,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "26 AVENUE ARDOUIN",
+      "ville": "Le Plessis-Trévise",
+      "cp": "94420",
+      "lat": 48.81,
+      "lon": 2.572,
+      "dist_km": 46.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.169,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 2.183,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.353,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE NATIONALE 186",
+      "ville": "RUNGIS",
+      "cp": "94150",
+      "lat": 48.754,
+      "lon": 2.362,
+      "dist_km": 46.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.049,
+          "age_h": -1.1
+        },
+        "GPLc": {
+          "prix": 1.169,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.169,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "36 Avenue de Lugo",
+      "ville": "CHOISY-LE-ROI",
+      "cp": "94600",
+      "lat": 48.772,
+      "lon": 2.409,
+      "dist_km": 46.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 19.0
+        },
+        "SP95": {
+          "prix": 1.979,
+          "age_h": 19.0
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 19.0
+        },
+        "SP98": {
+          "prix": 1.989,
+          "age_h": 19.0
+        }
+      }
+    },
+    {
+      "adresse": "57, Rue Delerue",
+      "ville": "SAINT-MAUR-DES-FOSSéS",
+      "cp": "94100",
+      "lat": 48.79624,
+      "lon": 2.49299,
+      "dist_km": 46.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.973,
+          "age_h": 3.0
+        },
+        "E10": {
+          "prix": 1.928,
+          "age_h": 3.0
+        },
+        "SP98": {
+          "prix": 2.047,
+          "age_h": 3.0
+        }
+      }
+    },
+    {
+      "adresse": "99/101 Avenue Foch",
+      "ville": "Saint-Maur-des-Fossés",
+      "cp": "94100",
+      "lat": 48.799,
+      "lon": 2.5,
+      "dist_km": 46.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.029,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.968,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.048,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "22 Avenue Pierre Brossolette",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.791,
+      "lon": 2.462,
+      "dist_km": 46.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.984,
+          "age_h": 3.3
+        },
+        "E85": {
+          "prix": 0.927,
+          "age_h": 3.3
+        },
+        "E10": {
+          "prix": 1.921,
+          "age_h": 3.3
+        },
+        "SP98": {
+          "prix": 2.001,
+          "age_h": 3.3
+        }
+      }
+    },
+    {
+      "adresse": "Avenue de la Voulzie",
+      "ville": "Provins",
+      "cp": "77160",
+      "lat": 48.548,
+      "lon": 3.292,
+      "dist_km": 46.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.946,
+          "age_h": -0.4
+        },
+        "SP95": {
+          "prix": 2.059,
+          "age_h": -0.4
+        },
+        "E85": {
+          "prix": 0.795,
+          "age_h": -0.4
+        },
+        "E10": {
+          "prix": 1.908,
+          "age_h": -0.4
+        },
+        "SP98": {
+          "prix": 1.989,
+          "age_h": -0.4
+        }
+      }
+    },
+    {
+      "adresse": "N104 LIEUDIT BEAUVERT",
+      "ville": "Marcoussis",
+      "cp": "91460",
+      "lat": 48.648,
+      "lon": 2.189,
+      "dist_km": 46.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.079,
+          "age_h": -0.9
+        },
+        "E10": {
+          "prix": 2.009,
+          "age_h": -0.9
+        },
+        "SP98": {
+          "prix": 2.159,
+          "age_h": -0.9
+        }
+      }
+    },
+    {
+      "adresse": "RUE DES BRUYERES",
+      "ville": "AMILLY",
+      "cp": "45200",
+      "lat": 47.99,
+      "lon": 2.77,
+      "dist_km": 46.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.977,
+          "age_h": 0.0
+        },
+        "E10": {
+          "prix": 1.899,
+          "age_h": 0.0
+        },
+        "SP98": {
+          "prix": 2.019,
+          "age_h": 0.0
+        }
+      }
+    },
+    {
+      "adresse": "16 AV GENERAL DE GAULLE",
+      "ville": "PROVINS",
+      "cp": "77160",
+      "lat": 48.55938,
+      "lon": 3.28638,
+      "dist_km": 46.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.099,
+          "age_h": 13.9
+        },
+        "E85": {
+          "prix": 0.869,
+          "age_h": 13.9
+        },
+        "E10": {
+          "prix": 2.049,
+          "age_h": 13.9
+        },
+        "SP98": {
+          "prix": 2.149,
+          "age_h": 13.9
+        }
+      }
+    },
+    {
+      "adresse": "63 avenue Maurice Berteaux",
+      "ville": "Le Plessis-Trévise",
+      "cp": "94420",
+      "lat": 48.813,
+      "lon": 2.566,
+      "dist_km": 46.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.153,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "64 AVENUE FOCH",
+      "ville": "SAINT-MAUR-DES-FOSSÉS",
+      "cp": "94100",
+      "lat": 48.80058,
+      "lon": 2.49499,
+      "dist_km": 46.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.039,
+          "age_h": 3.5
+        },
+        "E10": {
+          "prix": 2.049,
+          "age_h": 3.5
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 3.5
+        }
+      }
+    },
+    {
+      "adresse": "57 BD DE CRETEIL",
+      "ville": "Saint-Maur-des-Fossés",
+      "cp": "94100",
+      "lat": 48.798,
+      "lon": 2.481,
+      "dist_km": 46.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.089,
+          "age_h": 15.8
+        },
+        "E10": {
+          "prix": 2.049,
+          "age_h": 15.8
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 15.8
+        }
+      }
+    },
+    {
+      "adresse": "11 RUE DE LA LIBÉRATION",
+      "ville": "AUTRUY SUR JUINE",
+      "cp": "45480",
+      "lat": 48.276,
+      "lon": 2.102,
+      "dist_km": 46.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.19,
+          "age_h": 0.4
+        },
+        "SP95": {
+          "prix": 1.99,
+          "age_h": 0.4
+        }
+      }
+    },
+    {
+      "adresse": "Route Nationale 188 déviée",
+      "ville": "Champlan",
+      "cp": "91160",
+      "lat": 48.70939,
+      "lon": 2.26216,
+      "dist_km": 46.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.119,
+          "age_h": 0.4
+        },
+        "E85": {
+          "prix": 0.965,
+          "age_h": 0.4
+        },
+        "E10": {
+          "prix": 2.039,
+          "age_h": 0.4
+        },
+        "SP98": {
+          "prix": 2.139,
+          "age_h": 0.4
+        }
+      }
+    },
+    {
+      "adresse": "63 Avenue du Général de Gaulle",
+      "ville": "Créteil",
+      "cp": "94000",
+      "lat": 48.79039,
+      "lon": 2.44517,
+      "dist_km": 46.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.02,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "134 Rue Pascal",
+      "ville": "ANTONY",
+      "cp": "92160",
+      "lat": 48.74,
+      "lon": 2.315,
+      "dist_km": 46.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.96,
+          "age_h": -1.5
+        },
+        "E85": {
+          "prix": 0.944,
+          "age_h": 22.6
+        },
+        "GPLc": {
+          "prix": 0.999,
+          "age_h": 22.6
+        },
+        "E10": {
+          "prix": 1.94,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.039,
+          "age_h": -1.5
+        }
+      }
+    },
+    {
+      "adresse": "CHEMIN DE BRIIS CD 59",
+      "ville": "Villebon-sur-Yvette",
+      "cp": "91140",
+      "lat": 48.705,
+      "lon": 2.254,
+      "dist_km": 46.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.002,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "ZAC DES HAUTS DE FERRIERES - PARC DES MERLETTES",
+      "ville": "FERRIERES EN BRIE",
+      "cp": "77164",
+      "lat": 48.82748,
+      "lon": 2.7032,
+      "dist_km": 47.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.998,
+          "age_h": 18.6
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": 18.6
+        },
+        "SP98": {
+          "prix": 2.051,
+          "age_h": 18.6
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A106 - AIRE DE RUNGIS DELTA PONDO",
+      "ville": "RUNGIS",
+      "cp": "94150",
+      "lat": 48.75758,
+      "lon": 2.34835,
+      "dist_km": 47.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.142,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.928,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "264 Avenue de Stalingrad",
+      "ville": "Chevilly-Larue",
+      "cp": "94550",
+      "lat": 48.767,
+      "lon": 2.368,
+      "dist_km": 47.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.02,
+          "age_h": 2.2
+        },
+        "E85": {
+          "prix": 0.937,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.969,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.049,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "Réservée aux Membres Costco, 3 avenue de Bréhat",
+      "ville": "VILLEBON-SUR-YVETTE",
+      "cp": "91140",
+      "lat": 48.687,
+      "lon": 2.223,
+      "dist_km": 47.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.979,
+          "age_h": -0.6
+        },
+        "E10": {
+          "prix": 1.899,
+          "age_h": -0.6
+        },
+        "SP98": {
+          "prix": 2.031,
+          "age_h": -0.6
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A4 - AIRE DE BUSSY ST GEORGES",
+      "ville": "Bussy-Saint-Georges",
+      "cp": "77600",
+      "lat": 48.82949,
+      "lon": 2.74003,
+      "dist_km": 47.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.997,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.019,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.953,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Boulevard Georges Bidault",
+      "ville": "Croissy-Beaubourg",
+      "cp": "77183",
+      "lat": 48.828,
+      "lon": 2.644,
+      "dist_km": 47.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 21.8
+        },
+        "E10": {
+          "prix": 1.963,
+          "age_h": 9.9
+        },
+        "SP98": {
+          "prix": 2.075,
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "RUE DU VIADUC",
+      "ville": "RUNGIS CEDEX",
+      "cp": "94594",
+      "lat": 48.76047,
+      "lon": 2.34866,
+      "dist_km": 47.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.159,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.079,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "Avenue de l'Europe",
+      "ville": "Massy",
+      "cp": "91300",
+      "lat": 48.726,
+      "lon": 2.28,
+      "dist_km": 47.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.02,
+          "age_h": -1.3
+        },
+        "SP95": {
+          "prix": 1.98,
+          "age_h": -1.3
+        },
+        "GPLc": {
+          "prix": 0.999,
+          "age_h": -1.3
+        },
+        "E10": {
+          "prix": 1.94,
+          "age_h": -1.3
+        },
+        "SP98": {
+          "prix": 2.061,
+          "age_h": -1.3
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A4 - AIRE DE FERRIÈRES",
+      "ville": "Bussy-Saint-Georges",
+      "cp": "77600",
+      "lat": 48.829,
+      "lon": 2.742,
+      "dist_km": 47.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 4.0
+        },
+        "GPLc": {
+          "prix": 1.019,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.927,
+          "age_h": 4.0
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 4.0
+        }
+      }
+    },
+    {
+      "adresse": "190 AVENUE DU MARÉCHAL LECLERC",
+      "ville": "MASSY",
+      "cp": "91300",
+      "lat": 48.739,
+      "lon": 2.302,
+      "dist_km": 47.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.015,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.029,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.966,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "103 Boulevard Circulaire E Fruileg",
+      "ville": "RUNGIS",
+      "cp": "94594",
+      "lat": 48.76462,
+      "lon": 2.35664,
+      "dist_km": 47.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.144,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Près Aubert St Denis les Sens",
+      "ville": "Saint-Denis-lès-Sens",
+      "cp": "89100",
+      "lat": 48.21661,
+      "lon": 3.27711,
+      "dist_km": 47.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 48.9
+        },
+        "E10": {
+          "prix": 1.959,
+          "age_h": 48.9
+        },
+        "SP98": {
+          "prix": 2.039,
+          "age_h": 48.9
+        }
+      }
+    },
+    {
+      "adresse": "1094, avenue d'Antibes",
+      "ville": "Amilly",
+      "cp": "45200",
+      "lat": 47.978,
+      "lon": 2.733,
+      "dist_km": 47.5,
+      "prix": {
+        "Gazole": {
+          "prix": 1.907,
+          "age_h": 0.2
+        },
+        "SP95": {
+          "prix": 1.985,
+          "age_h": 0.2
+        },
+        "E10": {
+          "prix": 1.885,
+          "age_h": 0.2
+        },
+        "SP98": {
+          "prix": 1.989,
+          "age_h": 22.8
+        }
+      }
+    },
+    {
+      "adresse": "100 AV DU PRESIDENT KENNEDY",
+      "ville": "ANTONY",
+      "cp": "92160",
+      "lat": 48.738,
+      "lon": 2.295,
+      "dist_km": 47.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.006,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.956,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "159 Avenue Rouget de l'Isle",
+      "ville": "Vitry-sur-Seine",
+      "cp": "94400",
+      "lat": 48.782,
+      "lon": 2.395,
+      "dist_km": 47.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.026,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.975,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.055,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "511 Rue de la Mère Dieu",
+      "ville": "Amilly",
+      "cp": "45200",
+      "lat": 47.978,
+      "lon": 2.76,
+      "dist_km": 47.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.08,
+          "age_h": 14.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 14.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 14.8
+        }
+      }
+    },
+    {
+      "adresse": "7 boulevard du pont neuf",
+      "ville": "Sens",
+      "cp": "89100",
+      "lat": 48.204,
+      "lon": 3.271,
+      "dist_km": 47.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.986,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.845,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.934,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "8 Route de Voulx",
+      "ville": "SENS",
+      "cp": "89100",
+      "lat": 48.197,
+      "lon": 3.266,
+      "dist_km": 47.7,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 24.7
+        },
+        "SP95": {
+          "prix": 2.009,
+          "age_h": 24.7
+        },
+        "E10": {
+          "prix": 1.959,
+          "age_h": 24.7
+        }
+      }
+    },
+    {
+      "adresse": "156 Rue Alexandre Fourny",
+      "ville": "Champigny-sur-Marne",
+      "cp": "94500",
+      "lat": 48.82,
+      "lon": 2.531,
+      "dist_km": 47.8,
+      "prix": {
+        "Gazole": {
+          "prix": 1.944,
+          "age_h": 4.9
+        },
+        "SP95": {
+          "prix": 1.968,
+          "age_h": 4.9
+        },
+        "E10": {
+          "prix": 1.915,
+          "age_h": 4.9
+        },
+        "SP98": {
+          "prix": 1.985,
+          "age_h": 4.9
+        }
+      }
+    },
+    {
+      "adresse": "1 AV DE L OCEANIE ZAC COURTABOEU",
+      "ville": "LES ULIS",
+      "cp": "91940",
+      "lat": 48.678,
+      "lon": 2.199,
+      "dist_km": 47.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.992,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.883,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.941,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "4 AV DE L'OCEANIE - ZAC COURTAB",
+      "ville": "LES ULIS",
+      "cp": "91940",
+      "lat": 48.678,
+      "lon": 2.199,
+      "dist_km": 47.9,
+      "prix": {
+        "Gazole": {
+          "prix": 1.992,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Avenue d'Antibes",
+      "ville": "Amilly",
+      "cp": "45200",
+      "lat": 47.974,
+      "lon": 2.734,
+      "dist_km": 48.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.909,
+          "age_h": 1.2
+        },
+        "GPLc": {
+          "prix": 0.999,
+          "age_h": 43.5
+        },
+        "E10": {
+          "prix": 1.887,
+          "age_h": 1.2
+        },
+        "SP98": {
+          "prix": 2.147,
+          "age_h": 23.7
+        }
+      }
+    },
+    {
+      "adresse": "15 Avenue du Maréchal de Lattre de Tassigny",
+      "ville": "Provins",
+      "cp": "77160",
+      "lat": 48.559,
+      "lon": 3.309,
+      "dist_km": 48.0,
+      "prix": {
+        "Gazole": {
+          "prix": 1.951,
+          "age_h": 45.2
+        },
+        "E10": {
+          "prix": 1.925,
+          "age_h": 45.2
+        },
+        "SP98": {
+          "prix": 2.032,
+          "age_h": 45.2
+        }
+      }
+    },
+    {
+      "adresse": "AUTOROUTE A10 - AIRE DE LIMOURS BRIIS SOUS FORGES",
+      "ville": "Briis-sous-Forges",
+      "cp": "91640",
+      "lat": 48.635,
+      "lon": 2.148,
+      "dist_km": 48.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.018,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.957,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "16 RUE DES FRERES LUMIERE ZAC DE LA BARAUDIERE",
+      "ville": "VILLEMANDEUR",
+      "cp": "45700",
+      "lat": 47.972,
+      "lon": 2.718,
+      "dist_km": 48.1,
+      "prix": {
+        "Gazole": {
+          "prix": 1.976,
+          "age_h": 0.1
+        },
+        "E10": {
+          "prix": 1.893,
+          "age_h": 0.1
+        },
+        "SP98": {
+          "prix": 2.002,
+          "age_h": 0.1
+        }
+      }
+    },
+    {
+      "adresse": "RUE DES PATUREAUX",
+      "ville": "Courtenay",
+      "cp": "45320",
+      "lat": 48.037,
+      "lon": 3.047,
+      "dist_km": 48.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.981,
+          "age_h": 0.9
+        },
+        "E10": {
+          "prix": 1.969,
+          "age_h": 43.6
+        },
+        "SP98": {
+          "prix": 2.099,
+          "age_h": 43.6
+        }
+      }
+    },
+    {
+      "adresse": "104/106 AV MEDERIC",
+      "ville": "Noisy-le-Grand",
+      "cp": "93160",
+      "lat": 48.829,
+      "lon": 2.569,
+      "dist_km": 48.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.137,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.884,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "5 Avenue Léon Blum",
+      "ville": "Maisons-Alfort",
+      "cp": "94700",
+      "lat": 48.802,
+      "lon": 2.436,
+      "dist_km": 48.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.029,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.079,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "18 Rue Jean Moulin",
+      "ville": "Antony",
+      "cp": "92160",
+      "lat": 48.753,
+      "lon": 2.308,
+      "dist_km": 48.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.014,
+          "age_h": 2.2
+        },
+        "E85": {
+          "prix": 0.944,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.967,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.048,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "CENTRE COMMERCIAL BAY 2",
+      "ville": "COLLéGIEN",
+      "cp": "77090",
+      "lat": 48.83845,
+      "lon": 2.66162,
+      "dist_km": 48.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.051,
+          "age_h": 9.2
+        },
+        "E85": {
+          "prix": 0.783,
+          "age_h": 9.2
+        },
+        "E10": {
+          "prix": 1.952,
+          "age_h": 9.2
+        },
+        "SP98": {
+          "prix": 2.093,
+          "age_h": 9.2
+        }
+      }
+    },
+    {
+      "adresse": "A10 AIRE DE LIMOURS JANVRY",
+      "ville": "JANVRY",
+      "cp": "91640",
+      "lat": 48.63681,
+      "lon": 2.14753,
+      "dist_km": 48.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.201,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.998,
+          "age_h": 9.8
+        },
+        "GPLc": {
+          "prix": 1.118,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "4 Quai Jean Moulin",
+      "ville": "Sens",
+      "cp": "89100",
+      "lat": 48.198,
+      "lon": 3.277,
+      "dist_km": 48.4,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 12.9
+        },
+        "E10": {
+          "prix": 2.079,
+          "age_h": 12.9
+        },
+        "SP98": {
+          "prix": 2.149,
+          "age_h": 12.9
+        }
+      }
+    },
+    {
+      "adresse": "33 Avenue Médéric",
+      "ville": "Noisy-le-Grand",
+      "cp": "93160",
+      "lat": 48.83,
+      "lon": 2.561,
+      "dist_km": 48.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.141,
+          "age_h": 1.7
+        }
+      }
+    },
+    {
+      "adresse": "ROUTE DE SENS",
+      "ville": "COURTENAY",
+      "cp": "45320",
+      "lat": 48.042,
+      "lon": 3.068,
+      "dist_km": 48.6,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": 9.9
+        },
+        "SP95": {
+          "prix": 2.079,
+          "age_h": 9.9
+        },
+        "SP98": {
+          "prix": 2.149,
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "17/19 BD DE L'EUROPE",
+      "ville": "JOINVILLE LE PONT",
+      "cp": "94340",
+      "lat": 48.814,
+      "lon": 2.466,
+      "dist_km": 48.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.119,
+          "age_h": -1.1
+        },
+        "E85": {
+          "prix": 0.959,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.959,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.129,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "135 AV DU GENERAL LECLERC",
+      "ville": "Maisons-Alfort",
+      "cp": "94700",
+      "lat": 48.80623,
+      "lon": 2.43809,
+      "dist_km": 48.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.154,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.929,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "99 AVENUE DU GL LECLERC",
+      "ville": "MAISONS-ALFORT",
+      "cp": "94700",
+      "lat": 48.80695,
+      "lon": 2.43827,
+      "dist_km": 48.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.159,
+          "age_h": 3.9
+        },
+        "E85": {
+          "prix": 0.919,
+          "age_h": 3.9
+        },
+        "E10": {
+          "prix": 2.149,
+          "age_h": 3.9
+        },
+        "SP98": {
+          "prix": 2.249,
+          "age_h": 3.9
+        }
+      }
+    },
+    {
+      "adresse": "17 boulevard de Verdun",
+      "ville": "SENS",
+      "cp": "89100",
+      "lat": 48.20485,
+      "lon": 3.28903,
+      "dist_km": 48.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.139,
+          "age_h": 0.4
+        },
+        "E85": {
+          "prix": 0.945,
+          "age_h": 0.4
+        },
+        "GPLc": {
+          "prix": 1.089,
+          "age_h": 0.4
+        },
+        "E10": {
+          "prix": 2.089,
+          "age_h": 0.4
+        },
+        "SP98": {
+          "prix": 2.199,
+          "age_h": 0.4
+        }
+      }
+    },
+    {
+      "adresse": "34 AV. HENRI BARBUSSE",
+      "ville": "Vitry-sur-Seine",
+      "cp": "94400",
+      "lat": 48.793,
+      "lon": 2.39,
+      "dist_km": 48.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.017,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.914,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.966,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "97 AVENUE GENERAL DE GAULLE",
+      "ville": "Champigny-sur-Marne",
+      "cp": "94500",
+      "lat": 48.823,
+      "lon": 2.494,
+      "dist_km": 48.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.139,
+          "age_h": -1.1
+        },
+        "E85": {
+          "prix": 0.959,
+          "age_h": -1.1
+        },
+        "GPLc": {
+          "prix": 1.169,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.119,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "114 AV. DU GENERAL DE GAULLE",
+      "ville": "CHAMPIGNY SUR MARNE",
+      "cp": "94500",
+      "lat": 48.823,
+      "lon": 2.495,
+      "dist_km": 48.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.15,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "4 Avenue Pierre Mendès France",
+      "ville": "NOISIEL",
+      "cp": "77186",
+      "lat": 48.841,
+      "lon": 2.62,
+      "dist_km": 48.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.102,
+          "age_h": 2.6
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 2.6
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 2.6
+        }
+      }
+    },
+    {
+      "adresse": "14 AV DU GENERAL DE GAULLE",
+      "ville": "Chevilly-Larue",
+      "cp": "94550",
+      "lat": 48.77313,
+      "lon": 2.3378,
+      "dist_km": 48.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.148,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "60 AV DE STALINGRAD",
+      "ville": "VILLEJUIF",
+      "cp": "94800",
+      "lat": 48.78542,
+      "lon": 2.3666,
+      "dist_km": 49.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.02,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.914,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.969,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "75 RUE DE NOISY",
+      "ville": "VILLIERS SUR MARNE",
+      "cp": "94350",
+      "lat": 48.834,
+      "lon": 2.547,
+      "dist_km": 49.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.079,
+          "age_h": -1.1
+        },
+        "GPLc": {
+          "prix": 1.259,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "40 ROUTE DE PALAISEAU",
+      "ville": "MASSY",
+      "cp": "91300",
+      "lat": 48.72852,
+      "lon": 2.24518,
+      "dist_km": 49.2,
+      "prix": {
+        "Gazole": {
+          "prix": 1.998,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.897,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "110 Boulevard Paul Vaillant-Couturier",
+      "ville": "L'Hay-les-Roses",
+      "cp": "94240",
+      "lat": 48.777,
+      "lon": 2.34,
+      "dist_km": 49.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.149,
+          "age_h": -1.2
+        },
+        "E10": {
+          "prix": 1.999,
+          "age_h": -1.2
+        },
+        "SP98": {
+          "prix": 2.169,
+          "age_h": -1.2
+        }
+      }
+    },
+    {
+      "adresse": "43 QUAI AUGUSTE BLANQUI",
+      "ville": "ALFORTVILLE",
+      "cp": "94140",
+      "lat": 48.8043,
+      "lon": 2.41212,
+      "dist_km": 49.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.114,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Route de Palaiseau",
+      "ville": "MASSY",
+      "cp": "91300",
+      "lat": 48.729,
+      "lon": 2.245,
+      "dist_km": 49.3,
+      "prix": {
+        "Gazole": {
+          "prix": 1.959,
+          "age_h": 25.7
+        }
+      }
+    },
+    {
+      "adresse": "Centre Commercial Ulis 2",
+      "ville": "LES ULIS",
+      "cp": "91940",
+      "lat": 48.676,
+      "lon": 2.171,
+      "dist_km": 49.3,
+      "prix": {
+        "Gazole": {
+          "prix": 2.004,
+          "age_h": 11.2
+        },
+        "E85": {
+          "prix": 0.897,
+          "age_h": 11.2
+        },
+        "E10": {
+          "prix": 1.935,
+          "age_h": 11.2
+        },
+        "SP98": {
+          "prix": 2.051,
+          "age_h": 11.2
+        }
+      }
+    },
+    {
+      "adresse": "Rue du Centre Centre Reg Mont D'Est",
+      "ville": "Noisy-le-Grand",
+      "cp": "93160",
+      "lat": 48.83813,
+      "lon": 2.54756,
+      "dist_km": 49.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.138,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "39 RUE CHAPSAL",
+      "ville": "Joinville-le-Pont",
+      "cp": "94340",
+      "lat": 48.822,
+      "lon": 2.465,
+      "dist_km": 49.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.189,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 2.079,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.259,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "2 Rue des Hauts-Châteaux",
+      "ville": "Noisy-le-Grand",
+      "cp": "93160",
+      "lat": 48.843,
+      "lon": 2.577,
+      "dist_km": 49.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 51.3
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 51.3
+        },
+        "SP98": {
+          "prix": 2.07,
+          "age_h": 51.3
+        }
+      }
+    },
+    {
+      "adresse": "VOIE EXPRESS CD 117",
+      "ville": "Massy",
+      "cp": "91300",
+      "lat": 48.731,
+      "lon": 2.242,
+      "dist_km": 49.6,
+      "prix": {
+        "Gazole": {
+          "prix": 1.999,
+          "age_h": -1.0
+        },
+        "E85": {
+          "prix": 0.959,
+          "age_h": -1.0
+        },
+        "GPLc": {
+          "prix": 1.319,
+          "age_h": -1.0
+        },
+        "E10": {
+          "prix": 1.949,
+          "age_h": -1.0
+        },
+        "SP98": {
+          "prix": 2.079,
+          "age_h": -1.0
+        }
+      }
+    },
+    {
+      "adresse": "Avenue des Cévennes",
+      "ville": "Les Ulis",
+      "cp": "91940",
+      "lat": 48.682,
+      "lon": 2.173,
+      "dist_km": 49.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.009,
+          "age_h": -1.1
+        },
+        "E10": {
+          "prix": 1.939,
+          "age_h": -1.1
+        },
+        "SP98": {
+          "prix": 2.109,
+          "age_h": -1.1
+        }
+      }
+    },
+    {
+      "adresse": "117 BLD MAXIME GORKI",
+      "ville": "VILLEJUIF",
+      "cp": "94800",
+      "lat": 48.793,
+      "lon": 2.37,
+      "dist_km": 49.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.02,
+          "age_h": 9.8
+        },
+        "E85": {
+          "prix": 0.914,
+          "age_h": 9.8
+        },
+        "E10": {
+          "prix": 1.969,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
+        }
+      }
+    },
+    {
+      "adresse": "Autoroute A19",
+      "ville": "Mareau aux bois",
+      "cp": "45300",
+      "lat": 48.117,
+      "lon": 2.19,
+      "dist_km": 49.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.189,
+          "age_h": 34.0
+        },
+        "SP98": {
+          "prix": 2.239,
+          "age_h": 34.0
+        }
+      }
+    },
+    {
+      "adresse": "11 Rue de Paris",
+      "ville": "Torcy",
+      "cp": "77200",
+      "lat": 48.851,
+      "lon": 2.656,
+      "dist_km": 49.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.099,
+          "age_h": 2.0
+        }
+      }
+    },
+    {
+      "adresse": "Route de Lyon",
+      "ville": "SENS",
+      "cp": "89100",
+      "lat": 48.184,
+      "lon": 3.287,
+      "dist_km": 49.8,
+      "prix": {
+        "Gazole": {
+          "prix": 2.11,
+          "age_h": 2.3
+        }
+      }
+    },
+    {
+      "adresse": "BD DU MARECHAL JUIN",
+      "ville": "Verrières-le-Buisson",
+      "cp": "91370",
+      "lat": 48.753,
+      "lon": 2.273,
+      "dist_km": 49.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.024,
+          "age_h": 2.2
+        },
+        "E85": {
+          "prix": 0.96,
+          "age_h": 2.2
+        },
+        "E10": {
+          "prix": 1.975,
+          "age_h": 2.2
+        },
+        "SP98": {
+          "prix": 2.055,
+          "age_h": 2.2
+        }
+      }
+    },
+    {
+      "adresse": "17 RUE ARCHANGE",
+      "ville": "ORSAY",
+      "cp": "91400",
+      "lat": 48.69762,
+      "lon": 2.18628,
+      "dist_km": 50.0,
+      "prix": {
+        "E85": {
+          "prix": 0.899,
+          "age_h": 9.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 9.8
         }
       }
     }
