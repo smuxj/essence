@@ -45,6 +45,13 @@
   .rayon-wrap { display: flex; align-items: center; gap: 8px; }
   .rayon-wrap input[type=range] { width: 110px; accent-color: var(--accent); cursor: pointer; }
   .rayon-val { font-size: 0.85rem; font-weight: 500; min-width: 40px; }
+  .ville-search-wrap { position: relative; display: flex; align-items: center; gap: 4px; }
+  #ville-input { background: var(--surface); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; outline: none; width: 180px; }
+  #ville-input:focus { border-color: var(--accent); }
+  #ville-suggestions { position: absolute; top: calc(100% + 4px); left: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; z-index: 1000; min-width: 220px; box-shadow: 0 4px 16px rgba(0,0,0,.12); display: none; }
+  #ville-suggestions div { padding: 0.5rem 0.8rem; font-size: 0.83rem; cursor: pointer; }
+  #ville-suggestions div:hover { background: var(--bg); }
+  #ville-reset { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1rem; padding: 0 4px; display: none; }
 
   .pill { display: inline-flex; align-items: center; padding: 0.28rem 0.65rem; border-radius: 99px; font-size: 0.75rem; font-weight: 500; cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--muted); user-select: none; transition: all .12s; }
   .pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
@@ -107,6 +114,13 @@
     <span class="rayon-val" id="rayon-label">25 km</span>
   </div>
 
+  <label style="margin-left:0.5rem">Ville</label>
+  <div class="ville-search-wrap">
+    <input type="text" id="ville-input" placeholder="Ex: Melun..." autocomplete="off">
+    <button id="ville-reset" title="Reinitialiser">&#x2715;</button>
+    <div id="ville-suggestions"></div>
+  </div>
+
   <label style="margin-left:0.5rem">Tri</label>
   <select id="sort-select">
     <option value="prix">Prix/L</option>
@@ -152,6 +166,11 @@ var markerIndex = {};
 
 var HOME_LAT = 48.4047;
 var HOME_LON = 2.7014;
+var centreLat = HOME_LAT;
+var centreLon = HOME_LON;
+var centreLabel = "Fontainebleau";
+var centreMarker = null;
+var geocodeTimer = null;
 
 function haversine(lat1, lon1, lat2, lon2) {
   var R = 6371;
@@ -163,15 +182,79 @@ function haversine(lat1, lon1, lat2, lon2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
+function updateCentreMarker() {
+  if (centreMarker) { map.removeLayer(centreMarker); }
+  centreMarker = L.circleMarker([centreLat, centreLon], {
+    radius: 7, color: "#185fa5", fillColor: "#185fa5", fillOpacity: 1, weight: 2
+  }).addTo(map).bindPopup("<strong>" + centreLabel + "</strong><br>Centre de recherche");
+}
+
+function geocode(query, callback) {
+  var url = "https://nominatim.openstreetmap.org/search?format=json&limit=5&countrycodes=fr&q=" + encodeURIComponent(query);
+  fetch(url, {headers: {"Accept-Language": "fr"}})
+    .then(function(r) { return r.json(); })
+    .then(callback)
+    .catch(function() { callback([]); });
+}
+
+function setupVilleSearch() {
+  var input = document.getElementById("ville-input");
+  var sugg = document.getElementById("ville-suggestions");
+  var reset = document.getElementById("ville-reset");
+
+  input.addEventListener("input", function() {
+    var q = input.value.trim();
+    reset.style.display = q ? "inline" : "none";
+    clearTimeout(geocodeTimer);
+    if (q.length < 2) { sugg.style.display = "none"; return; }
+    geocodeTimer = setTimeout(function() {
+      geocode(q, function(results) {
+        sugg.innerHTML = "";
+        if (!results.length) { sugg.style.display = "none"; return; }
+        results.forEach(function(r) {
+          var d = document.createElement("div");
+          d.textContent = r.display_name;
+          d.addEventListener("click", function() {
+            centreLat = parseFloat(r.lat);
+            centreLon = parseFloat(r.lon);
+            centreLabel = r.display_name.split(",")[0];
+            input.value = centreLabel;
+            sugg.style.display = "none";
+            updateCentreMarker();
+            map.setView([centreLat, centreLon], 11);
+            renderAll();
+          });
+          sugg.appendChild(d);
+        });
+        sugg.style.display = "block";
+      });
+    }, 350);
+  });
+
+  reset.addEventListener("click", function() {
+    centreLat = HOME_LAT;
+    centreLon = HOME_LON;
+    centreLabel = "Fontainebleau";
+    input.value = "";
+    reset.style.display = "none";
+    sugg.style.display = "none";
+    updateCentreMarker();
+    map.setView([centreLat, centreLon], 11);
+    renderAll();
+  });
+
+  document.addEventListener("click", function(e) {
+    if (!e.target.closest(".ville-search-wrap")) sugg.style.display = "none";
+  });
+}
+
 function initMap() {
   map = L.map("map").setView([HOME_LAT, HOME_LON], 11);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors",
     maxZoom: 18
   }).addTo(map);
-  L.circleMarker([HOME_LAT, HOME_LON], {
-    radius: 7, color: "#185fa5", fillColor: "#185fa5", fillOpacity: 1, weight: 2
-  }).addTo(map).bindPopup("<strong>Fontainebleau</strong><br>Centre de recherche");
+  updateCentreMarker();
 }
 
 function colorForRank(i, total) {
@@ -197,7 +280,7 @@ function updateMarkers(sorted) {
       "<strong>" + (s.ville || s.cp) + "</strong><br>" +
       (s.adresse ? s.adresse + "<br>" : "") +
       activeFuel + " : <strong>" + prix + "</strong><br>" +
-      "<a href=\"https://www.google.com/maps/dir/Fontainebleau+77300/" + s.lat + "," + s.lon + "\" target=\"_blank\">Y aller</a>"
+      "<a href=\"https://www.google.com/maps/dir/" + encodeURIComponent(centreLabel) + "/" + s.lat + "," + s.lon + "\" target=\"_blank\">Y aller</a>"
     );
     m.addTo(map);
     markers.push(m);
@@ -221,13 +304,13 @@ function getRows() {
   if (!allData) return [];
   return allData.stations
     .filter(function(s) {
-      return s.prix[activeFuel] && haversine(HOME_LAT, HOME_LON, s.lat, s.lon) <= rayonKm;
+      return s.prix[activeFuel] && haversine(centreLat, centreLon, s.lat, s.lon) <= rayonKm;
     })
     .map(function(s) {
       var o = Object.assign({}, s);
       o._p = s.prix[activeFuel].prix;
       o._age = s.prix[activeFuel].age_h;
-      o._dist = haversine(HOME_LAT, HOME_LON, s.lat, s.lon);
+      o._dist = haversine(centreLat, centreLon, s.lat, s.lon);
       return o;
     });
 }
@@ -241,7 +324,7 @@ function renderStats(rows) {
   var cards = [
     { lbl: "Prix le plus bas", val: cheapest._p.toFixed(3) + " EUR", sub: cheapest.ville || cheapest.cp, cls: "best" },
     { lbl: "Prix moyen", val: avg.toFixed(3) + " EUR", sub: rows.length + " stations", cls: "" },
-    { lbl: "Zone", val: "Fontainebleau", sub: "rayon " + rayonKm + " km", cls: "" }
+    { lbl: "Zone", val: centreLabel, sub: "rayon " + rayonKm + " km", cls: "" }
   ];
   cards.forEach(function(c) {
     var d = document.createElement("div");
@@ -281,7 +364,7 @@ function renderTable(rows) {
     var isBest = s._p === minP && sortBy === "prix";
     var tr = document.createElement("tr");
     if (isBest) tr.className = "best-deal";
-    var mapsUrl = "https://www.google.com/maps/dir/Fontainebleau+77300/" + s.lat + "," + s.lon;
+    var mapsUrl = "https://www.google.com/maps/dir/" + encodeURIComponent(centreLabel) + "/" + s.lat + "," + s.lon;
     var badge = isBest ? "<span class=\"badge\">Meilleur prix</span> " : "";
     var adr = s.adresse ? "<div class=\"adr\">" + s.adresse + "</div>" : "";
     var pClass = "prix-val" + (isBest ? " lowest" : "");
@@ -325,6 +408,7 @@ document.getElementById("sort-select").addEventListener("change", function(e) {
 });
 
 initMap();
+setupVilleSearch();
 
 fetch("data.json?" + Date.now())
   .then(function(r) { return r.json(); })
