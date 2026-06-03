@@ -1,44 +1,46 @@
 # ⛽ Prix carburant — Fontainebleau & alentours
 
-Prix des carburants en temps quasi-réel dans un rayon de 25 km autour de Fontainebleau (77300).
+Site web affichant les prix des carburants en temps quasi-réel autour de Fontainebleau (77300), avec recherche par ville et carte interactive.
 
-**Source officielle** : [donnees.roulez-eco.fr](https://donnees.roulez-eco.fr) — mis à jour toutes les 10 min par le gouvernement.
+**→ [smuxj.github.io/essence](https://smuxj.github.io/essence)**
 
-## Mise en place
+---
 
-### 1. Créer le repo GitHub
+## Fonctionnalités
 
-```bash
-git init
-git add .
-git commit -m "initial"
-gh repo create gazole-finder --public --push
-```
+- Prix en temps réel (Gazole, SP95, SP98, E10, E85, GPL)
+- Recherche par ville avec autocomplétion
+- Slider de rayon (5 à 50 km)
+- Carte interactive avec marqueurs colorés selon le prix
+- Clic sur une station dans le tableau → zoom sur la carte
+- Lien Google Maps pour chaque station
+- Mise à jour automatique toutes les heures via GitHub Actions
 
-### 2. Activer GitHub Pages
+## Source des données
 
-Dans Settings → Pages → Source : **GitHub Actions** → choisir le fichier `update-data.yml` comme source, ou utiliser **Deploy from branch** → `main` → `/` (root).
+[donnees.roulez-eco.fr](https://donnees.roulez-eco.fr) — flux officiel du gouvernement français, mis à jour en continu.
 
-### 3. Déclencher la première mise à jour
+## Stack
 
-Dans l'onglet **Actions** du repo, cliquer sur le workflow *"Mise à jour des prix carburant"* → **Run workflow**.
-
-Après ~30 secondes, `data.json` est généré et la page s'affiche correctement.
-
-## Personnaliser
-
-Dans `fetch_data.py` :
-- `HOME_LAT` / `HOME_LON` : changer le centre de recherche
-- `RAYON_KM` : ajuster le rayon (20–30 km recommandé)
-- `MAX_AGE_J` : ancienneté max des prix (défaut 3 jours)
-- `CARBURANTS` : liste des carburants à inclure
+- HTML / CSS / JS vanilla
+- [Leaflet](https://leafletjs.com) pour la carte (OpenStreetMap)
+- [Nominatim](https://nominatim.org) pour le géocodage des villes
+- GitHub Actions pour la récupération automatique des données
+- GitHub Pages pour l'hébergement
 
 ## Structure
 
 ```
-index.html          ← page web (lit data.json)
-data.json           ← généré par la GitHub Action
-fetch_data.py       ← script Python de récupération
-.github/workflows/
-  update-data.yml   ← tourne toutes les heures
+index.html                        — page web
+fetch_data.py                     — script de récupération des données
+data.json                         — données générées automatiquement
+.github/workflows/update-data.yml — GitHub Action (toutes les heures)
 ```
+
+## Mise à jour manuelle des données
+
+Onglet **Actions** → *Mise à jour des prix carburant* → **Run workflow**
+
+---
+
+*Projet généré avec l'aide de [Claude](https://claude.ai) (Anthropic).*
