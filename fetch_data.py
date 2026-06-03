@@ -11,7 +11,7 @@ from xml.etree import ElementTree as ET
 
 HOME_LAT   = 48.4047   # Fontainebleau
 HOME_LON   = 2.7014
-RAYON_KM   = 25
+RAYON_KM   = 50
 MAX_AGE_J  = 3
 DATA_URL   = "https://donnees.roulez-eco.fr/opendata/instantane"
 
