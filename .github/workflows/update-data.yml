@@ -1,27 +1,29 @@
 name: Mise à jour des prix carburant
-
+ 
 on:
   schedule:
-    - cron: '0 * * * *'   # toutes les heures
-  workflow_dispatch:       # déclenchement manuel possible
-
+    - cron: '0 * * * *'
+  workflow_dispatch:
+ 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+ 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+ 
       - name: Générer data.json
         run: python3 fetch_data.py
-
-      - name: Commit & push si changement
+ 
+      - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git diff --cached --quiet || git commit -m "chore: mise à jour prix carburant $(date -u '+%Y-%m-%d %H:%M UTC')"
+          echo "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" > last_run.txt
+          git add data.json last_run.txt
+          git commit -m "chore: prix carburant $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+ 
