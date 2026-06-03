@@ -183,10 +183,7 @@ function haversine(lat1, lon1, lat2, lon2) {
 }
 
 function updateCentreMarker() {
-  if (centreMarker) { map.removeLayer(centreMarker); }
-  centreMarker = L.circleMarker([centreLat, centreLon], {
-    radius: 7, color: "#185fa5", fillColor: "#185fa5", fillOpacity: 1, weight: 2
-  }).addTo(map).bindPopup("<strong>" + centreLabel + "</strong><br>Centre de recherche");
+  if (centreMarker) { map.removeLayer(centreMarker); centreMarker = null; }
 }
 
 function geocode(query, callback) {
@@ -213,7 +210,14 @@ function setupVilleSearch() {
         if (!results.length) { sugg.style.display = "none"; return; }
         results.forEach(function(r) {
           var d = document.createElement("div");
-          d.textContent = r.display_name;
+          var parts = r.display_name.split(",");
+          var city = parts[0].trim();
+          var postcode = "";
+          for (var pi = 0; pi < parts.length; pi++) {
+            var p = parts[pi].trim();
+            if (/^\d{5}$/.test(p)) { postcode = p; break; }
+          }
+          d.textContent = city + (postcode ? " (" + postcode + ")" : "");
           d.addEventListener("click", function() {
             centreLat = parseFloat(r.lat);
             centreLon = parseFloat(r.lon);
