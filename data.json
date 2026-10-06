@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T02:45:44Z",
+  "updated": "2026-10-06T09:53:48Z",
   "centre": {
     "lat": 48.4047,
     "lon": 2.7014,
@@ -7,28 +7,6 @@
   },
   "rayon_km": 50,
   "stations": [
-    {
-      "adresse": "36 Avenue du Président Franklin Roosevelt",
-      "ville": "AVON",
-      "cp": "77210",
-      "lat": 48.41494,
-      "lon": 2.71959,
-      "dist_km": 1.8,
-      "prix": {
-        "Gazole": {
-          "prix": 2.39,
-          "age_h": 66.1
-        },
-        "E10": {
-          "prix": 2.189,
-          "age_h": 66.1
-        },
-        "SP98": {
-          "prix": 2.292,
-          "age_h": 66.1
-        }
-      }
-    },
     {
       "adresse": "73 Avenue du Président Franklin Roosevelt",
       "ville": "Avon",
@@ -39,19 +17,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.39,
-          "age_h": 43.1
+          "age_h": 50.2
         },
         "E85": {
           "prix": 0.976,
-          "age_h": 43.1
+          "age_h": 50.2
         },
         "E10": {
           "prix": 2.189,
-          "age_h": 43.1
+          "age_h": 50.2
         },
         "SP98": {
           "prix": 2.269,
-          "age_h": 43.1
+          "age_h": 50.2
         }
       }
     },
@@ -64,42 +42,38 @@
       "dist_km": 4.9,
       "prix": {
         "Gazole": {
-          "prix": 2.369,
-          "age_h": 15.6
+          "prix": 2.359,
+          "age_h": -1.0
         },
         "E10": {
           "prix": 2.149,
-          "age_h": 15.6
+          "age_h": -1.0
         },
         "SP98": {
           "prix": 2.249,
-          "age_h": 15.6
+          "age_h": -1.0
         }
       }
     },
     {
-      "adresse": "Chemin des Prés",
-      "ville": "THOMERY",
-      "cp": "77810",
-      "lat": 48.408,
-      "lon": 2.791,
-      "dist_km": 6.6,
+      "adresse": "RN 7",
+      "ville": "Bourron-Marlotte",
+      "cp": "77780",
+      "lat": 48.328,
+      "lon": 2.687,
+      "dist_km": 8.6,
       "prix": {
         "Gazole": {
-          "prix": 2.398,
-          "age_h": 65.0
-        },
-        "E85": {
-          "prix": 0.869,
-          "age_h": 65.0
+          "prix": 2.25,
+          "age_h": 3.1
         },
         "E10": {
-          "prix": 2.173,
-          "age_h": 65.0
+          "prix": 1.99,
+          "age_h": 3.1
         },
         "SP98": {
-          "prix": 2.269,
-          "age_h": 65.0
+          "prix": 1.99,
+          "age_h": 3.1
         }
       }
     },
@@ -112,20 +86,20 @@
       "dist_km": 10.5,
       "prix": {
         "Gazole": {
-          "prix": 2.43,
-          "age_h": 16.7
+          "prix": 2.455,
+          "age_h": 0.5
         },
         "E85": {
           "prix": 0.973,
-          "age_h": 16.7
+          "age_h": 23.8
         },
         "E10": {
-          "prix": 2.2,
-          "age_h": 16.7
+          "prix": 2.259,
+          "age_h": 0.5
         },
         "SP98": {
-          "prix": 2.26,
-          "age_h": 16.7
+          "prix": 2.359,
+          "age_h": 0.5
         }
       }
     },
@@ -138,16 +112,20 @@
       "dist_km": 10.6,
       "prix": {
         "Gazole": {
-          "prix": 2.43,
-          "age_h": 16.8
+          "prix": 2.499,
+          "age_h": -0.8
+        },
+        "GPLc": {
+          "prix": 1.073,
+          "age_h": -0.8
         },
         "E10": {
-          "prix": 2.202,
-          "age_h": 16.8
+          "prix": 2.25,
+          "age_h": -0.8
         },
         "SP98": {
-          "prix": 2.265,
-          "age_h": 16.8
+          "prix": 2.329,
+          "age_h": -0.8
         }
       }
     },
@@ -161,19 +139,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.359,
-          "age_h": 16.3
+          "age_h": -0.3
         },
         "SP95": {
-          "prix": 2.189,
-          "age_h": 16.3
+          "prix": 2.199,
+          "age_h": -0.3
         },
         "E10": {
           "prix": 2.149,
-          "age_h": 16.3
+          "age_h": -0.3
         },
         "SP98": {
-          "prix": 2.249,
-          "age_h": 16.3
+          "prix": 2.259,
+          "age_h": -0.3
         }
       }
     },
@@ -187,11 +165,11 @@
       "prix": {
         "E85": {
           "prix": 0.893,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.042,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -205,11 +183,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -223,19 +197,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.891,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.022,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -249,15 +223,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 33.4
+          "age_h": 40.5
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 33.4
+          "age_h": 40.5
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 33.4
+          "age_h": 40.5
         }
       }
     },
@@ -271,11 +245,11 @@
       "prix": {
         "SP95": {
           "prix": 2.209,
-          "age_h": 9.8
+          "age_h": 17.0
         },
         "SP98": {
           "prix": 2.269,
-          "age_h": 9.8
+          "age_h": 17.0
         }
       }
     },
@@ -288,12 +262,12 @@
       "dist_km": 13.6,
       "prix": {
         "Gazole": {
-          "prix": 2.355,
-          "age_h": 17.1
+          "prix": 2.287,
+          "age_h": -0.7
         },
         "E10": {
           "prix": 2.129,
-          "age_h": 62.2
+          "age_h": 69.4
         }
       }
     },
@@ -307,7 +281,21 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "AVENUE DES LYS",
+      "ville": "Dammarie-les-Lys",
+      "cp": "77190",
+      "lat": 48.518,
+      "lon": 2.628,
+      "dist_km": 13.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 2.3
         }
       }
     },
@@ -321,23 +309,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.287,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "SP95": {
           "prix": 2.189,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "E85": {
           "prix": 0.905,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "E10": {
           "prix": 2.157,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "SP98": {
           "prix": 2.258,
-          "age_h": 2.0
+          "age_h": 9.1
         }
       }
     },
@@ -350,16 +338,16 @@
       "dist_km": 15.1,
       "prix": {
         "Gazole": {
-          "prix": 2.379,
-          "age_h": 18.1
+          "prix": 2.369,
+          "age_h": 1.0
         },
         "E10": {
-          "prix": 2.143,
-          "age_h": 18.1
+          "prix": 2.146,
+          "age_h": 1.0
         },
         "SP98": {
-          "prix": 2.263,
-          "age_h": 18.1
+          "prix": 2.274,
+          "age_h": 1.0
         }
       }
     },
@@ -373,19 +361,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.359,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "SP95": {
           "prix": 2.209,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "E10": {
           "prix": 2.149,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "SP98": {
           "prix": 2.269,
-          "age_h": 18.3
+          "age_h": 25.4
         }
       }
     },
@@ -399,19 +387,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.903,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.969,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -425,7 +413,7 @@
       "prix": {
         "GPLc": {
           "prix": 1.044,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -439,15 +427,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.399,
-          "age_h": 16.4
+          "age_h": 23.6
         },
         "E10": {
           "prix": 2.191,
-          "age_h": 16.4
+          "age_h": 23.6
         },
         "SP98": {
           "prix": 2.295,
-          "age_h": 16.4
+          "age_h": 23.6
         }
       }
     },
@@ -460,16 +448,16 @@
       "dist_km": 15.7,
       "prix": {
         "Gazole": {
-          "prix": 2.562,
-          "age_h": 13.8
+          "prix": 2.563,
+          "age_h": 0.4
         },
         "E10": {
-          "prix": 2.349,
-          "age_h": 13.8
+          "prix": 2.348,
+          "age_h": 0.4
         },
         "SP98": {
-          "prix": 2.499,
-          "age_h": 13.8
+          "prix": 2.498,
+          "age_h": 0.4
         }
       }
     },
@@ -482,16 +470,16 @@
       "dist_km": 16.0,
       "prix": {
         "Gazole": {
-          "prix": 2.499,
-          "age_h": 13.8
+          "prix": 2.494,
+          "age_h": 0.4
         },
         "E10": {
-          "prix": 2.314,
-          "age_h": 13.8
+          "prix": 2.309,
+          "age_h": 0.4
         },
         "SP98": {
-          "prix": 2.464,
-          "age_h": 13.8
+          "prix": 2.459,
+          "age_h": 0.4
         }
       }
     },
@@ -505,15 +493,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -527,15 +515,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 18.2
+          "age_h": 25.3
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 18.2
+          "age_h": 25.3
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 18.2
+          "age_h": 25.3
         }
       }
     },
@@ -549,15 +537,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.359,
-          "age_h": 18.1
+          "age_h": 25.2
         },
         "E10": {
           "prix": 2.149,
-          "age_h": 18.1
+          "age_h": 25.2
         },
         "SP98": {
           "prix": 2.269,
-          "age_h": 18.1
+          "age_h": 25.2
         }
       }
     },
@@ -571,7 +559,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -585,15 +573,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 14.3
+          "age_h": 21.4
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 14.3
+          "age_h": 21.4
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 14.3
+          "age_h": 21.4
         }
       }
     },
@@ -606,12 +594,38 @@
       "dist_km": 17.4,
       "prix": {
         "Gazole": {
-          "prix": 2.365,
-          "age_h": 18.6
+          "prix": 2.359,
+          "age_h": 0.6
         },
         "SP98": {
           "prix": 2.23,
-          "age_h": 18.6
+          "age_h": 25.8
+        }
+      }
+    },
+    {
+      "adresse": "Avenue du 8 Mai 1945",
+      "ville": "VARENNES-SUR-SEINE",
+      "cp": "77130",
+      "lat": 48.37,
+      "lon": 2.939,
+      "dist_km": 18.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.329,
+          "age_h": 0.9
+        },
+        "SP95": {
+          "prix": 2.199,
+          "age_h": 0.9
+        },
+        "E10": {
+          "prix": 2.159,
+          "age_h": 0.9
+        },
+        "SP98": {
+          "prix": 2.249,
+          "age_h": 0.9
         }
       }
     },
@@ -625,37 +639,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.388,
-          "age_h": 1.5
+          "age_h": -0.5
         },
         "E85": {
           "prix": 0.859,
-          "age_h": 1.5
+          "age_h": -0.5
         },
         "E10": {
-          "prix": 2.147,
-          "age_h": 1.5
+          "prix": 2.145,
+          "age_h": -0.5
         },
         "SP98": {
-          "prix": 2.258,
-          "age_h": 1.5
-        }
-      }
-    },
-    {
-      "adresse": "RN 7",
-      "ville": "ST FARGEAU PONTHIERRY",
-      "cp": "77310",
-      "lat": 48.54083,
-      "lon": 2.52209,
-      "dist_km": 20.1,
-      "prix": {
-        "Gazole": {
-          "prix": 2.25,
-          "age_h": 2.7
-        },
-        "GPLc": {
-          "prix": 0.999,
-          "age_h": 2.7
+          "prix": 2.257,
+          "age_h": -0.5
         }
       }
     },
@@ -669,23 +665,49 @@
       "prix": {
         "Gazole": {
           "prix": 2.396,
-          "age_h": 15.1
+          "age_h": 22.2
         },
         "E85": {
           "prix": 0.879,
-          "age_h": 15.1
+          "age_h": 22.2
         },
         "GPLc": {
           "prix": 1.029,
-          "age_h": 15.1
+          "age_h": 22.2
         },
         "E10": {
           "prix": 2.189,
-          "age_h": 15.1
+          "age_h": 22.2
         },
         "SP98": {
           "prix": 2.319,
-          "age_h": 15.0
+          "age_h": 22.1
+        }
+      }
+    },
+    {
+      "adresse": "8 avenue du 8 mai 1945",
+      "ville": "SAVIGNY-LE-TEMPLE",
+      "cp": "77176",
+      "lat": 48.597,
+      "lon": 2.573,
+      "dist_km": 23.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 1.0
+        },
+        "E85": {
+          "prix": 0.892,
+          "age_h": 1.0
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 1.0
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 1.0
         }
       }
     },
@@ -699,7 +721,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 9.2
+          "age_h": 2.6
         }
       }
     },
@@ -713,19 +735,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -739,11 +761,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 9.4
+          "age_h": 16.5
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 9.4
+          "age_h": 16.5
         }
       }
     },
@@ -757,15 +779,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.357,
-          "age_h": 63.6
+          "age_h": 70.7
         },
         "SP95": {
           "prix": 2.209,
-          "age_h": 63.6
+          "age_h": 70.7
         },
         "SP98": {
           "prix": 2.237,
-          "age_h": 63.6
+          "age_h": 70.7
         }
       }
     },
@@ -777,13 +799,17 @@
       "lon": 2.4507,
       "dist_km": 25.8,
       "prix": {
+        "Gazole": {
+          "prix": 2.335,
+          "age_h": 0.5
+        },
         "E10": {
-          "prix": 2.189,
-          "age_h": 17.3
+          "prix": 2.159,
+          "age_h": 0.5
         },
         "SP98": {
           "prix": 2.289,
-          "age_h": 17.3
+          "age_h": 0.5
         }
       }
     },
@@ -797,23 +823,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.069,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -825,13 +851,17 @@
       "lon": 2.447,
       "dist_km": 25.9,
       "prix": {
+        "Gazole": {
+          "prix": 2.335,
+          "age_h": 0.3
+        },
         "SP95": {
           "prix": 2.225,
-          "age_h": 63.6
+          "age_h": 70.8
         },
         "SP98": {
-          "prix": 2.269,
-          "age_h": 63.6
+          "prix": 2.289,
+          "age_h": 0.3
         }
       }
     },
@@ -844,24 +874,24 @@
       "dist_km": 26.2,
       "prix": {
         "Gazole": {
-          "prix": 2.396,
-          "age_h": 17.2
+          "prix": 2.39,
+          "age_h": 0.4
         },
         "E85": {
           "prix": 0.873,
-          "age_h": 17.2
+          "age_h": 0.4
         },
         "GPLc": {
           "prix": 1.029,
-          "age_h": 17.2
+          "age_h": 0.4
         },
         "E10": {
           "prix": 2.191,
-          "age_h": 17.2
+          "age_h": 0.4
         },
         "SP98": {
           "prix": 2.322,
-          "age_h": 17.2
+          "age_h": 0.4
         }
       }
     },
@@ -875,15 +905,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.892,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -897,15 +927,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.399,
-          "age_h": 42.9
+          "age_h": 50.0
         },
         "E10": {
           "prix": 2.168,
-          "age_h": 42.9
+          "age_h": 50.0
         },
         "SP98": {
           "prix": 2.289,
-          "age_h": 42.9
+          "age_h": 50.0
         }
       }
     },
@@ -919,11 +949,25 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 5.2
+          "age_h": 12.4
         },
         "E85": {
           "prix": 0.897,
-          "age_h": 2.7
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "Z.A.C. de l'Aunaye",
+      "ville": "Ballancourt-sur-Essonne",
+      "cp": "91610",
+      "lat": 48.531,
+      "lon": 2.388,
+      "dist_km": 27.0,
+      "prix": {
+        "SP95": {
+          "prix": 2.249,
+          "age_h": 0.6
         }
       }
     },
@@ -937,19 +981,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.389,
-          "age_h": 19.9
+          "age_h": 27.1
         },
         "SP95": {
           "prix": 2.279,
-          "age_h": 19.9
+          "age_h": 27.1
         },
         "E10": {
           "prix": 2.179,
-          "age_h": 19.9
+          "age_h": 27.1
         },
         "SP98": {
           "prix": 2.299,
-          "age_h": 19.9
+          "age_h": 27.1
         }
       }
     },
@@ -963,19 +1007,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.365,
-          "age_h": 17.8
+          "age_h": 25.0
         },
         "SP95": {
           "prix": 2.215,
-          "age_h": 17.8
+          "age_h": 25.0
         },
         "E10": {
           "prix": 2.145,
-          "age_h": 17.8
+          "age_h": 25.0
         },
         "SP98": {
           "prix": 2.285,
-          "age_h": 17.8
+          "age_h": 25.0
         }
       }
     },
@@ -989,23 +1033,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.385,
-          "age_h": 2.0
+          "age_h": 1.5
         },
         "SP95": {
-          "prix": 2.246,
-          "age_h": 2.0
+          "prix": 2.247,
+          "age_h": 1.5
         },
         "E85": {
           "prix": 0.897,
-          "age_h": 2.0
+          "age_h": 1.5
         },
         "E10": {
           "prix": 2.21,
-          "age_h": 2.0
+          "age_h": 1.5
         },
         "SP98": {
           "prix": 2.305,
-          "age_h": 2.0
+          "age_h": 1.5
         }
       }
     },
@@ -1019,11 +1063,33 @@
       "prix": {
         "Gazole": {
           "prix": 2.439,
-          "age_h": 17.6
+          "age_h": 24.8
         },
         "SP98": {
           "prix": 2.295,
-          "age_h": 17.6
+          "age_h": 24.8
+        }
+      }
+    },
+    {
+      "adresse": "1 rue Guillaume des Barres",
+      "ville": "VILLENEUVE-LA-GUYARD",
+      "cp": "89340",
+      "lat": 48.335,
+      "lon": 3.065,
+      "dist_km": 28.0,
+      "prix": {
+        "Gazole": {
+          "prix": 2.429,
+          "age_h": 3.0
+        },
+        "E10": {
+          "prix": 2.209,
+          "age_h": 3.0
+        },
+        "SP98": {
+          "prix": 2.339,
+          "age_h": 3.0
         }
       }
     },
@@ -1037,15 +1103,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.094,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1059,19 +1125,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.094,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1084,42 +1150,16 @@
       "dist_km": 28.3,
       "prix": {
         "Gazole": {
-          "prix": 2.33,
-          "age_h": 66.4
+          "prix": 2.242,
+          "age_h": 0.4
         },
         "E10": {
-          "prix": 2.122,
-          "age_h": 66.4
+          "prix": 2.108,
+          "age_h": 0.4
         },
         "SP98": {
-          "prix": 2.237,
-          "age_h": 66.4
-        }
-      }
-    },
-    {
-      "adresse": "C.C La Croix Verte, place de l'Europe",
-      "ville": "Saint-Germain-lès-Corbeil",
-      "cp": "91250",
-      "lat": 48.62,
-      "lon": 2.493,
-      "dist_km": 28.4,
-      "prix": {
-        "Gazole": {
-          "prix": 2.385,
-          "age_h": 65.2
-        },
-        "SP95": {
-          "prix": 2.195,
-          "age_h": 65.2
-        },
-        "E10": {
-          "prix": 2.139,
-          "age_h": 65.2
-        },
-        "SP98": {
-          "prix": 2.265,
-          "age_h": 65.2
+          "prix": 2.234,
+          "age_h": 0.4
         }
       }
     },
@@ -1132,20 +1172,20 @@
       "dist_km": 29.0,
       "prix": {
         "Gazole": {
-          "prix": 2.399,
-          "age_h": 21.8
+          "prix": 2.339,
+          "age_h": 4.0
         },
         "SP95": {
-          "prix": 2.259,
-          "age_h": 21.8
+          "prix": 2.229,
+          "age_h": 4.0
         },
         "E10": {
-          "prix": 2.189,
-          "age_h": 21.8
+          "prix": 2.159,
+          "age_h": 4.0
         },
         "SP98": {
           "prix": 2.289,
-          "age_h": 21.8
+          "age_h": 4.0
         }
       }
     },
@@ -1159,15 +1199,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1181,19 +1221,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.386,
-          "age_h": 12.3
+          "age_h": 19.4
         },
         "SP95": {
           "prix": 2.246,
-          "age_h": 12.3
+          "age_h": 19.4
         },
         "E10": {
           "prix": 2.21,
-          "age_h": 12.3
+          "age_h": 19.4
         },
         "SP98": {
           "prix": 2.306,
-          "age_h": 12.3
+          "age_h": 19.4
         }
       }
     },
@@ -1207,7 +1247,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1221,11 +1261,11 @@
       "prix": {
         "E10": {
           "prix": 2.179,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "SP98": {
           "prix": 2.299,
-          "age_h": 16.0
+          "age_h": 23.1
         }
       }
     },
@@ -1238,16 +1278,16 @@
       "dist_km": 29.4,
       "prix": {
         "Gazole": {
-          "prix": 2.412,
-          "age_h": 16.0
+          "prix": 2.402,
+          "age_h": 2.4
         },
         "E10": {
           "prix": 2.173,
-          "age_h": 16.0
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.296,
-          "age_h": 16.0
+          "prix": 2.299,
+          "age_h": 2.4
         }
       }
     },
@@ -1261,11 +1301,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.954,
-          "age_h": 2.7
+          "age_h": 9.9
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 3.3
         }
       }
     },
@@ -1279,19 +1323,49 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 14.4
+          "age_h": 2.6
         },
         "GPLc": {
           "prix": 1.07,
-          "age_h": 14.4
+          "age_h": 2.6
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 14.4
+          "age_h": 2.6
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 14.4
+          "age_h": 2.6
+        }
+      }
+    },
+    {
+      "adresse": "Centre Commercial Val d'Yerres 2",
+      "ville": "Boussy-Saint-Antoine",
+      "cp": "91800",
+      "lat": 48.68,
+      "lon": 2.537,
+      "dist_km": 32.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.379,
+          "age_h": -0.4
+        },
+        "E85": {
+          "prix": 0.869,
+          "age_h": -0.4
+        },
+        "GPLc": {
+          "prix": 0.985,
+          "age_h": -0.4
+        },
+        "E10": {
+          "prix": 2.159,
+          "age_h": -0.4
+        },
+        "SP98": {
+          "prix": 2.259,
+          "age_h": -0.4
         }
       }
     },
@@ -1305,15 +1379,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.414,
-          "age_h": 67.2
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.175,
-          "age_h": 67.2
+          "prix": 2.186,
+          "age_h": 2.4
         },
         "SP98": {
           "prix": 2.307,
-          "age_h": 67.2
+          "age_h": 2.4
         }
       }
     },
@@ -1326,8 +1400,8 @@
       "dist_km": 33.2,
       "prix": {
         "Gazole": {
-          "prix": 2.339,
-          "age_h": 19.9
+          "prix": 2.316,
+          "age_h": -0.1
         }
       }
     },
@@ -1341,15 +1415,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 12.7
+          "age_h": 19.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 12.7
+          "age_h": 19.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 12.7
+          "age_h": 19.9
         }
       }
     },
@@ -1363,19 +1437,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.36,
-          "age_h": 58.9
+          "age_h": 66.0
         },
         "E85": {
           "prix": 0.869,
-          "age_h": 58.9
+          "age_h": 66.0
         },
         "E10": {
           "prix": 2.097,
-          "age_h": 58.9
+          "age_h": 66.0
         },
         "SP98": {
           "prix": 2.207,
-          "age_h": 58.9
+          "age_h": 66.0
         }
       }
     },
@@ -1387,9 +1461,17 @@
       "lon": 2.601,
       "dist_km": 33.8,
       "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 3.6
+        },
         "E85": {
           "prix": 0.881,
-          "age_h": 2.7
+          "age_h": 3.6
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 3.6
         }
       }
     },
@@ -1403,11 +1485,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 65.3
+          "age_h": 2.6
         },
         "GPLc": {
           "prix": 1.07,
-          "age_h": 65.3
+          "age_h": 2.6
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 2.6
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 2.6
         }
       }
     },
@@ -1420,16 +1510,16 @@
       "dist_km": 34.0,
       "prix": {
         "Gazole": {
-          "prix": 2.364,
-          "age_h": 36.1
+          "prix": 2.379,
+          "age_h": 2.5
         },
         "E10": {
-          "prix": 2.149,
-          "age_h": 36.1
+          "prix": 2.159,
+          "age_h": 2.5
         },
         "SP98": {
-          "prix": 2.239,
-          "age_h": 36.1
+          "prix": 2.259,
+          "age_h": 2.5
         }
       }
     },
@@ -1443,15 +1533,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.392,
-          "age_h": 16.2
+          "age_h": 23.3
         },
         "E10": {
           "prix": 2.178,
-          "age_h": 16.2
+          "age_h": 23.3
         },
         "SP98": {
           "prix": 2.315,
-          "age_h": 16.2
+          "age_h": 23.3
         }
       }
     },
@@ -1465,37 +1555,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
-        }
-      }
-    },
-    {
-      "adresse": "38 RUE PIERRE BROSSOLETTE",
-      "ville": "Ris-Orangis",
-      "cp": "91130",
-      "lat": 48.648,
-      "lon": 2.408,
-      "dist_km": 34.6,
-      "prix": {
-        "Gazole": {
-          "prix": 2.393,
-          "age_h": 67.2
-        },
-        "E10": {
-          "prix": 2.169,
-          "age_h": 67.2
-        },
-        "SP98": {
-          "prix": 2.319,
-          "age_h": 67.2
+          "age_h": 9.9
         }
       }
     },
@@ -1509,7 +1573,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.359,
-          "age_h": 14.0
+          "age_h": 21.1
         }
       }
     },
@@ -1523,15 +1587,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.885,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1545,33 +1609,47 @@
       "prix": {
         "Gazole": {
           "prix": 2.419,
-          "age_h": 62.8
+          "age_h": 70.0
         },
         "SP95": {
           "prix": 2.229,
-          "age_h": 62.8
+          "age_h": 70.0
         }
       }
     },
     {
-      "adresse": "56 rue de vilpré",
-      "ville": "Rozay-en-Brie",
-      "cp": "77540",
-      "lat": 48.677,
-      "lon": 2.969,
-      "dist_km": 36.1,
+      "adresse": "CCIAL MAISON NEUVE",
+      "ville": "BRéTIGNY-SUR-ORGE",
+      "cp": "91220",
+      "lat": 48.587,
+      "lon": 2.304,
+      "dist_km": 35.6,
+      "prix": {
+        "SP95": {
+          "prix": 2.173,
+          "age_h": 1.2
+        }
+      }
+    },
+    {
+      "adresse": "Rue Bertaux",
+      "ville": "FONTENAY-TRéSIGNY",
+      "cp": "77610",
+      "lat": 48.71,
+      "lon": 2.86,
+      "dist_km": 35.9,
       "prix": {
         "Gazole": {
-          "prix": 2.368,
-          "age_h": 66.3
+          "prix": 2.369,
+          "age_h": 1.2
         },
         "E10": {
-          "prix": 2.158,
-          "age_h": 66.3
+          "prix": 2.149,
+          "age_h": 1.2
         },
         "SP98": {
-          "prix": 2.258,
-          "age_h": 66.3
+          "prix": 2.259,
+          "age_h": 1.2
         }
       }
     },
@@ -1585,15 +1663,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.366,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "E10": {
           "prix": 2.164,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "SP98": {
           "prix": 2.242,
-          "age_h": 18.3
+          "age_h": 25.4
         }
       }
     },
@@ -1607,19 +1685,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.891,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1633,11 +1711,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 1.9
         },
         "E85": {
           "prix": 0.885,
-          "age_h": 2.7
+          "age_h": 1.9
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 1.9
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 1.9
         }
       }
     },
@@ -1651,15 +1737,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.389,
-          "age_h": 15.1
+          "age_h": 22.3
         },
         "E10": {
           "prix": 2.158,
-          "age_h": 15.1
+          "age_h": 22.3
         },
         "SP98": {
           "prix": 2.257,
-          "age_h": 15.1
+          "age_h": 22.3
         }
       }
     },
@@ -1673,19 +1759,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.407,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "E85": {
           "prix": 0.975,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "E10": {
           "prix": 2.174,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "SP98": {
           "prix": 2.288,
-          "age_h": 19.2
+          "age_h": 26.4
         }
       }
     },
@@ -1699,23 +1785,27 @@
       "prix": {
         "Gazole": {
           "prix": 2.397,
-          "age_h": 66.3
+          "age_h": 1.5
         },
         "SP95": {
           "prix": 2.247,
-          "age_h": 66.3
+          "age_h": 1.5
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 66.3
+          "age_h": 1.5
+        },
+        "GPLc": {
+          "prix": 0.986,
+          "age_h": 1.5
         },
         "E10": {
           "prix": 2.204,
-          "age_h": 66.3
+          "age_h": 1.5
         },
         "SP98": {
-          "prix": 2.296,
-          "age_h": 66.3
+          "prix": 2.311,
+          "age_h": 1.5
         }
       }
     },
@@ -1729,19 +1819,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.369,
-          "age_h": 16.6
+          "age_h": 2.1
         },
         "E85": {
           "prix": 0.929,
-          "age_h": 16.6
+          "age_h": 2.1
         },
         "E10": {
           "prix": 2.189,
-          "age_h": 16.6
+          "age_h": 2.1
         },
         "SP98": {
           "prix": 2.259,
-          "age_h": 16.6
+          "age_h": 2.1
         }
       }
     },
@@ -1755,19 +1845,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.884,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1781,33 +1871,37 @@
       "prix": {
         "Gazole": {
           "prix": 2.42,
-          "age_h": 15.0
+          "age_h": 22.2
         },
         "E85": {
           "prix": 0.969,
-          "age_h": 15.0
+          "age_h": 22.2
         },
         "E10": {
           "prix": 2.242,
-          "age_h": 15.0
+          "age_h": 22.2
         }
       }
     },
     {
-      "adresse": "RN7 LES STATIONS",
-      "ville": "Fontenay-sur-Loing",
-      "cp": "45210",
-      "lat": 48.067,
-      "lon": 2.766,
+      "adresse": "4 Route de Marolles",
+      "ville": "La Norville",
+      "cp": "91290",
+      "lat": 48.578,
+      "lon": 2.258,
       "dist_km": 37.9,
       "prix": {
         "Gazole": {
-          "prix": 2.25,
-          "age_h": 64.9
+          "prix": 2.259,
+          "age_h": 1.2
+        },
+        "E10": {
+          "prix": 2.109,
+          "age_h": 1.2
         },
         "SP98": {
-          "prix": 1.99,
-          "age_h": 64.9
+          "prix": 2.219,
+          "age_h": 1.2
         }
       }
     },
@@ -1821,15 +1915,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1843,41 +1933,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.884,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.994,
-          "age_h": 2.7
-        }
-      }
-    },
-    {
-      "adresse": "8 avenue d'Orléans",
-      "ville": "ETRéCHY",
-      "cp": "91580",
-      "lat": 48.486,
-      "lon": 2.19,
-      "dist_km": 38.8,
-      "prix": {
-        "Gazole": {
-          "prix": 2.339,
-          "age_h": 65.4
-        },
-        "SP95": {
-          "prix": 2.195,
-          "age_h": 65.4
+          "age_h": 9.9
         },
         "E10": {
-          "prix": 2.149,
-          "age_h": 65.4
+          "prix": 1.99,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.215,
-          "age_h": 65.4
+          "prix": 1.99,
+          "age_h": 2.4
         }
       }
     },
@@ -1891,15 +1963,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.962,
-          "age_h": 2.7
-        },
-        "E10": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1913,15 +1981,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.897,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1935,7 +2003,7 @@
       "prix": {
         "SP95": {
           "prix": 2.169,
-          "age_h": 17.1
+          "age_h": 24.2
         }
       }
     },
@@ -1949,11 +2017,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.368,
-          "age_h": 9.9
+          "age_h": 17.0
         },
         "E10": {
           "prix": 2.169,
-          "age_h": 9.9
+          "age_h": 17.0
         }
       }
     },
@@ -1967,19 +2035,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.896,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.984,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -1993,23 +2061,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.505,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "E85": {
           "prix": 1.009,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "GPLc": {
           "prix": 1.064,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "E10": {
           "prix": 2.289,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "SP98": {
           "prix": 2.354,
-          "age_h": 2.9
+          "age_h": 10.1
         }
       }
     },
@@ -2023,11 +2091,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.909,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2041,23 +2109,49 @@
       "prix": {
         "Gazole": {
           "prix": 2.293,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "SP95": {
           "prix": 2.204,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "E85": {
           "prix": 0.948,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "E10": {
           "prix": 2.148,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "SP98": {
           "prix": 2.248,
-          "age_h": 3.9
+          "age_h": 11.0
+        }
+      }
+    },
+    {
+      "adresse": "22 Avenue d'Arpajon",
+      "ville": "ÉGLY",
+      "cp": "91520",
+      "lat": 48.582,
+      "lon": 2.231,
+      "dist_km": 39.9,
+      "prix": {
+        "Gazole": {
+          "prix": 2.249,
+          "age_h": 1.9
+        },
+        "E85": {
+          "prix": 0.869,
+          "age_h": 1.9
+        },
+        "E10": {
+          "prix": 2.089,
+          "age_h": 1.9
+        },
+        "SP98": {
+          "prix": 2.219,
+          "age_h": 1.9
         }
       }
     },
@@ -2070,16 +2164,16 @@
       "dist_km": 40.0,
       "prix": {
         "Gazole": {
-          "prix": 2.423,
-          "age_h": 15.9
+          "prix": 2.408,
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.169,
-          "age_h": 15.9
+          "prix": 2.166,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.322,
-          "age_h": 15.9
+          "prix": 2.317,
+          "age_h": 2.4
         }
       }
     },
@@ -2093,11 +2187,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2111,45 +2205,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.384,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "SP95": {
           "prix": 2.219,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "E85": {
           "prix": 0.905,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "E10": {
           "prix": 2.185,
-          "age_h": 18.3
+          "age_h": 25.4
         },
         "SP98": {
           "prix": 2.289,
-          "age_h": 18.3
-        }
-      }
-    },
-    {
-      "adresse": "RN 20",
-      "ville": "Saint-Germain-lès-Arpajon",
-      "cp": "91180",
-      "lat": 48.60945,
-      "lon": 2.25264,
-      "dist_km": 40.1,
-      "prix": {
-        "Gazole": {
-          "prix": 2.25,
-          "age_h": 2.7
-        },
-        "E10": {
-          "prix": 1.99,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 25.4
         }
       }
     },
@@ -2163,19 +2235,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.341,
-          "age_h": 60.2
+          "age_h": 67.3
         },
         "SP95": {
           "prix": 2.174,
-          "age_h": 60.2
+          "age_h": 67.3
         },
         "E85": {
           "prix": 0.869,
-          "age_h": 60.2
+          "age_h": 67.3
         },
         "SP98": {
           "prix": 2.219,
-          "age_h": 60.2
+          "age_h": 67.3
         }
       }
     },
@@ -2189,23 +2261,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.897,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.981,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2219,51 +2291,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
-        },
-        "E10": {
-          "prix": 1.99,
-          "age_h": 2.7
-        }
-      }
-    },
-    {
-      "adresse": "route départementale 94",
-      "ville": "Corbeilles",
-      "cp": "45490",
-      "lat": 48.055,
-      "lon": 2.528,
-      "dist_km": 41.0,
-      "prix": {
-        "Gazole": {
-          "prix": 2.332,
-          "age_h": 65.6
-        }
-      }
-    },
-    {
-      "adresse": "32 Avenue le Foll",
-      "ville": "VILLENEUVE-LE-ROI",
-      "cp": "94290",
-      "lat": 48.72874,
-      "lon": 2.43184,
-      "dist_km": 41.1,
-      "prix": {
-        "Gazole": {
-          "prix": 2.32,
-          "age_h": 67.6
-        },
-        "SP95": {
-          "prix": 2.2,
-          "age_h": 67.6
-        },
-        "E10": {
-          "prix": 2.15,
-          "age_h": 67.6
-        },
-        "SP98": {
-          "prix": 2.25,
-          "age_h": 67.6
+          "age_h": 9.9
         }
       }
     },
@@ -2277,19 +2305,37 @@
       "prix": {
         "Gazole": {
           "prix": 2.379,
-          "age_h": 14.4
+          "age_h": 21.5
         },
         "E85": {
           "prix": 0.869,
-          "age_h": 14.4
+          "age_h": 21.5
         },
         "E10": {
           "prix": 2.179,
-          "age_h": 14.4
+          "age_h": 21.5
         },
         "SP98": {
           "prix": 2.299,
-          "age_h": 14.4
+          "age_h": 21.5
+        }
+      }
+    },
+    {
+      "adresse": "Avenue du 11 Novembre",
+      "ville": "PITHIVIERS",
+      "cp": "45300",
+      "lat": 48.18391,
+      "lon": 2.25072,
+      "dist_km": 41.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.349,
+          "age_h": 0.1
+        },
+        "SP98": {
+          "prix": 2.263,
+          "age_h": 0.1
         }
       }
     },
@@ -2303,37 +2349,7 @@
       "prix": {
         "SP98": {
           "prix": 2.439,
-          "age_h": 16.9
-        }
-      }
-    },
-    {
-      "adresse": "50 Rue des Lys",
-      "ville": "ÉTAMPES",
-      "cp": "91150",
-      "lat": 48.441,
-      "lon": 2.138,
-      "dist_km": 41.8,
-      "prix": {
-        "Gazole": {
-          "prix": 2.334,
-          "age_h": 65.4
-        },
-        "E85": {
-          "prix": 0.849,
-          "age_h": 65.4
-        },
-        "GPLc": {
-          "prix": 1.154,
-          "age_h": 65.4
-        },
-        "E10": {
-          "prix": 2.098,
-          "age_h": 65.4
-        },
-        "SP98": {
-          "prix": 2.164,
-          "age_h": 65.4
+          "age_h": 24.0
         }
       }
     },
@@ -2347,7 +2363,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 10.5
+          "age_h": 17.6
         }
       }
     },
@@ -2361,23 +2377,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.325,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "SP95": {
           "prix": 2.192,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "E85": {
           "prix": 0.87,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "E10": {
           "prix": 2.135,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "SP98": {
           "prix": 2.251,
-          "age_h": 2.0
+          "age_h": 9.1
         }
       }
     },
@@ -2391,19 +2407,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 16.7
-        },
-        "E85": {
-          "prix": 0.904,
-          "age_h": 16.7
+          "age_h": 1.2
         },
         "GPLc": {
-          "prix": 1.155,
-          "age_h": 16.7
+          "prix": 0.904,
+          "age_h": 1.2
         },
-        "E10": {
+        "SP98": {
           "prix": 1.99,
-          "age_h": 16.7
+          "age_h": 1.2
         }
       }
     },
@@ -2416,20 +2428,20 @@
       "dist_km": 41.9,
       "prix": {
         "Gazole": {
-          "prix": 2.335,
-          "age_h": 16.5
+          "prix": 2.269,
+          "age_h": -0.1
         },
         "SP95": {
-          "prix": 2.179,
-          "age_h": 16.5
+          "prix": 2.159,
+          "age_h": -0.1
         },
         "E10": {
-          "prix": 2.129,
-          "age_h": 16.5
+          "prix": 2.119,
+          "age_h": -0.1
         },
         "SP98": {
-          "prix": 2.259,
-          "age_h": 16.5
+          "prix": 2.219,
+          "age_h": -0.1
         }
       }
     },
@@ -2443,27 +2455,27 @@
       "prix": {
         "Gazole": {
           "prix": 2.281,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "SP95": {
           "prix": 2.232,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "E85": {
           "prix": 0.916,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "GPLc": {
           "prix": 0.973,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "E10": {
           "prix": 2.156,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "SP98": {
           "prix": 2.284,
-          "age_h": 4.0
+          "age_h": 11.2
         }
       }
     },
@@ -2477,41 +2489,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.909,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
-        }
-      }
-    },
-    {
-      "adresse": "ROUTE D'OZOIR",
-      "ville": "Roissy-en-Brie",
-      "cp": "77680",
-      "lat": 48.78203,
-      "lon": 2.65712,
-      "dist_km": 42.1,
-      "prix": {
-        "Gazole": {
-          "prix": 2.368,
-          "age_h": 68.8
-        },
-        "E85": {
-          "prix": 0.888,
-          "age_h": 68.8
-        },
-        "E10": {
-          "prix": 2.15,
-          "age_h": 68.8
-        },
-        "SP98": {
-          "prix": 2.23,
-          "age_h": 68.8
+          "age_h": 9.9
         }
       }
     },
@@ -2524,16 +2510,16 @@
       "dist_km": 42.3,
       "prix": {
         "Gazole": {
-          "prix": 2.311,
-          "age_h": 16.4
+          "prix": 2.226,
+          "age_h": -0.1
         },
         "E10": {
-          "prix": 2.097,
-          "age_h": 16.4
+          "prix": 2.069,
+          "age_h": -0.1
         },
         "SP98": {
-          "prix": 2.177,
-          "age_h": 16.4
+          "prix": 2.175,
+          "age_h": -0.1
         }
       }
     },
@@ -2547,19 +2533,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.339,
-          "age_h": 13.1
+          "age_h": 20.2
         },
         "SP95": {
           "prix": 2.162,
-          "age_h": 13.1
+          "age_h": 20.2
         },
         "E10": {
           "prix": 2.109,
-          "age_h": 13.1
+          "age_h": 20.2
         },
         "SP98": {
           "prix": 2.219,
-          "age_h": 13.1
+          "age_h": 20.2
         }
       }
     },
@@ -2573,15 +2559,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.39,
-          "age_h": 13.2
+          "age_h": 2.1
         },
         "E10": {
           "prix": 2.2,
-          "age_h": 13.2
+          "age_h": 2.1
         },
         "SP98": {
           "prix": 2.293,
-          "age_h": 13.2
+          "age_h": 2.1
         }
       }
     },
@@ -2595,7 +2581,29 @@
       "prix": {
         "SP98": {
           "prix": 2.263,
-          "age_h": 10.6
+          "age_h": 17.8
+        }
+      }
+    },
+    {
+      "adresse": "RD 231, STATION TOTAL",
+      "ville": "VAUDOY EN BRIE",
+      "cp": "77141",
+      "lat": 48.693,
+      "lon": 3.082,
+      "dist_km": 42.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 3.2
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 3.2
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 3.2
         }
       }
     },
@@ -2609,19 +2617,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.419,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "E85": {
           "prix": 1.025,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "E10": {
           "prix": 2.219,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "SP98": {
           "prix": 2.349,
-          "age_h": 2.9
+          "age_h": 10.1
         }
       }
     },
@@ -2635,15 +2643,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.365,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "SP95": {
           "prix": 2.179,
-          "age_h": 4.0
+          "age_h": 11.2
         },
         "E10": {
           "prix": 2.138,
-          "age_h": 4.0
+          "age_h": 11.2
         }
       }
     },
@@ -2657,15 +2665,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.334,
-          "age_h": 15.6
+          "age_h": 2.4
         },
         "E10": {
           "prix": 2.144,
-          "age_h": 15.6
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.237,
-          "age_h": 15.6
+          "prix": 2.233,
+          "age_h": 2.4
         }
       }
     },
@@ -2679,19 +2687,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.36,
-          "age_h": 19.4
+          "age_h": 26.6
         },
         "SP95": {
           "prix": 2.225,
-          "age_h": 19.4
+          "age_h": 26.6
         },
         "E10": {
           "prix": 2.15,
-          "age_h": 19.4
+          "age_h": 26.6
         },
         "SP98": {
           "prix": 2.23,
-          "age_h": 19.4
+          "age_h": 26.6
         }
       }
     },
@@ -2705,15 +2713,33 @@
       "prix": {
         "Gazole": {
           "prix": 2.349,
-          "age_h": 19.5
+          "age_h": 2.5
         },
         "E85": {
           "prix": 0.859,
-          "age_h": 19.5
+          "age_h": 26.6
         },
         "E10": {
           "prix": 2.129,
-          "age_h": 19.5
+          "age_h": 2.5
+        },
+        "SP98": {
+          "prix": 2.249,
+          "age_h": 2.5
+        }
+      }
+    },
+    {
+      "adresse": "118 Rue de la Passerelle",
+      "ville": "CHILLY-MAZARIN",
+      "cp": "91380",
+      "lat": 48.699,
+      "lon": 2.321,
+      "dist_km": 43.1,
+      "prix": {
+        "Gazole": {
+          "prix": 2.349,
+          "age_h": 0.8
         }
       }
     },
@@ -2725,21 +2751,9 @@
       "lon": 2.49011,
       "dist_km": 43.1,
       "prix": {
-        "Gazole": {
-          "prix": 2.325,
-          "age_h": 67.2
-        },
-        "SP95": {
-          "prix": 2.17,
-          "age_h": 67.2
-        },
         "E10": {
           "prix": 2.149,
-          "age_h": 15.3
-        },
-        "SP98": {
-          "prix": 2.21,
-          "age_h": 67.2
+          "age_h": 22.4
         }
       }
     },
@@ -2753,11 +2767,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.349,
-          "age_h": 18.6
+          "age_h": 25.7
         },
         "SP98": {
           "prix": 2.263,
-          "age_h": 18.6
+          "age_h": 25.7
         }
       }
     },
@@ -2771,15 +2785,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.894,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.014,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2793,19 +2807,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.39,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "E85": {
           "prix": 0.94,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "E10": {
           "prix": 2.2,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "SP98": {
           "prix": 2.28,
-          "age_h": 16.0
+          "age_h": 23.1
         }
       }
     },
@@ -2819,15 +2833,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.403,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "E10": {
           "prix": 2.172,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "SP98": {
           "prix": 2.252,
-          "age_h": 16.0
+          "age_h": 23.1
         }
       }
     },
@@ -2841,7 +2855,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2855,19 +2869,37 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.919,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "1 Rue de Paris",
+      "ville": "Sucy-en-Brie",
+      "cp": "94370",
+      "lat": 48.773,
+      "lon": 2.5,
+      "dist_km": 43.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.387,
+          "age_h": 2.4
+        },
+        "E10": {
+          "prix": 2.164,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "prix": 2.244,
+          "age_h": 2.4
         }
       }
     },
@@ -2881,19 +2913,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.893,
-          "age_h": 2.7
-        },
-        "GPLc": {
-          "prix": 0.981,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2907,15 +2935,33 @@
       "prix": {
         "Gazole": {
           "prix": 2.389,
-          "age_h": 18.9
+          "age_h": 26.0
         },
         "E10": {
           "prix": 2.19,
-          "age_h": 18.9
+          "age_h": 26.0
         },
         "SP98": {
           "prix": 2.293,
-          "age_h": 18.9
+          "age_h": 26.0
+        }
+      }
+    },
+    {
+      "adresse": "2 Rue du Général de Gaulle",
+      "ville": "LA QUEUE-EN-BRIE",
+      "cp": "94510",
+      "lat": 48.789,
+      "lon": 2.576,
+      "dist_km": 43.7,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 3.5
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 3.5
         }
       }
     },
@@ -2928,16 +2974,16 @@
       "dist_km": 43.7,
       "prix": {
         "Gazole": {
-          "prix": 2.365,
-          "age_h": 19.2
+          "prix": 2.347,
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.161,
-          "age_h": 19.2
+          "prix": 2.164,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.241,
-          "age_h": 19.2
+          "prix": 2.244,
+          "age_h": 2.4
         }
       }
     },
@@ -2951,7 +2997,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -2964,20 +3010,20 @@
       "dist_km": 43.8,
       "prix": {
         "Gazole": {
-          "prix": 2.565,
-          "age_h": 15.9
+          "prix": 2.55,
+          "age_h": 2.2
         },
         "GPLc": {
           "prix": 1.078,
-          "age_h": 15.9
+          "age_h": 2.2
         },
         "E10": {
-          "prix": 2.317,
-          "age_h": 15.9
+          "prix": 2.319,
+          "age_h": 2.2
         },
         "SP98": {
-          "prix": 2.417,
-          "age_h": 15.9
+          "prix": 2.419,
+          "age_h": 2.2
         }
       }
     },
@@ -2991,19 +3037,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.346,
-          "age_h": 16.0
-        },
-        "E85": {
-          "prix": 0.829,
-          "age_h": 67.4
+          "age_h": 23.1
         },
         "E10": {
           "prix": 2.156,
-          "age_h": 16.0
+          "age_h": 23.1
         },
         "SP98": {
           "prix": 2.252,
-          "age_h": 16.0
+          "age_h": 23.1
         }
       }
     },
@@ -3016,24 +3058,24 @@
       "dist_km": 44.5,
       "prix": {
         "Gazole": {
-          "prix": 2.36,
-          "age_h": 3.9
+          "prix": 2.347,
+          "age_h": 1.5
         },
         "SP95": {
           "prix": 2.205,
-          "age_h": 3.9
+          "age_h": 1.5
         },
         "E85": {
           "prix": 0.931,
-          "age_h": 3.9
+          "age_h": 1.5
         },
         "E10": {
           "prix": 2.156,
-          "age_h": 3.9
+          "age_h": 1.5
         },
         "SP98": {
           "prix": 2.256,
-          "age_h": 3.9
+          "age_h": 1.5
         }
       }
     },
@@ -3047,15 +3089,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.009,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3069,7 +3111,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3083,19 +3125,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.449,
-          "age_h": 33.7
+          "age_h": 40.8
         },
         "E85": {
           "prix": 0.869,
-          "age_h": 33.7
+          "age_h": 40.8
         },
         "E10": {
           "prix": 2.211,
-          "age_h": 33.7
+          "age_h": 40.8
         },
         "SP98": {
           "prix": 2.289,
-          "age_h": 33.7
+          "age_h": 40.8
         }
       }
     },
@@ -3109,15 +3151,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 7.2
+          "age_h": 14.3
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 7.2
+          "age_h": 14.3
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 7.2
+          "age_h": 14.3
         }
       }
     },
@@ -3131,15 +3173,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3152,20 +3194,20 @@
       "dist_km": 45.6,
       "prix": {
         "Gazole": {
-          "prix": 2.325,
-          "age_h": 17.6
+          "prix": 2.326,
+          "age_h": 2.8
         },
         "SP95": {
-          "prix": 2.177,
-          "age_h": 17.6
+          "prix": 2.178,
+          "age_h": 2.8
         },
         "E10": {
-          "prix": 2.135,
-          "age_h": 17.6
+          "prix": 2.15,
+          "age_h": 2.8
         },
         "SP98": {
-          "prix": 2.237,
-          "age_h": 17.6
+          "prix": 2.238,
+          "age_h": 2.8
         }
       }
     },
@@ -3179,23 +3221,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.904,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.029,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3209,45 +3247,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.899,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.059,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
-        }
-      }
-    },
-    {
-      "adresse": "14 Boulevard de Stalingrad",
-      "ville": "Choisy-le-Roi",
-      "cp": "94600",
-      "lat": 48.768,
-      "lon": 2.403,
-      "dist_km": 46.0,
-      "prix": {
-        "Gazole": {
-          "prix": 2.398,
-          "age_h": 67.2
-        },
-        "E10": {
-          "prix": 2.183,
-          "age_h": 67.2
-        },
-        "SP98": {
-          "prix": 2.263,
-          "age_h": 67.2
+          "age_h": 9.9
         }
       }
     },
@@ -3261,7 +3277,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3275,19 +3291,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.898,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.973,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3301,7 +3317,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.339,
-          "age_h": 17.1
+          "age_h": 24.2
         }
       }
     },
@@ -3315,15 +3331,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.428,
-          "age_h": 20.0
+          "age_h": 3.8
         },
         "E10": {
-          "prix": 2.168,
-          "age_h": 20.0
+          "prix": 2.166,
+          "age_h": 3.8
         },
         "SP98": {
-          "prix": 2.298,
-          "age_h": 20.0
+          "prix": 2.3,
+          "age_h": 3.8
         }
       }
     },
@@ -3337,15 +3353,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.428,
-          "age_h": 19.2
+          "age_h": 2.4
         },
         "E10": {
           "prix": 2.166,
-          "age_h": 19.2
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.3,
-          "age_h": 19.2
+          "prix": 2.297,
+          "age_h": 2.4
         }
       }
     },
@@ -3359,19 +3375,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.41,
-          "age_h": 67.2
+          "age_h": 2.4
         },
         "E85": {
-          "prix": 0.933,
-          "age_h": 67.2
+          "prix": 0.937,
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.181,
-          "age_h": 67.2
+          "prix": 2.174,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.261,
-          "age_h": 67.2
+          "prix": 2.254,
+          "age_h": 2.4
         }
       }
     },
@@ -3384,24 +3400,46 @@
       "dist_km": 46.4,
       "prix": {
         "Gazole": {
-          "prix": 2.359,
-          "age_h": 1.5
+          "prix": 2.349,
+          "age_h": -0.5
         },
         "SP95": {
           "prix": 2.186,
-          "age_h": 1.5
+          "age_h": -0.5
         },
         "E85": {
           "prix": 0.846,
-          "age_h": 1.5
+          "age_h": -0.5
         },
         "E10": {
-          "prix": 2.103,
-          "age_h": 1.5
+          "prix": 2.096,
+          "age_h": -0.5
         },
         "SP98": {
           "prix": 2.206,
-          "age_h": 1.5
+          "age_h": -0.5
+        }
+      }
+    },
+    {
+      "adresse": "RUE DES BRUYERES",
+      "ville": "AMILLY",
+      "cp": "45200",
+      "lat": 47.99,
+      "lon": 2.77,
+      "dist_km": 46.4,
+      "prix": {
+        "Gazole": {
+          "prix": 2.282,
+          "age_h": -0.6
+        },
+        "E10": {
+          "prix": 2.109,
+          "age_h": -0.6
+        },
+        "SP98": {
+          "prix": 2.219,
+          "age_h": -0.6
         }
       }
     },
@@ -3415,19 +3453,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.479,
-          "age_h": 6.8
+          "age_h": 13.9
         },
         "E85": {
           "prix": 0.929,
-          "age_h": 6.8
+          "age_h": 13.9
         },
         "E10": {
           "prix": 2.229,
-          "age_h": 6.8
+          "age_h": 13.9
         },
         "SP98": {
           "prix": 2.329,
-          "age_h": 6.8
+          "age_h": 13.9
         }
       }
     },
@@ -3441,19 +3479,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.399,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "E85": {
           "prix": 1.035,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "E10": {
           "prix": 2.199,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "SP98": {
           "prix": 2.299,
-          "age_h": 2.9
+          "age_h": 10.1
         }
       }
     },
@@ -3467,11 +3505,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3485,23 +3523,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.37,
-          "age_h": 14.6
+          "age_h": 21.7
         },
         "E85": {
           "prix": 0.982,
-          "age_h": 14.6
+          "age_h": 21.7
         },
         "GPLc": {
           "prix": 0.989,
-          "age_h": 14.6
+          "age_h": 21.7
         },
         "E10": {
           "prix": 2.131,
-          "age_h": 14.6
+          "age_h": 21.7
         },
         "SP98": {
           "prix": 2.283,
-          "age_h": 14.6
+          "age_h": 21.7
         }
       }
     },
@@ -3515,11 +3553,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3533,15 +3571,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.389,
-          "age_h": 18.0
+          "age_h": 25.1
         },
         "E10": {
           "prix": 2.126,
-          "age_h": 18.0
+          "age_h": 25.1
         },
         "SP98": {
           "prix": 2.236,
-          "age_h": 16.3
+          "age_h": 23.4
         }
       }
     },
@@ -3555,19 +3593,41 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.899,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "264 Avenue de Stalingrad",
+      "ville": "Chevilly-Larue",
+      "cp": "94550",
+      "lat": 48.767,
+      "lon": 2.368,
+      "dist_km": 47.2,
+      "prix": {
+        "Gazole": {
+          "prix": 2.373,
+          "age_h": 2.4
+        },
+        "E85": {
+          "prix": 0.977,
+          "age_h": 2.4
+        },
+        "E10": {
+          "prix": 2.168,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "prix": 2.248,
+          "age_h": 2.4
         }
       }
     },
@@ -3580,16 +3640,16 @@
       "dist_km": 47.2,
       "prix": {
         "Gazole": {
-          "prix": 2.311,
-          "age_h": 16.4
+          "prix": 2.328,
+          "age_h": -0.1
         },
         "E10": {
-          "prix": 2.097,
-          "age_h": 16.4
+          "prix": 2.069,
+          "age_h": -0.1
         },
         "SP98": {
-          "prix": 2.177,
-          "age_h": 16.4
+          "prix": 2.19,
+          "age_h": -0.1
         }
       }
     },
@@ -3603,19 +3663,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3629,15 +3689,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.411,
-          "age_h": 61.7
+          "age_h": 68.9
         },
         "E10": {
-          "prix": 2.139,
-          "age_h": 52.8
+          "prix": 2.183,
+          "age_h": 1.9
         },
         "SP98": {
           "prix": 2.303,
-          "age_h": 17.4
+          "age_h": 24.6
         }
       }
     },
@@ -3651,23 +3711,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.37,
-          "age_h": 16.2
+          "age_h": 23.3
         },
         "SP95": {
           "prix": 2.211,
-          "age_h": 16.2
+          "age_h": 23.3
         },
         "GPLc": {
           "prix": 0.999,
-          "age_h": 16.2
+          "age_h": 23.3
         },
         "E10": {
           "prix": 2.131,
-          "age_h": 16.2
+          "age_h": 23.3
         },
         "SP98": {
           "prix": 2.283,
-          "age_h": 16.2
+          "age_h": 23.3
         }
       }
     },
@@ -3681,19 +3741,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.019,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3707,19 +3767,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3733,15 +3793,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 26.7
+          "age_h": 33.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 26.7
+          "age_h": 33.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 26.7
+          "age_h": 33.9
         }
       }
     },
@@ -3755,15 +3815,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.379,
-          "age_h": 17.8
+          "age_h": 24.9
         },
         "E10": {
           "prix": 2.169,
-          "age_h": 17.8
+          "age_h": 24.9
         },
         "SP98": {
           "prix": 2.269,
-          "age_h": 17.8
+          "age_h": 24.9
         }
       }
     },
@@ -3777,19 +3837,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.344,
-          "age_h": 14.8
+          "age_h": 21.9
         },
         "SP95": {
           "prix": 2.203,
-          "age_h": 14.7
+          "age_h": 21.8
         },
         "E10": {
           "prix": 2.123,
-          "age_h": 14.8
+          "age_h": 21.9
         },
         "SP98": {
           "prix": 2.25,
-          "age_h": 14.7
+          "age_h": 21.8
         }
       }
     },
@@ -3803,15 +3863,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
-        },
-        "E10": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3825,15 +3881,37 @@
       "prix": {
         "Gazole": {
           "prix": 2.41,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "E10": {
           "prix": 2.167,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "SP98": {
           "prix": 2.285,
-          "age_h": 19.2
+          "age_h": 26.4
+        }
+      }
+    },
+    {
+      "adresse": "511 Rue de la Mère Dieu",
+      "ville": "Amilly",
+      "cp": "45200",
+      "lat": 47.978,
+      "lon": 2.76,
+      "dist_km": 47.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 2.1
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 2.1
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 2.1
         }
       }
     },
@@ -3847,15 +3925,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.904,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3868,12 +3946,20 @@
       "dist_km": 47.8,
       "prix": {
         "Gazole": {
-          "prix": 2.36,
-          "age_h": 21.8
+          "prix": 2.347,
+          "age_h": 4.9
+        },
+        "SP95": {
+          "prix": 2.188,
+          "age_h": 4.9
+        },
+        "E10": {
+          "prix": 2.15,
+          "age_h": 4.9
         },
         "SP98": {
           "prix": 2.23,
-          "age_h": 21.8
+          "age_h": 28.9
         }
       }
     },
@@ -3887,49 +3973,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.895,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
-        }
-      }
-    },
-    {
-      "adresse": "4 AV DE L'OCEANIE - ZAC COURTAB",
-      "ville": "LES ULIS",
-      "cp": "91940",
-      "lat": 48.678,
-      "lon": 2.199,
-      "dist_km": 47.9,
-      "prix": {
-        "Gazole": {
-          "prix": 2.25,
-          "age_h": 2.7
-        },
-        "E85": {
-          "prix": 0.896,
-          "age_h": 2.7
-        },
-        "E10": {
-          "prix": 1.99,
-          "age_h": 2.7
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -3942,16 +3998,16 @@
       "dist_km": 48.0,
       "prix": {
         "Gazole": {
-          "prix": 2.347,
-          "age_h": 66.2
+          "prix": 2.344,
+          "age_h": 1.1
         },
         "E10": {
-          "prix": 2.126,
-          "age_h": 66.2
+          "prix": 2.123,
+          "age_h": 1.1
         },
         "SP98": {
-          "prix": 2.253,
-          "age_h": 66.2
+          "prix": 2.25,
+          "age_h": 1.1
         }
       }
     },
@@ -3965,15 +4021,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.362,
-          "age_h": 17.7
+          "age_h": 24.9
         },
         "E10": {
           "prix": 2.158,
-          "age_h": 17.7
+          "age_h": 24.9
         },
         "SP98": {
           "prix": 2.277,
-          "age_h": 17.7
+          "age_h": 24.9
         }
       }
     },
@@ -3987,15 +4043,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4009,15 +4065,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.346,
-          "age_h": 39.9
+          "age_h": 47.0
         },
         "E10": {
           "prix": 2.125,
-          "age_h": 39.9
+          "age_h": 47.0
         },
         "SP98": {
           "prix": 2.252,
-          "age_h": 39.9
+          "age_h": 47.0
         }
       }
     },
@@ -4031,7 +4087,7 @@
       "prix": {
         "E85": {
           "prix": 0.887,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4044,16 +4100,16 @@
       "dist_km": 48.3,
       "prix": {
         "Gazole": {
-          "prix": 2.409,
-          "age_h": 19.2
+          "prix": 2.394,
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.169,
-          "age_h": 19.2
+          "prix": 2.167,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.249,
-          "age_h": 19.2
+          "prix": 2.247,
+          "age_h": 2.4
         }
       }
     },
@@ -4066,20 +4122,20 @@
       "dist_km": 48.3,
       "prix": {
         "Gazole": {
-          "prix": 2.399,
-          "age_h": 67.2
+          "prix": 2.376,
+          "age_h": 2.4
         },
         "E85": {
-          "prix": 0.982,
-          "age_h": 67.2
+          "prix": 0.983,
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.179,
-          "age_h": 67.2
+          "prix": 2.175,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.312,
-          "age_h": 67.2
+          "prix": 2.306,
+          "age_h": 2.4
         }
       }
     },
@@ -4093,23 +4149,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.318,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "E85": {
           "prix": 0.897,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "GPLc": {
           "prix": 1.009,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "E10": {
           "prix": 2.169,
-          "age_h": 2.0
+          "age_h": 9.1
         },
         "SP98": {
           "prix": 2.283,
-          "age_h": 2.0
+          "age_h": 9.1
         }
       }
     },
@@ -4123,23 +4179,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.999,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "GPLc": {
           "prix": 1.104,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4151,21 +4207,17 @@
       "lon": 2.43809,
       "dist_km": 48.7,
       "prix": {
-        "Gazole": {
-          "prix": 2.25,
-          "age_h": 2.7
-        },
         "E85": {
           "prix": 0.919,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4179,23 +4231,23 @@
       "prix": {
         "Gazole": {
           "prix": 2.429,
-          "age_h": 3.3
+          "age_h": 10.4
         },
         "E85": {
           "prix": 0.945,
-          "age_h": 3.3
+          "age_h": 10.4
         },
         "GPLc": {
           "prix": 1.049,
-          "age_h": 3.3
+          "age_h": 10.4
         },
         "E10": {
           "prix": 2.229,
-          "age_h": 3.3
+          "age_h": 10.4
         },
         "SP98": {
           "prix": 2.319,
-          "age_h": 3.3
+          "age_h": 10.4
         }
       }
     },
@@ -4209,15 +4261,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.914,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4231,11 +4283,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.914,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4249,11 +4301,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 8.9
+          "age_h": 0.4
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 8.9
+          "age_h": 0.4
         }
       }
     },
@@ -4267,7 +4319,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4281,19 +4333,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E85": {
           "prix": 0.889,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4307,7 +4359,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4321,15 +4373,15 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         },
         "SP98": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4343,7 +4395,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.35,
-          "age_h": 19.0
+          "age_h": 26.1
         }
       }
     },
@@ -4357,19 +4409,45 @@
       "prix": {
         "Gazole": {
           "prix": 2.351,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "E85": {
           "prix": 0.955,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "E10": {
           "prix": 2.152,
-          "age_h": 3.9
+          "age_h": 11.0
         },
         "SP98": {
           "prix": 2.249,
-          "age_h": 3.9
+          "age_h": 11.0
+        }
+      }
+    },
+    {
+      "adresse": "Rue du Centre Centre Reg Mont D'Est",
+      "ville": "Noisy-le-Grand",
+      "cp": "93160",
+      "lat": 48.83813,
+      "lon": 2.54756,
+      "dist_km": 49.5,
+      "prix": {
+        "Gazole": {
+          "prix": 2.25,
+          "age_h": 3.8
+        },
+        "E85": {
+          "prix": 0.887,
+          "age_h": 3.8
+        },
+        "E10": {
+          "prix": 1.99,
+          "age_h": 3.8
+        },
+        "SP98": {
+          "prix": 1.99,
+          "age_h": 3.8
         }
       }
     },
@@ -4382,16 +4460,16 @@
       "dist_km": 49.6,
       "prix": {
         "Gazole": {
-          "prix": 2.407,
-          "age_h": 67.2
+          "prix": 2.377,
+          "age_h": 2.4
         },
         "E10": {
-          "prix": 2.183,
-          "age_h": 67.2
+          "prix": 2.18,
+          "age_h": 2.4
         },
         "SP98": {
-          "prix": 2.314,
-          "age_h": 67.2
+          "prix": 2.311,
+          "age_h": 2.4
         }
       }
     },
@@ -4405,7 +4483,29 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
+        }
+      }
+    },
+    {
+      "adresse": "ZI ROUTE NATIONALE 60",
+      "ville": "Bellegarde",
+      "cp": "45270",
+      "lat": 47.992,
+      "lon": 2.449,
+      "dist_km": 49.6,
+      "prix": {
+        "Gazole": {
+          "prix": 2.384,
+          "age_h": 0.0
+        },
+        "E10": {
+          "prix": 2.198,
+          "age_h": 0.0
+        },
+        "SP98": {
+          "prix": 2.293,
+          "age_h": 0.0
         }
       }
     },
@@ -4419,11 +4519,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.505,
-          "age_h": 2.9
+          "age_h": 10.1
         },
         "SP98": {
           "prix": 2.354,
-          "age_h": 2.9
+          "age_h": 10.1
         }
       }
     },
@@ -4437,11 +4537,11 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 15.0
+          "age_h": -1.0
         },
         "E10": {
           "prix": 1.99,
-          "age_h": 15.0
+          "age_h": -1.0
         }
       }
     },
@@ -4455,15 +4555,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 19.5
-        },
-        "E10": {
-          "prix": 1.99,
-          "age_h": 19.5
-        },
-        "SP98": {
-          "prix": 1.99,
-          "age_h": 19.5
+          "age_h": 2.6
         }
       }
     },
@@ -4477,19 +4569,19 @@
       "prix": {
         "Gazole": {
           "prix": 2.362,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "E85": {
           "prix": 0.921,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "E10": {
           "prix": 2.174,
-          "age_h": 19.2
+          "age_h": 26.4
         },
         "SP98": {
           "prix": 2.309,
-          "age_h": 19.2
+          "age_h": 26.4
         }
       }
     },
@@ -4503,7 +4595,7 @@
       "prix": {
         "E10": {
           "prix": 1.99,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     },
@@ -4517,7 +4609,7 @@
       "prix": {
         "Gazole": {
           "prix": 2.25,
-          "age_h": 2.7
+          "age_h": 9.9
         }
       }
     }
