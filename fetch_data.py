@@ -2,30 +2,18 @@
 # -*- coding: utf-8 -*-
 """
 Récupère le flux officiel roulez-eco.fr et génère data.json
-filtré autour de Fontainebleau (rayon 25 km, vol d'oiseau).
+avec TOUTES les stations de France métropolitaine (Corse incluse).
+Le filtrage par ville / rayon se fait côté navigateur (index.html).
 """
 
-import io, json, math, zipfile, urllib.request
+import io, json, zipfile, urllib.request
 from datetime import datetime, timezone
 from xml.etree import ElementTree as ET
 
-HOME_LAT   = 48.4047   # Fontainebleau
-HOME_LON   = 2.7014
-RAYON_KM   = 50
 MAX_AGE_J  = 3
 DATA_URL   = "https://donnees.roulez-eco.fr/opendata/instantane"
 
 CARBURANTS = ["Gazole", "SP95", "SP98", "E10", "E85", "GPLc"]
-
-def haversine(lat1, lon1, lat2, lon2):
-    R = 6371
-    dlat = math.radians(lat2 - lat1)
-    dlon = math.radians(lon2 - lon1)
-    a = (math.sin(dlat/2)**2
-         + math.cos(math.radians(lat1))
-         * math.cos(math.radians(lat2))
-         * math.sin(dlon/2)**2)
-    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 def ptv(val):
     try:
@@ -46,8 +34,8 @@ def age_jours(s):
     return 9999
 
 print("Téléchargement du flux officiel…")
-req = urllib.request.Request(DATA_URL, headers={"User-Agent": "GazoleFinder/6.0"})
-with urllib.request.urlopen(req, timeout=30) as r:
+req = urllib.request.Request(DATA_URL, headers={"User-Agent": "GazoleFinder/7.0"})
+with urllib.request.urlopen(req, timeout=60) as r:
     raw = r.read()
 
 with zipfile.ZipFile(io.BytesIO(raw)) as zf:
@@ -60,10 +48,8 @@ for pdv in root.findall("pdv"):
     lon = ptv(pdv.get("longitude"))
     if lat is None or lon is None:
         continue
+    # France métropolitaine + Corse (écarte les coordonnées aberrantes et les DOM-TOM)
     if not (41 < lat < 52 and -6 < lon < 11):
-        continue
-    dist = haversine(HOME_LAT, HOME_LON, lat, lon)
-    if dist > RAYON_KM:
         continue
 
     prix_dict = {}
@@ -80,7 +66,8 @@ for pdv in root.findall("pdv"):
         age = age_jours(px.get("maj"))
         if age > MAX_AGE_J:
             continue
-        prix_dict[nom] = {"prix": round(val, 3), "age_h": round(age * 24, 1)}
+        # format compact : [prix en €/L, âge en heures]
+        prix_dict[nom] = [round(val, 3), round(age * 24)]
 
     if not prix_dict:
         continue
@@ -91,26 +78,25 @@ for pdv in root.findall("pdv"):
     ville    = (ville_el.text or "").strip() if ville_el is not None else ""
     cp       = pdv.get("cp", "")
 
-    stations.append({
+    stations.append((pdv.get("id", ""), {
         "adresse": adresse,
         "ville":   ville,
         "cp":      cp,
         "lat":     round(lat, 5),
         "lon":     round(lon, 5),
-        "dist_km": round(dist, 1),
         "prix":    prix_dict,
-    })
+    }))
 
-stations.sort(key=lambda s: s["dist_km"])
+# Ordre stable (par id de station) => des commits git beaucoup plus légers
+stations.sort(key=lambda t: t[0])
+stations = [s for _, s in stations]
 
 output = {
-    "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    "centre": {"lat": HOME_LAT, "lon": HOME_LON, "label": "Fontainebleau 77300"},
-    "rayon_km": RAYON_KM,
+    "updated":  datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     "stations": stations,
 }
 
 with open("data.json", "w", encoding="utf-8") as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
+    json.dump(output, f, ensure_ascii=False, separators=(",", ":"))
 
 print(f"{len(stations)} stations écrites dans data.json")

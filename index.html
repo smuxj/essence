@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prix carburant &#8212; Fontainebleau</title>
+<title>Prix carburant &#8212; France</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
   :root {
@@ -99,7 +99,7 @@
 
 <header>
   <div>
-    <h1>&#9981; Prix carburant <span>&#8212; Fontainebleau &amp; alentours</span></h1>
+    <h1>&#9981; Prix carburant <span id="zone-title">&#8212; France</span></h1>
   </div>
   <div style="display:flex;align-items:center;gap:0.75rem">
     <div id="updated">Chargement...</div>
@@ -171,11 +171,53 @@ var markerIndex = {};
 
 var HOME_LAT = 48.4047;
 var HOME_LON = 2.7014;
+var HOME_LABEL = "Fontainebleau";
 var centreLat = HOME_LAT;
 var centreLon = HOME_LON;
-var centreLabel = "Fontainebleau";
-var centreMarker = null;
+var centreLabel = HOME_LABEL;
+var centreCircle = null;
 var geocodeTimer = null;
+var STORE_KEY = "essence:prefs:v1";
+
+// --- Memorisation des preferences (localStorage, propre a ce navigateur)
+function loadPrefs() {
+  try {
+    var p = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
+    if (!p) return;
+    if (typeof p.lat === "number" && typeof p.lon === "number" &&
+        p.lat > 41 && p.lat < 52 && p.lon > -6 && p.lon < 11) {
+      centreLat = p.lat;
+      centreLon = p.lon;
+      centreLabel = p.label || HOME_LABEL;
+    }
+    if (p.rayon >= 5 && p.rayon <= 50) rayonKm = p.rayon;
+    if (FUELS.indexOf(p.fuel) !== -1) activeFuel = p.fuel;
+    if (p.sort === "prix" || p.sort === "ville") sortBy = p.sort;
+  } catch (e) {}
+}
+
+function savePrefs() {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify({
+      lat: centreLat, lon: centreLon, label: centreLabel,
+      rayon: rayonKm, fuel: activeFuel, sort: sortBy
+    }));
+  } catch (e) {}
+}
+
+function isCustomCentre() {
+  return centreLat !== HOME_LAT || centreLon !== HOME_LON;
+}
+
+function applyPrefsToUI() {
+  document.getElementById("rayon-slider").value = rayonKm;
+  document.getElementById("rayon-label").textContent = rayonKm + " km";
+  document.getElementById("sort-select").value = sortBy;
+  if (isCustomCentre()) {
+    document.getElementById("ville-input").value = centreLabel;
+    document.getElementById("ville-reset").style.display = "inline";
+  }
+}
 
 function haversine(lat1, lon1, lat2, lon2) {
   var R = 6371;
@@ -188,7 +230,15 @@ function haversine(lat1, lon1, lat2, lon2) {
 }
 
 function updateCentreMarker() {
-  if (centreMarker) { map.removeLayer(centreMarker); centreMarker = null; }
+  if (centreCircle) { map.removeLayer(centreCircle); centreCircle = null; }
+  centreCircle = L.circle([centreLat, centreLon], {
+    radius: rayonKm * 1000, color: "#185fa5", weight: 1, fillOpacity: 0.04, interactive: false
+  }).addTo(map);
+  centreCircle.bringToBack();
+}
+
+function fitToRadius() {
+  map.fitBounds(L.latLng(centreLat, centreLon).toBounds(rayonKm * 2000), {padding: [10, 10]});
 }
 
 function geocode(query, callback) {
@@ -222,15 +272,21 @@ function setupVilleSearch() {
             var p = parts[pi].trim();
             if (/^\d{5}$/.test(p)) { postcode = p; break; }
           }
-          d.textContent = city + (postcode ? " (" + postcode + ")" : "");
+          var label;
+          if (/^\d{5}$/.test(city) && parts.length > 1) {
+            label = parts[1].trim() + " (" + city + ")";
+          } else {
+            label = city + (postcode ? " (" + postcode + ")" : "");
+          }
+          d.textContent = label;
           d.addEventListener("click", function() {
             centreLat = parseFloat(r.lat);
             centreLon = parseFloat(r.lon);
-            centreLabel = r.display_name.split(",")[0];
-            input.value = centreLabel;
+            centreLabel = label;
+            input.value = label;
             sugg.style.display = "none";
             updateCentreMarker();
-            map.setView([centreLat, centreLon], 11);
+            fitToRadius();
             renderAll();
           });
           sugg.appendChild(d);
@@ -243,12 +299,12 @@ function setupVilleSearch() {
   reset.addEventListener("click", function() {
     centreLat = HOME_LAT;
     centreLon = HOME_LON;
-    centreLabel = "Fontainebleau";
+    centreLabel = HOME_LABEL;
     input.value = "";
     reset.style.display = "none";
     sugg.style.display = "none";
     updateCentreMarker();
-    map.setView([centreLat, centreLon], 11);
+    fitToRadius();
     renderAll();
   });
 
@@ -258,12 +314,13 @@ function setupVilleSearch() {
 }
 
 function initMap() {
-  map = L.map("map").setView([HOME_LAT, HOME_LON], 11);
+  map = L.map("map").setView([centreLat, centreLon], 11);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors",
     maxZoom: 18
   }).addTo(map);
   updateCentreMarker();
+  fitToRadius();
 }
 
 function colorForRank(i, total) {
@@ -311,17 +368,20 @@ function buildPills() {
 
 function getRows() {
   if (!allData) return [];
-  return allData.stations
-    .filter(function(s) {
-      return s.prix[activeFuel] && haversine(centreLat, centreLon, s.lat, s.lon) <= rayonKm;
-    })
-    .map(function(s) {
-      var o = Object.assign({}, s);
-      o._p = s.prix[activeFuel].prix;
-      o._age = s.prix[activeFuel].age_h;
-      o._dist = haversine(centreLat, centreLon, s.lat, s.lon);
-      return o;
-    });
+  var out = [];
+  for (var i = 0; i < allData.stations.length; i++) {
+    var s = allData.stations[i];
+    var pr = s.prix[activeFuel];
+    if (!pr) continue;
+    var d = haversine(centreLat, centreLon, s.lat, s.lon);
+    if (d > rayonKm) continue;
+    var o = Object.assign({}, s);
+    o._p = Array.isArray(pr) ? pr[0] : pr.prix;
+    o._age = Array.isArray(pr) ? pr[1] : pr.age_h;
+    o._dist = d;
+    out.push(o);
+  }
+  return out;
 }
 
 function renderStats(rows) {
@@ -403,11 +463,16 @@ function renderAll() {
   var rows = getRows();
   renderStats(rows);
   renderTable(rows);
+  document.getElementById("zone-title").textContent = "\u2014 autour de " + centreLabel;
+  document.title = "Prix carburant \u2014 " + centreLabel;
+  savePrefs();
 }
 
 document.getElementById("rayon-slider").addEventListener("input", function(e) {
   rayonKm = parseInt(e.target.value);
   document.getElementById("rayon-label").textContent = rayonKm + " km";
+  updateCentreMarker();
+  fitToRadius();
   renderAll();
 });
 
@@ -416,8 +481,11 @@ document.getElementById("sort-select").addEventListener("change", function(e) {
   renderAll();
 });
 
+loadPrefs();
+applyPrefsToUI();
 initMap();
 setupVilleSearch();
+buildPills();
 
 fetch("data.json?" + Date.now())
   .then(function(r) { return r.json(); })
