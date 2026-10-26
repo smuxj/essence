@@ -46,8 +46,4 @@ Onglet **Actions** → *Mise à jour des prix carburant* → **Run workflow**
 ## Contributeurs
 
 - [@smuxj](https://github.com/smuxj) — auteur du projet
-- [Claude](https://claude.ai) (Anthropic) — co-auteur : couverture France entière et mémorisation des préférences (v1.4.0)
-
----
-
-*Projet généré avec l'aide de [Claude](https://claude.ai) (Anthropic).*
+- [Claude](https://claude.ai) (Anthropic)
