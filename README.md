@@ -39,10 +39,6 @@ data.json                         — données générées automatiquement
 .github/workflows/update-data.yml — GitHub Action (toutes les heures)
 ```
 
-## Mise à jour manuelle des données
-
-Onglet **Actions** → *Mise à jour des prix carburant* → **Run workflow**
-
 ## Contributeurs
 
 - [@smuxj](https://github.com/smuxj) — auteur du projet
